@@ -22,7 +22,7 @@ For the catchment this means that the canal supply is not reliable against the r
 
 ## Notes for the author (not article text)
 
-**Self-check (counted in the text above)**: about 600 words in six paragraphs, one point per paragraph, the point first (7.1 and 7.2 together were about 510 words for two of the six topics). No pointers to sections, no new results. Numbers: twelve years, a third (twice), a quarter, 1.4 Mm³/a, 1982 to 1985, and "less than two years". Plain words; "store", "memory", "onset" and "persistence" do not appear.
+**Self-check (counted in the text above)**: 688 words in six paragraphs (191, 96, 155, 70, 83 and 93), one point per paragraph, the point first. The first paragraph is the longest. It would lose the Department's yield sentence and the Pyburn page 113 clause first if you want it shorter. No pointers to sections, no new results. Numbers: twelve years, a third (twice), a quarter, 1.4 Mm³/a, 1982 to 1985, and "less than two years". Plain words; "store", "memory", "onset" and "persistence" do not appear.
 
 **How the paragraphs link the results** (this is what the section is for)
 1. The dam and the drought (Results 6.2 and 6.3).
