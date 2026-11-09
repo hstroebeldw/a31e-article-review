@@ -107,9 +107,9 @@ The peak of the SDF was calculated in the steps of the drainage manual (SANRAL, 
 
 *5.4.3 (replaces lines 1228–1237):*
 
-As the drainage manual requires, the SDF was used as the main estimate and compared with the other applicable methods (SANRAL, 2013:3-4). Because the manual warns that the flood of a dolomitic catchment may be less than half of the SDF (SANRAL, 2013:3-45), the SDF is treated as the conservative case. Four plans were run, namely the 1:50-year and 1:100-year SDF floods, the 1:100-year Midgley and Pitman flood, and the 1:100-year SDF flood with the full shallow-water equations as a check on the default diffusion-wave equations. Two simplifications act in opposite directions, since ignoring the attenuation in Klein Maricopoort Dam makes the flood larger, while leaving out the inflow of the Waterkloofspruit makes the flood below its junction smaller. The model was not calibrated, because no flood mark or rating exists along the reach.
+As the drainage manual requires, the SDF was used as the main estimate and compared with the other applicable methods (SANRAL, 2013:3-4). Because the manual warns that the flood of a dolomitic catchment may be less than half of the SDF (SANRAL, 2013:3-45), the SDF is treated as the conservative case. Four plans were run, namely the 1:50-year and 1:100-year SDF floods, the 1:100-year Midgley and Pitman flood, and the 1:100-year SDF flood with the full shallow-water equations as a check on the default diffusion-wave equations. Two simplifications act in opposite directions, since ignoring the attenuation in Klein Maricopoort Dam makes the flood larger, while leaving out the inflow of the Waterkloofspruit makes the flood below its junction smaller.
 
-Note: the SDF stays the design flood (your answer 8c); Midgley and Pitman and the RMF are comparisons. The 1:50-year reason, the 0.28 m, the SRTM channel heights, the boundary contact and the land-cover classes are left out (your answers 8a, b, d, e). The one sentence on calibration is kept because an examiner will ask. The peaks are not repeated in the flood table: Table 11 has them. "Kovács regions" in the flood text: the region names can stay, only the citation is SANRAL.
+Note: the SDF stays the design flood (your answer 8c); Midgley and Pitman and the RMF are comparisons. The 1:50-year reason, the 0.28 m, the SRTM channel heights, the boundary contact and the land-cover classes are left out (your answers 8a, b, d, e). The sentence on calibration is also left out (your answer of 21:33). The peaks are not repeated in the flood table: Table 11 has them. "Kovács regions" in the flood text: the region names can stay, only the citation is SANRAL.
 
 ## 5.4.4 Water quality and climate (replaces lines 1245–1253)
 
@@ -125,7 +125,7 @@ Note: the value (about 11 mS/m), the two medians and the sample numbers are in R
 
 ## What changed from version 1, in five lines
 
-- Cut: the count of runs and the list of runs not made, the drought sentence, the "other spans" sentence, the later start of the rains, the 1:50 reason, the 0.28 m, the model limits except calibration, the sentence on land-cover classes, the identical end points, the series 2 figures, the lost-water explanation in 5.4.1.
+- Cut: the count of runs and the list of runs not made, the drought sentence, the "other spans" sentence, the later start of the rains, the 1:50 reason, the 0.28 m, the model limits (including calibration), the sentence on land-cover classes, the identical end points, the series 2 figures, the lost-water explanation in 5.4.1.
 - Kept to fix an error in the existing text: the Table 5 sentence on the 1982–1994 inflow, "sulphate is screened", the independence sentence in 5.4.1, the Kovács citation, DWAF 1996b pages, the Leake & Barlow sentence.
 - Added because the Results use it: DRASTIC and groundwater EC sources, the definition of structure S and D, drawdown and lowering, residual and RMS, the porosity of 1.0 and the scaling, the pattern of each test, the raised demand, the mixing check with its assumptions.
 
