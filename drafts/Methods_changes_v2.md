@@ -132,3 +132,29 @@ Note: the value (about 11 mS/m), the two medians and the sample numbers are in R
 ## About the Midgley and Pitman rainfall
 
 You said the map is final and you will not rerun the Midgley and Pitman plan. The routed run used a hydrograph of 887 m³/s (the formula at 597 mm), and Table 11 shows its outputs. If I printed 839 m³/s (563 mm) in the same row, the table would show a peak in of 887 against a design peak of 839, which cannot be right, and I cannot correct the flooded areas without the run. So 597 mm and 889 m³/s stay, and the table stays as it is. The weakness is real and you accept it: 597 mm is the WR2012 rainfall of A31E alone, while the catchment at F2 is mostly A31C and A31D, where it is lower (about 563 mm over the whole catchment). If an examiner asks, the answer is that the Midgley and Pitman run is a check on the SDF, and that a lower rainfall would lower the check peak by about 6%. The flooded area would change very little, but that is my expectation from the other runs, not a result. The file `Q100_MP_hydrograph_MAP563.csv` is not used. If you want the 563 mm in the article after all, the only consistent way is to rerun that one plan.
+
+---
+
+## Added in the separate pass: the methods that the Results use (one sentence each)
+
+These are only the sentences that the shortened Results 6.2–6.8 (version 6) still need. Methods that belonged to cut results (rank correlation, naturalised runoff, months below half the registered volume, volume held in the model area, irrigated land flooded, the Wilgeboomspruit) are not added.
+
+**5.2.1 Dam water balance (after the paragraph on the inflow, line 929):**
+The inflow to Kromellenboog Dam was calculated in the same way, as the remainder of its recorded balance (A3R003, A3H033), and the net contribution of the river between the dams is this inflow less the spill and release of Klein Maricopoort Dam.
+
+**5.4.1 Dam water balance (after "(Figure 2, lower panel)" of the rule paragraph is in 5.2.1, so here, after the sentence on the second inflow series, line 1124):**
+The rule was also fitted on each period alone, to show how far the reliability depends on the period used.
+
+**5.4.2 Groundwater (end of the paragraph at line 1189):**
+The mean shortfall and the rate needed in the longest shortfall event were expressed as shares of the recharge of the Reserve determination and compared with the rates that the model could deliver.
+
+**5.3.2 Groundwater (end of the particle paragraph):**
+Each particle was classed by the drains of the cell in which it ended, and the time to the river is that of the particles that ended at a river drain.
+
+**5.4.3 Flood (end of the paragraph):**
+A cell of the mesh was counted as flooded where its maximum depth was at least 0.01 m. The peak reduction is the fall of the peak between the inflow at F2 and the outflow at the downstream boundary, and the delay is the time between the two peaks. The cultivated land flooded is the flooded area that lies on land mapped as cultivated in the national land cover (DFFE, 2024).
+
+**5.4.4 Climate (end of the climate paragraph):**
+The simulated storage of the cases was compared by the share of months in which it stood at or above each level.
+
+Note: the sentences are from the way the Results and Table 11 are built, not from a method file. Please check three of them against what you did: that the particle times in 6.8 cover the 387 particles that ended at a river drain; that the flooded cells are those with a maximum depth of 0.01 m or more (the first depth class of Map 9); and that the delay is measured between the two peaks. The other four are plain statements of what the tables show.
