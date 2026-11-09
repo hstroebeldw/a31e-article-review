@@ -74,5 +74,5 @@ The flood table of Methods 5.2.3 comes before the climate table of 5.2.4, so it 
 
 ## Notes for the author (not article text)
 
-- The numbering is by order of appearance, as the Harvard-style guide of the Faculty asks. If you prefer the flood table at the end of 5.2.3 as a box without a number, the climate table stays Table 5 and everything after it moves by one less. I took the numbered version because the table is cited from Results 6.7.
+- The numbering is by order of appearance. If you prefer the flood table at the end of 5.2.3 as a box without a number, the climate table stays Table 5 and everything after it moves by one less. I took the numbered version because the table is cited from Results 6.7.
 - Figure numbers are not affected (Figure 6 and Figure 9 corrections are listed under "Author corrections" in the project context).
