@@ -149,7 +149,7 @@ The rule was also fitted on each period alone, to show how far the reliability d
 The mean shortfall and the rate needed in the longest shortfall event were expressed as shares of the recharge of the Reserve determination and compared with the rates that the model could deliver.
 
 **5.3.2 Groundwater (end of the particle paragraph):**
-Each particle was classed by the drains of the cell in which it ended, and the time to the river is that of the particles that ended at a river drain.
+Each particle was classed by the drains of the cell in which it ended.
 
 **5.4.3 Flood (end of the paragraph):**
 A cell of the mesh was counted as flooded where its maximum depth was at least 0.01 m. The peak reduction is the fall of the peak between the inflow at F2 and the outflow at the downstream boundary, and the delay is the time between the two peaks. The cultivated land flooded is the flooded area that lies on land mapped as cultivated in the national land cover (DFFE, 2024).
@@ -157,4 +157,4 @@ A cell of the mesh was counted as flooded where its maximum depth was at least 0
 **5.4.4 Climate (end of the climate paragraph):**
 The simulated storage of the cases was compared by the share of months in which it stood at or above each level.
 
-Note: the sentences are from the way the Results and Table 11 are built, not from a method file. Please check three of them against what you did: that the particle times in 6.8 cover the 387 particles that ended at a river drain; that the flooded cells are those with a maximum depth of 0.01 m or more (the first depth class of Map 9); and that the delay is measured between the two peaks. The other four are plain statements of what the tables show.
+Note: checked against the files on 9 November. (1) Flooded cell: the cell files hold the wet cells with a maximum depth of at least 0.01 m (README of the flood folder), so the sentence is right. (2) Particle times: the median over all 405 particles in structure S is 1 427 years at a porosity of 1.0, which is 143 years at 0.10; the result file gives 1 404 years (140 years) for the particles that end at a river, which cannot be recomputed because the endpoint files have no drain-type field. The Results now say "median travel time of about 140 years", which holds either way, and the Methods no longer say which particles the median covers. The counts agree with the files: 45 of the 405 particles in S and 288 in D end in the cell where they started. (3) Delay: the result file has a column "Delay (h)" (1.75 to 2.25 h) without a definition, and the hydrograph files are not in the package. The sentence takes it as the time between the inflow peak and the outflow peak, which is the only usual meaning; confirm if you defined it differently.

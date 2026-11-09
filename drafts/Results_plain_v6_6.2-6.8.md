@@ -167,7 +167,7 @@ In every run 3.1 to 3.3 km² of land mapped as cultivated is flooded, and most o
 
 Two things were examined. Particles were released from the 45 model cells under the irrigated land in the runs without abstraction and tracked forward in both model structures (MODPATH; Pollock, 2016), to see where water that recharges under the fields goes. The records of the Department of Water and Sanitation (DWS) were screened against the guidelines of DWAF (1996a, 1996b) to compare the water of the river below Klein Maricopoort Dam with the water generated inside A31E.
 
-In structure S, 387 of the 405 particles (96%) end in a cell where a river drain discharges (Map 10). The median time to reach the river is about 140 years at an effective porosity of 0.10, and it scales with the porosity. In structure D no particle reaches a river or stream, and 288 of the 405 do not leave the cell in which they started.
+In structure S, 387 of the 405 particles (96%) end in a cell where a river drain discharges (Map 10). The median travel time is about 140 years at an effective porosity of 0.10, and it scales with the porosity. In structure D no particle reaches a river or stream, and 288 of the 405 do not leave the cell in which they started.
 
 **Map 10** (unchanged): Flow paths of 405 particles released in the 45 model cells under the irrigated land (MODPATH 7; Pollock, 2016), for (a) structure S and (b) structure D. Yellow dots mark the end of each path. In S, 387 of the 405 paths end at a river; in D none do. The paths show advective flow direction only; contaminant transport is not modelled, and travel times depend on an assumed porosity.
 
