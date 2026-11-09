@@ -77,3 +77,12 @@ Analysis added in the main session (not in the workbook): script `files/notes/A3
 Errors removed from earlier versions: the median yearly inflow of 1996–2009 is 3.22 Mm³/a, below the long-term median 3.71 (6 of 14 years above), so no argument may use a return of the inflow to above its median after 1996.
 
 Rules for the Discussion (author, 9 November): short, one point per paragraph, the point first; few numbers; no new results; no pointers back to sections; plain words ("store", "memory", "onset", "persistence" are not used); the tone of the Introduction.
+
+## 8. Structure decision of 9 November (author, 16:01): one integrated Discussion
+
+- Results and Methods carry the detail and the reasons. The Discussion does not retell them. A reader should see what was decided without being drawn into how it was reached; the Results show how.
+- The Discussion brings the results together, says how they link and what they mean for the catchment, and leads to the Recommendations. It is one section of a few paragraphs, the point first, without sub-headings.
+- Do not go through every result and small part in a critical, sophisticated way. That is how an AI writes a discussion and not how a student does. Few numbers; those belong to Results.
+- The Conclusions link the Introduction to the Recommendations and do not repeat results.
+- Results should read easily: what was done, why, and what was found, in plain words, as in the example report of a previous year (VP Zandberg, First Draft). That report has no Discussion; its Risk assessment and Recommendations chapters did the interpreting.
+- Draft: `drafts/Discussion_integrated_v1.md`. Block 1 v14 and Block 2 v2 stay as the saved Results drafts and as the source of the central ideas.
