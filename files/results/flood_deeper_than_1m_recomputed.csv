@@ -1,0 +1,6 @@
+plan,wet_km2,deeper_than_1m_km2_depth_class_3_4,article_value
+Q50_SDF,7.72,6.262,6.26
+Q100_SDF,7.97,6.662,6.66
+Q100_MP,7.60,6.103,6.10
+Q100_SDF_SWE,8.34,7.011,7.01
+# method: polygon area of each mesh cell in cells_<plan>.shp (Update 24, Map11_flood), summed by D_CLASS 3 and 4 (depth >= 1 m)

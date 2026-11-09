@@ -1,0 +1,2619 @@
+WATER RESOURCES OF SOUTH AFRICA, 2012 STUDY (WR2012)
+
+Volume 1: Executive Summary
+
+AK Bailey & WV Pitman
+
+WATER
+RESEARCH
+COMMISSION
+
+TT 683/16
+
+—
+WATER RESOURCES OF SOUTH AFRICA,
+2012 STUDY (WR2012)
+
+WR2012 Study Executive Summary
+
+Report to the
+Water Research Commission
+
+by
+
+AK Bailey and WV Pitman
+Royal HaskoningDHV (Pty) Ltd
+
+b ky
+(~ Royal
+HaskoningDHV
+
+Enhancing Society Together
+
+WRC Report No. TT 683/16
+
+August 2016
+Obtainable from
+
+Water Research Commission
+Private Bag X03
+GEZINA, 0031
+
+orders@wrc.org.za or download from www.wrc.org.za
+
+The publication of this report emanates from a project entitled Water Resources of South Africa, 2012
+(WR2012) (WRC Project No. K5/2143/1).
+
+This report forms part of a series of nine reports. The reports are:
+
+AQRoOn>
+
+2
+
+WR2012 Executive Summary (WRC Report No. TT 683/16 — this report)
+
+WR2012 User Guide (WRC Report No. TT 684/16)
+
+WR2012 Book of Maps (WRC Report No. TT 685/16)
+
+WR2012 Calibration Accuracy (WRC Report No TT 686/16t)
+
+WR2012 SAMI Groundwater module: Verification Studies, Default Parameters and Calibration
+Guide (WRC Report No. TT 687/16)
+
+WR2012 SALMOD: Salinity Modelling of the Upper Vaal, Middle Vaal and Lower Vaal sub-Water
+Management Areas (new Vaal Water Management Area) (WRC Report No. TT 688/16)
+WRSM/Pitman User Manual (WRC Report No. TT 689/16)
+
+WRSM/Pitman Theory Manual (WRC Report No. TT 690/16)
+
+WRSM/Pitman Programmer's Code Manual WRC Report No. TT 691/16)
+
+DISCLAIMER
+
+This report has been reviewed by the Water Research Commission (WRC) and approved for
+publication. Approval does not signify that the contents necessarily reflect the views and policies
+of the WRC, nor does mention of trade names or commercial products constitute endorsement or
+
+recommendation for use.
+
+ISBN 978-1-4312-0844-9
+Printed in the Republic of South Africa
+
+© WATER RESEARCH COMMISSION
+
+Water Resources of South Africa 2012 (WR2012): Executive Summary
+ACKNOWLEDGEMENTS
+
+The authors would like to acknowledge:
+
+The Water Research Commission for their commissioning and funding of this entire project.
+
+The Department of Water and Sanitation for their rainfall, streamflow, Reservoir Record and water
+quality data, some GIS maps and their participation on the Reference Group.
+
+The South African Weather Services (SAWS) for their rainfall data.
+
+The following firms and their staff who provided major input:
+
+Royal HaskoningDHV (Pty) Ltd: Mr Allan Bailey, Dr Marieke de Groen, Miss Kerry Grimmer (now
+WSP Group), Mr Sipho Dingiso, Miss Saieshni Thantony, Miss Sarah Collinge, Mr Niell du Plooy
+and consultant Dr Bill Pitman (all aspects of the study);
+
+SRK Consulting (SA) (Pty) Ltd: Ms Ansu Louw, Miss Joyce Mathole and Ms Janet Fowler (Land
+use and GIS maps);
+
+Umfula Wempilo Consulting cc: Dr Chris Herold (water quality);
+
+Alborak: Mr Grant Nyland (model development);
+
+GTIS: Mr Tébias Goebel (website), and
+
+WSM: Mr Karim Sami (groundwater).
+
+The following persons who provided input into the coding of the WRSM/Pitman model:
+
+Dr Bill Pitman;
+
+Mr Allan Bailey;
+
+Mr Grant Nyland;
+
+Mrs Riana Steyn and
+Mr Pieter Van Rooyen.
+
+Other involvement as follows:
+
+Many other organizations and individuals provided information and assistance and the contributions
+were of tremendous value.
+
+Water Resources of South Africa 2012 (WR2012): Executive Summary
+REFERENCE GROUP
+
+Reference Group Members
+
+Mr Wandile Nomquphu (Chairman)
+
+Water Research Commission
+
+Mrs Isa Thompson
+
+Department of Water and Sanitation
+
+Mr Elias Nel
+
+Department of Water and Sanitation
+(now retired)
+
+Mr Fanus Fourie
+
+Department of Water and Sanitation
+
+Mr Herman Keuris
+
+Department of Water and Sanitation
+
+Dr Nadene Slabbert
+
+Department of Water and Sanitation
+
+Miss Nana Mthethwa
+
+Department of Water and Sanitation
+
+Mr Kwazi Majola
+
+Department of Water and Sanitation
+
+Dr Chris Moseki
+
+Department of Water and Sanitation
+
+Professor Denis Hughes
+
+Rhodes University
+
+Professor Andre Gorgens Aurecon
+
+Mr Anton Sparks Aurecon
+
+Mr Bennie Haasbroek Hydrosol
+
+Mr Anton Sparks Aurecon
+
+Mr Gerald de Jager AECOM
+
+Mr Stephen Mallory Water for Africa
+Mr Pieter van Rooyen WRP
+
+Mr Brian Jackson Inkomati CMA
+Dr Evison Kapangaziwiri CSIR
+
+Dr Jean-Marc Mwenge Kahinda CSIR
+
+Research Team members
+
+Mr Allan Bailey (Project Leader)
+
+Royal HaskoningDHV
+
+Dr Marieke de Groen
+
+Royal HaskoningDHV
+
+Dr Bill Pitman
+
+Consultant to Royal HaskoningDHV
+
+Dr Chris Herold
+
+Umfula Wempilo
+
+Mr Karim Sami WSMLeshika
+Ms Ans Louw SRK
+Ms Janet Fowler SRK
+
+Mr Niell du Plooy
+
+Royal HaskoningDHV
+
+Water Resources of South Africa 2012 (WR2012): Executive Summary
+
+iv
+
+Mr Tébias Gobel
+
+GTIS
+
+Miss Saieshni Thantony
+
+Royal HaskoningDHV
+
+Mr Grant Nyland
+
+Alborak
+
+Miss Sarah Collinge
+
+Royal HaskoningDHV
+
+Miss Kerry Grimmer WSP
+Ms Riana Steyn Consultant
+Miss Joyce Mathole SRK
+
+Mr Sipho Dingiso
+
+Ex Royal HaskoningDHV
+
+Water Resources of South Africa 2012 (WR2012): Executive Summary
+
+v
+
+This page was deliberately left blank
+
+Water Resources of South Africa 2012 (WR2012): Executive Summary
+
+vi
+PREFACE
+
+This is one of a series of reports which contain the results of a revised appraisal of the Water
+Resources of South Africa, undertaken in terms of a contract between the Water Research
+Commission (WRC) and Royal HaskoningDHV.
+
+This is the sixth such water resources appraisal, the first was completed in 1952 by Professor
+Desmond Midgley. Dr Bill Pitman has been involved in the last five (including this appraisal). With
+every appraisal, significant improvements are made in the methodology, use of the latest computer
+technology, level of catchment detail and resulting accuracy in the results. There are however, some
+data deterioration and data access issues which are beyond the control of the study team which are
+proving to be big challenges to anyone in the water resources field. In the previous study (WR2005),
+there were three main documents and a DVD. In this WR2012 study, there is a website which
+contains all the deliverables (www.waterresourceswr2012.co.za).
+
+Highlights emanating from this WR2012 study are as follows:
+
+= the website has attracted over 950 users to date who could access completed information long
+before the study was completed. The website is a far more efficient way for the WR2012 project
+team to update and liaise with this large group of people;
+
+= rainfall and observed streamflow data has been updated and patched from September 2005 to
+September 2010. Also reservoir inflows, transfers and outflows based on reservoir records and
+water quality data for TDS and other water quality parameters have been updated to September
+2010;
+
+= the present day development analysis was carried out for the first time. This means that the time
+series of rainfall as from 1920 to 2010, was used to generate flows as they would have been under
+present day development. This gives important information as to the effect of land use/water use
+on the study area and as to the functioning of current developments under different hydrological
+conditions. Eighty-four key points throughout the study area have been analysed in detail;
+
+= the daily time step version of the WRSM/Pitman model was developed;
+
+= the naturalised mean annual runoff as a total leaving the study area was virtually the same as for
+the previous study (WR2005) then determined at 49 210 million m3/annum and now at 49 251
+million m?/annum. There were more significant differences per Water Management Area;
+
+= the number of streamflow gauges used in the WRSM/Pitman model set-ups for calibration was
+increased from 546 to just over 600. Some however were historic records only, as they have
+closed down. A calibration accuracy analysis was carried out and gauging stations were split into
+six categories to inform users about the usefulness of such a gauge for water resource analysis;
+
+= the study gives an analysis of the deterioration in rainfall recording, streamflow gauging and
+reservoir records, which will be a huge challenge for the future;
+
+= useful new tools and graphs have been added to WRSM/Pitman, such as additional massplot and
+cusum (cumulative sum) plots for rainfall and streamflow, multiple runoff module calibration,
+inclusion of a groundwater abstraction time series, addition of an observed storage plot for
+reservoirs, highlighting of routes with observed streamflow when plotting, etc.;
+
+= groundwater/surface water interaction verification studies have been done using the
+WRSM/Pitman model and Sami methodology and default parameters of the Sami method have
+been revised to improve on the groundwater surface water interaction;
+
+= monitoring of rainfall, streamflow and water quality has been analysed and recommendations have
+been given for improvement of the monitoring;
+
+= asalinity analysis using the SALMOD-model was done on the entire Vaal River catchment,
+
+= the addition to WRSM/Pitman of the WQT Type 4 methodology for irrigation;
+
+Water Resources of South Africa 2012 (WR2012): Executive Summary
+
+vii
+= based on all the above-mentioned information, the 1 960 odd quaternaries were updated and a re-
+calibration was carried out on all gauging stations and
+= nine study and model reports.
+
+While these highlights are a result of an extensive study, the Reference Group has a wish list of
+recommendations to build further on the current work, to make it even more useful and to have it
+remain relevant. Some exciting new possibilities for future appraisals are rendering GIS maps more
+intelligent, applications on cell phones for obtaining data (possibly rainfall in particular) and extending
+appraisals to other African countries.
+
+AK Bailey Dr W V Pitman
+WR2012 Consortium
+
+Water Resources of South Africa 2012 (WR2012): Executive Summary
+
+viii
+TABLE OF CONTENTS
+
+PREFACE ..
+1 Background
+2 Introduction...
+
+3 Aims and Objectives
+4
+
+vii
+
+=
+
+N
+
+4
+Analysis 5
+4.1. Pitman Daily Time Step Model (part A) 5
+4.2 Land/Water Use Spreadsheets... 6
+4.3. Enhanced WRSM/Pitman model 7
+4.4 Monitoring analysis of rainfall, observed streamflow and water quality stations . 8
+4.5 WR2012 and WRSM2000 Training Courses (part A 9
+4.6 Enhancements to Sami Groundwater Data . 9
+4.7 Enhancements to WMAs 6, 7, 11 and 12 0
+4.8 WRSM/Pitman model development with regard to the irrigation methodology Type 4. i)
+4.9 WRSM/Pitman daily time step model (part B) and degree of accuracy of about 600
+
+streamflow gauging stations .. we 1
+4.10 Water Quality Spreadsheets and WR90 ‘Appendices 1
+4.11 Graphical Enhancement of the WRSM/Pitman Graph: 2
+4.12 Enhancements to Sami groundwater (Part B) and Inclusion of WRSM2000 Studies 3
+4.13 Simulated Present Day Analysis (Part A)... seseeveaeeeeeeeaeeneess 4
+4.14 Training and User Support (Part B) 4
+4.15 Website Developmernt.......... 1
+4.16 Present Day Streamflow (part B) 4
+
+4.17 Update GIS Maps, Reports having used WRSM/Pitman to analyse South Africa, Lesotho
+and Swaziland and SALMOD water quality analysis on the Upper Vaal, Middle Vaal and
+Lower Vaal sub-WMAs ..
+
+5 Training and User Support
+Using WR2012
+
+7 Current and Future Water Resources Challenges
+
+7.1 Data Deterioration: Reservoir records/dam balances
+7.2 Data Deterioration: Rainfall.
+7.3 Data Deterioration: Observed Streamflow
+
+8 Project User Support...
+9 Project documentation
+
+9.1 Project Website...
+9.2 Hard Copy Documents
+
+10 Capacity Building
+11. Conclusions and Recommendations
+12 Reference
+Appendix A: Comparison of Naturalised MAR between WR90, WR2005, WR2012 Studie:
+
+o
+
+Water Resources of South Africa 2012 (WR2012): Executive Summary
+
+ix
+LIST OF TABLES
+
+Table 4.1:
+Table 4.2:
+Table 4.3:
+
+Simulated versus observed flow for key streamflow QaugeS ...........s:cseseeseeereereeees 16
+SALMOD output for water quality gauge C8HOO7 ooo... eee eee eeeeeeereeeeeeeeeeneeeeeees 28
+Comparison of salinity results between the VRSAU study (using WQT) and
+
+WR2012 (USING SALMOD)........c:ccscssesssseeeeseessseeetsssscsnestsssssesssenseaneseseesessseesessranseenees 29
+
+LIST OF FIGURES
+
+Figure 1.1:
+
+Figure 4.1:
+Figure 4.2:
+Figure 4.3:
+Figure 4.4:
+Figure 4.5:
+Figure 4.6:
+Figure 4.7:
+Figure 4.8:
+Figure 4.9:
+Figure 4.10:
+
+Figure 7.1:
+
+Figure 7.2:
+Figure 7.3:
+
+The history of country wide water resources appraisals for South Africa,
+Lesotho and Swaziland
+
+Daily time step for a catchment in the Olifants WMA
+
+Simulated versus observed storage for Blyderivierspoort Dam
+
+Groundwater plot for quaternary B72E .........csseeseseeseseeeeeeseeseaeeeeeeeeeeneeeeeareetneeaeeeneees 9
+Sources of data for WMAS ........s.ccsescccsseseesessssssenseeessasassescseeeenessasssssesessaseenensasassenee 10
+Annual hydrograph with ZOOMING...........:ccecseeeseeeeeeeseeeeneeeeeeeeeseeeseeseeseteneeeeeseneaeenee 12
+Mean monthly hydrograph with “Box Plot” and “Scatter” oo... cece eects 13
+
+Schematic of present day and naturalised streamflow.
+Website schematic...
+GIS Runoff map for the Thukela WM:
+
+SALMOD graphical output of flow, TDS and load for water quality gauge
+Lr) | 0] 0) Aap pp nnn ORES EEERESE SETS TE OEESTEEEEEST SESE SESEESESESSTSOSESESTSESSTSOSEOSTSOTETISSESTSETEOSTSOSESETETSOSTTTIESITON 27
+
+Map showing major dams (greater than 1 million m*) and corresponding
+reservoir records ..
+
+Number of useful rainfall stations open over time.
+
+Number of useful observed streamflow stations open over time ...........:.::::eeee 33
+
+Water Resources of South Africa 2012 (WR2012): Executive Summary
+
+x
+GLOSSARY OF ACRONYMS
+
+CUSUM Plot of rainfall less mean rainfall on a cumulative basis. Also for streamflow
+
+DRM Desktop Reserve Model
+
+DWS Department of Water and Sanitation
+
+EMC Ecological Management Class
+
+EWR Ecological Water Requirement
+
+GRAII Groundwater Resource Assessment Study
+
+IAP Invasive Alien Plants
+
+IFR Instream Flow Requirement
+
+MAP Mean Annual Precipitation
+
+MAR Mean Annual Runoff
+
+MASSPLOT Cumulative plot of rainfall or streamflow against time
+
+PATCHTAB Patching model for streamflow
+
+Rais Resource Quality Information Services which is a directorate in the Water
+Monitoring and Information chief directorate under the Planning and
+Information Branch of the Department of Water and Sanitation
+
+SALMOD Salinity Model for Water Quality
+
+SAPWAT Unknown — name of the model
+
+SFR Streamflow Reduction Activity
+
+SPATSIM Spatial Simulation Framework of models
+
+TDS Total Dissolved Salts
+
+WMA Water Management Area
+
+Was Sulphate version of the WQT model
+
+WaT Water Quality Model
+
+WRC Water Research Commission
+
+WRMF Water Resources Modelling Framework
+
+WRSM/Pitman Water Resources Simulation Model 2000 sometimes also referred to as the
+Pitman model
+
+WRYM Water Resources Yield Model
+
+WR90 Water Resources of South Africa (1990) study
+
+WR2005 Water Resources of South Africa 2005 study
+
+WR2012 Water Resources of South Africa 2012 study (this study)
+
+Water Resources of South Africa 2012 (WR2012): Executive Summary
+
+xi
+
+1 BACKGROUND
+
+The Surface Water Resources of South Africa, 2012 Study (WR2012) and its predecessors have
+played a major role in providing key hydrological information to water resource managers, planners,
+designers, researchers and decision makers throughout South Africa since 1952 when the first water
+resources appraisal was produced by Professor Desmond Midgley when he was with the (then called)
+Department of Irrigation. The history of the other six appraisals is presented in Figure 1.1 below.
+
+.. First appraisal
+
+with the
+ae
+
+~~ First appraisal with surface
++s
+WR2005 water — groundwater
+interaction
+
+= First appraisal with
+< use of GIS
+=
+1981 3 First appraisal with
+the Pitman model
+1969 maul First appraisal with
+use of a computer
+
+Very first appraisal initiated by
+1952 Prof Midgley
+
+WR90
+
+Prof Midgley
+
+Dr Bill Pitman
+—
+
+Allan Bailey and team
+
+University of
+Department of Witwatersrand SSI (now Royal HaskoningDHV) and consortium
+Irrigation partners / sub-consultants
+
+Figure 1.1: The history of country wide water resources appraisals for South Africa, Lesotho and
+Swaziland
+
+In the WR2005 study, the water resources of South Africa and related data were assessed by
+updating rainfall, observed streamflow and land use/water use up to September 2006. As with the
+previous appraisals, this study generated information at quaternary catchment level for the whole of
+South Africa, Lesotho and Swaziland. The quaternary catchment is the basic building block of
+WRSM2000/Pitman with each quaternary forming a separate runoff module (exceptions occur in very
+small catchments smaller than a quaternary). The quaternary catchment boundaries used in WR2012
+are the same as for WR2005. During the course of the WR2012 study, the quaternary catchment
+boundaries were changed by the Department of Water and Sanitation (DWS). This came too late for
+inclusion in WR2012 and was beyond the scope of work. Most quaternary catchment boundaries and
+areas are very close to what they were before but there are some that have changed significantly.
+Changes to areas will affect all WRSM2000/Pitman model analysis and not only GIS maps as the
+catchment area dictates the flow. These changes will be taken into account in the next appraisal.
+
+Water Resources of South Africa - 2012 Study: Executive Summary 1
+Likewise the 19 Water Management Areas (WMAs) were condensed into 9. This was mostly done by
+combining certain WMAS, for instance the Upper Orange WMA and Lower Orange WMA are now just
+the Orange WMA, however, there were some minor changes with some quaternary catchments which
+were exceptions. Again this change came too late for inclusion in WR2012 and was beyond the scope
+of work and reporting was based on the 19 WMAs that were defined at the start of the project. The
+consolidation of the WMAs will be dealt with in the next appraisal.
+
+As the climate in this study area is so variable over time, the updating of these appraisals will remain
+important. However, this was not the only need for a WR2012 study. There have been a number of
+significant developments since the WR2005 study which increased the need for a new appraisal, as
+follows:
+
+= recent findings have been made as a result of improved research on land-use modelling
+techniques and improved estimates of water use by different water sectors;
+
+= developments in website technology have made it possible to provide all the WR2012 deliverables
+on a website. This makes it far easier for users to obtain the latest information and data and far
+easier for the WR2012 developers to update the information;
+
+= enhancement of the WQT irrigation Type 4 methodology with improved calculation of return flow
+has been implemented in the WRSM/Pitman model;
+
+= increased levels of catchment detail have been made possible by Google Earth technology and
+other sources of data;
+
+= improved computer technology resulted in improvement of WRSM/Pitman graphs and
+
+= a daily time step for WRSM/Pitman in addition to the normal monthly time step and a number of
+improved techniques, new graphs, etc.
+
+In 2010 the Water Research Commission (WRC) produced a Terms of Reference and called for
+proposals to undertake a four-year project, called the Water Resources of South Africa, 2012 Study
+(WR2005), to conduct new innovative research and to build on WR2005. The new study was called
+WR2012 and was commissioned in 2012 by the WRC.
+
+The WRSM/Pitman model is sometimes referred to as WRSM2000 (generally in South Africa) but also
+as the Pitman model (often in other African countries). We have therefore decided to call it
+WRSM/Pitman. This model name is regularly confused with WR2005 and/or WR2012 but they refer
+to the studies.
+
+2 INTRODUCTION
+
+The Water Research Commission, in its terms of reference for the WR2012 study, set out the
+rationale for the study and defined the aims, objectives and deliverables. It also addressed the focus
+of the study and laid out guidelines for the project team.
+
+The WR2012 study has focussed on investigating water resources in an integrated perspective in line
+with the objectives of Integrated Catchment Management enshrined in the National Water Resources
+Strategy. This study has not merely resulted in an update of WR2005 data, but has re-evaluated,
+improved, produced new innovative work and developed new tools which are now available.
+Knowledge of various new developments and an analysis of trends that have emerged in the water
+sector in the past five years have guided the researchers in project implementation. Furthermore, the
+WR2012 study has taken into account difficulties experienced by water resource users and where
+possible have made improvements.
+
+Water Resources of South Africa - 2012 Study: Executive Summary 2
+The evaluation and improvement of existing tools, development of new tools and development of a
+website for WR2012, will allow for national water resources planning which is more accurate and more
+efficient and will allow for easier updating in the future. The emphasis in this study was in extending
+“what if’ capability developed in WR2005 to the user who would then be in the advantageous position
+of being able to generate his/her own information and GIS maps by combining information. The
+website will greatly facilitate the rapid updating of data and availability of totally new information which
+became available as it was completed and not only at the end of the project as with WR2005.
+
+Unlike WR2005 in which there were seven consulting firms involved, the core analysis for WR2012
+has been done mainly by Royal HaskoningDHV and Dr Bill Pitman with involvement from others as
+given in section 12. This has facilitated greater consistency of analysis and addition of detail so that
+the whole country is on a par in this respect.
+
+The primary deliverable was the WR2012 website which contains the database, programs, GIS maps,
+model set-ups for WRSM/Pitman, spreadsheets, time series datafiles, documents and nine reports.
+
+In summary, the WR2012 study contains the following:
+
+= land use : improved level of detail on farm dams, major reservoirs and observed stream-flow
+gauges, particularly for Water Management Areas (WMAs) 6, 7, 11 and 12 but throughout the
+entire study area;
+
+= updating and patching of rainfall and observed streamflow data from September 2005 to
+September 2010. Updating of reservoir inflows, transfers and outflows based on reservoir records
+to September 2010 and patching thereof. Updating of water quality data for TDS and other water
+quality parameters to September 2010;
+
+= monitoring requirements pertaining to rainfall, observed stream-flow and water quality in every
+quaternary catchment;
+
+= land use details pertaining to abstractions and return flows, dams, afforestation and alien
+vegetation for every quaternary catchment;
+
+= WRSM/Pitman model daily time step (Pitman, 1976);
+
+= WRSM/Pitman model enhancement pertaining to additional graphs, multiple module calibration
+changes, groundwater enhancements
+
+= general graphical enhancements such as zooming, panning, log scale, etc.;
+
+= present day simulated streamflow with rainfall, observed stream-flow and land use up to
+September 2010 and with land use set at 2010 development levels throughout. These streamflows
+have been analysed at 84 key points throughout the country;
+
+= WR2012 and WRSM/Pitman model training courses at a number of universities and other
+organizations;
+
+= enhancements to Sami groundwater data and verification studies;
+
+= WRSM/Pitman model : addition of new WQT irrigation Type 4 methodology;
+
+= water quality spreadsheet update for 10 years of data for every quaternary catchment;
+
+= inclusion of the latest catchment studies where WRSM/Pitman has been used;
+
+= updating of all WRSM/Pitman data sets for South Africa, Lesotho and Swaziland to September
+2010;
+
+= recalibration of every quaternary catchment based on updated and new data of about 600
+observed streamflow records;
+
+= statistical analysis of about 600 observed streamflow records;
+
+= extension of the SALMOD water analysis to the entire Vaal catchment with data up to September
+2010;
+
+= updating of menu options to inspect patched observed streamflow, rainfall stations, catchment
+rainfall, catchment rainfall groups, naturalised streamflow, present day streamflow and physical
+quaternary data;
+
+= updating of GIS maps;
+
+Water Resources of South Africa - 2012 Study: Executive Summary 3
+= website development. All the menu options for the above have been included in a website and
+= nine reports as follows:
+
+WR2012 Executive Summary;
+
+WR2012 User Guide;
+
+WR2012 Book of Maps;
+
+WR2012 Calibration Accuracy;
+
+WR2012 SAMI Groundwater module: Verification Studies, Default Parameters and Calibration
+Guide;
+
+WR2012 SALMOD: Salinity Modelling of the Upper Vaal, Middle Vaal and Lower Vaal sub-
+Water Management Areas (new Vaal Water Management Area);
+
+WRSM/Pitman User Manual;
+
+WRSM/Pitman Theory Manual and
+
+WRSM/Pitman Programmer's Code Manual.
+
+Note that work covered in this report is dealt with very much as an overview. More detail can be found
+in the WR2012 User Guide.
+
+3 AIMS AND OBJECTIVES
+
+The broad aims and objectives of the WR2012 study as outlined in the terms of reference were to:
+
+= evaluate the previous WR2005 project and analyse user requests;
+
+= determine the WR2012 project deliverables;
+
+= develop WR2012 tools;
+
+= support users in using the WR2012 products;
+
+= document the project work and package products efficiently and cost effectively and
+= build capacity in use of the deliverables.
+
+Deliverables were defined as:
+
+= awebsite to be developed halfway through the project containing all WR2012 products;
+
+= an updated WRSM/Pitman model and/or other tools;
+
+= new products such as land/water use spreadsheets, monitoring analysis spreadsheets, present
+day analysis and reservoir records;
+
+= data collection, re-calibration and simulations of the whole of South Africa at quaternary scale;
+
+= project reports and
+
+= capacity development through training courses, involvement of young term members and user
+support.
+
+Accordingly, sixteen tasks were established by the project team in the proposal of May 2012. Some
+of these tasks were re-ordered to facilitate the website being included as a task in itself so that
+completed deliverables could be added to the website as soon as they were completed, thus enabling
+users to get maximum advantage from them. Accordingly the website was included as a separate task
+16 and a revised list of 18 tasks were formulated as follows:
+
+Task 1:
+Task 2:
+Task 3:
+Task 4:
+
+Task 5:
+Task 6:
+
+Advance for initiating all tasks;
+
+Pitman daily time step model (part A);
+
+Land/water use spreadsheets (part A);
+
+WRSM/Pitman model enhancement including additional graphs, user friendly features
+and groundwater enhancements;
+
+Monitoring analysis of rainfall, observed streamflow and water quality stations;
+
+Training courses and support for WR2012 and WRSM/Pitman (part A);
+
+Water Resources of South Africa - 2012 Study: Executive Summary 4
+Task 7: Sami groundwater enhancements (part A);
+
+Task 8: Enhancement of land use details for WMAs 6, 7, 11 and 12;
+
+Task 9: WRSM/Pitman model enhancements: irrigation Type 4 method;
+
+Task 10: Pitman daily time step (part B) and degree of calibration accuracy of the +600
+streamflow gauges;
+
+Task 11: Water quality spreadsheet updates and inclusion of WR90 graphs;
+
+Task 12: WRSM/Pitman model enhancement: Graphical enhancement of WRSM2000 graphs;
+
+Task 13: Sami groundwater (part B) and inclusion of WRSM/Pitman studies in the WRSM/Pitman
+data sets;
+
+Task 14: Simulated present day analysis (part B) including updating of rainfall, observed
+streamflow and land use to September 2010 and re-calibration at all streamflow gauges
+and major reservoirs;
+
+Task 15: Training courses and User Support for WR2012 and WRSM/Pitman (part B);
+
+Task 16: Website development and loading of all products;
+
+Task 17: Simulated present day (part B);
+
+Task 18: Final reports, spreadsheets, GIS maps and SALMOD water quality analysis. WR2012
+Executive Summary, WR2012 User Guide, WR2012 Book of Maps, WRSM/Pitman User
+Guide, WRSM/Pitman Theory Manual, WRSM/Pitman Computer Code Manual, Sami
+groundwater, Pitman analysis of about 600 streamflow stations and Salinity analysis
+using the SALMOD water quality model to update the Upper Vaal, Middle Vaal and
+Lower Vaal WMAs.
+
+Note: During the course of the study, the 19 WMAs were consolidated into 9. WR2012
+undertook to report on the 19 WMAs and the changes to 9 WMAs were beyond the
+scope of the study. Future appraisals will be based on 9 WMAs.
+
+4 ANALYSIS
+
+41
+
+The work done in each of these 18 tasks and resulting output is described in the sections that follow.
+Note that Task 1 was not a work item but an advance, so the tasks start from Task 2. Being an
+Executive Summary, these tasks are given in broad overview. Further details are given in the
+WR2012 User Guide.
+
+PITMAN DAILY TIME STEP MODEL (PART A)
+
+A daily time step model was added to WRSM/Pitman based on the Pitman methodology initially
+developed in 1976 (Pitman, 1976). The methodology is included in the WRSM/Pitman Theory
+manual. It is a separate model to the monthly time step WRSM/Pitman but it also includes aspects
+pertaining to monthly rainfall.
+
+The daily time step can be run in either naturalised mode or including land use. Naturalised mode
+gives the daily outflows from the runoff modules. If land use is to be taken into account, the daily flows
+at a point in a network can be determined following a procedure described in the WRSM/Pitman User
+Manual. Daily flows are important for environmental flow considerations, operation of some dams, etc.
+Figure 4.1 shows a daily time step graph.
+
+Water Resources of South Africa - 2012 Study: Executive Summary 5
+42
+
+ROUTE NO. 1 DAILY HYDROGRAPHS
+
+- LAND USE (B42rq9_d.obs)}
+
+1982 1982.5 1983 1983.5 1984 1984.5 1985 1985.5 1986
+
+Pitman model HYDROLOGICAL YEAR
+
+2013/01/29 (08
+
+Figure 4.1: Daily time step for a catchment in the Olifants WMA
+
+The daily time step WRSM/Pitman model is available on the website and is covered in all the user
+manuals.
+
+LAND/WATER USE SPREADSHEETS
+
+Land/water use was updated where information was readily available. Where time series abstractions,
+return flows and transfers were not readily available, they were assumed to remain the same since
+WR2005. Recent area data for afforestation and alien vegetation was not readily available and was
+taken from WR2005.
+
+The WR2005 data for afforestation, alien vegetation, irrigation and farm dams was taken out of the
+quaternary spreadsheets and included in WR2012 land use/water use spreadsheets with data on
+major dams, abstractions and return flows to give a much more comprehensive account of land/water
+use.
+
+Spreadsheets for the 19 former WMAs were established to show land use/water use related aspects
+for each quaternary catchment for the following four worksheets:
+
+= dams;
+
+= abstractions and return flows;
+
+= afforestation and alien vegetation and
+= irrigation.
+
+In the dams worksheet each quaternary catchment has information on major dams (generally over 1
+million m*) such as WRSM/Pitman data set links, name and DWS code (if applicable), river, full supply
+capacity and surface area, date constructed, annual abstraction or return flow, reservoir record
+availability, and relevant comments. Farm dams (generally less than 1 million m*) were also included
+with full supply capacity and area where this information was available.
+
+Water Resources of South Africa - 2012 Study: Executive Summary
+43
+
+In the abstractions and return flows worksheet, WRSM/Pitman data set links were given, annual
+abstraction as at the 2009 hydrological year and comments were given for each quaternary
+catchment. Similarly for return flows.
+
+In the afforestation and alien vegetation worksheet, links to the WRSM/Pitman data sets and areas for
+both were given along with the division into three types for both for each quaternary catchment.
+
+In the irrigation worksheet, links to the WRSM/Pitman data sets and areas of irrigation were given for
+each quaternary catchment.
+
+These spreadsheets are available on the website.
+
+ENHANCED WRSM/PITMAN MODEL
+
+In this task the aim was to add graphs for statistics on rainfall and naturalised flows, other user friendly
+features and groundwater enhancements.
+
+There are four general enhancement categories for the WRSM/Pitman model as follows:
+
+= naturalised streamflow and catchment based rainfall data files — statistical graphs for both
+massplots and cusum plots. For naturalized flow there is also a firm yield plot;
+
+= WRSM2000 Multiple module calibration copy facility. When calibrating, it is now possible to
+perform changes to multiple runoff modules in one operation;
+
+= facility to plot observed storage against simulated storage (to aid in calibrating) — refer to Figure 4.2
+below; and
+
+= Adding a groundwater abstraction time series for the Sami method.
+
+Note that while this report focusses on work carried out on the Sami groundwater/surface water
+interaction methodology, there is also the Hughes groundwater/surface water interaction methodology
+which is unchanged since WR2005.
+
+aE: " : ao
+RESERVOIR: 5 ACTUAL DRAFT - Mm? per month (Blyderivierspoort Dam)
+250
+24.000
+20
+
+20000]
+16000
+
+=e fl mt rr eee
+
+STORAGE STATE -% of Full Supply Storage of 54.64 Mr
+
+1975 1976 197739781979 1900 198% 1882 198 1904 1985 19 1987 198 9 Y90 LOR YON? YON LOBE YN YORE LON YORE Y9R 2000 2001282 2009 200 20 2008 2007 208 2009
+
+WRSM2000 / Pitman Model OR ee eae
+aaron Record Period. 1975 - 2000
+
+(ic ‘zea | 00 Yor | SOYors | 10 ers | Tee tal wel? Prt | Oat
+
+Figure 4.2: Simulated versus observed storage for Blyderivierspoort Dam
+
+Water Resources of South Africa - 2012 Study: Executive Summary 7
+44
+
+The monthly time step model requires a key code to be set which is laptop/PC dependant and is the
+intellectual property of Royal HaskoningDHV. This key code is available from Mr Allan Bailey at the e-
+mail address wr2012@rhdhv.com. For users who wish to make use of the WRSM/Pitman model for
+projects to generate profit there is a once-off administration fee. The model needs to be downloaded
+from the website as do the WRSM/Pitman data sets which cover the whole of South Africa, Lesotho
+and Swaziland.
+
+The monthly time step WRSM/Pitman model is available on the website and is covered in the relevant
+manuals.
+
+MONITORING ANALYSIS OF RAINFALL, OBSERVED STREAMFLOW AND WATER QUALITY
+STATIONS
+
+This involved setting up worksheets with data and analysis for every quaternary catchment in South
+Africa, Lesotho and Swaziland for the following monitoring data:
+
+= rainfall;
+= streamflow (river and reservoir gauging) and
+= water quality.
+
+In order to facilitate this work, rainfall, observed streamflow and water quality data was updated to
+September 2010. For rainfall, all useful individual stations were updated up to September 2010 using
+the WRMF model data from DWS and were patched where necessary. Based on the WR2005
+catchments rainfall groups of individual stations, the catchment based rainfall files were determined
+from 1920 to 2009 (hydrological years) for all the hydrological zones. They were checked with
+massplots. The observed streamflow for all streamflow gauging stations and inflows to reservoirs were
+updated using the DWS website and DWS reservoir records to September 2010. Missing and/or
+unreliable values were patched using either an in-house program (PATCHTAB) where there were
+suitable stations for patching or by simulated flows. Water quality data was obtained from the RQIS
+also up to September 2010.
+
+From experience gained in analysing and calibrating the entire country in this and previous appraisals,
+it has been determined what the countries lack in rainfall stations, observed streamflow stations and
+water quality stations. Rainfall monitoring involved documenting the number of stations currently open
+in each quaternary catchment along with the rainfall station identifier, the total number of stations
+whether open and closed, the number of stations used in the catchment based rainfall file (which
+could and generally does include stations outside of the quaternary catchment) and the name of the
+catchment based rainfall file used for that quaternary along with a recommendation. A considerable
+number of rainfall stations have closed down over the past 20 years so there are numerous
+recommendations to either re-open or establish new ones. Note that there were some additional
+rainfall stations used in WR2005 made in the current study, particularly in Lesotho.
+
+Reservoir records are extremely useful in analysing dams and for calibration of streamflows as they
+give the complete water balance.
+
+In the observed streamflow worksheet, details of streamflow gauges have been given for each
+quaternary catchment with a rating based on good/average/poor as well as the impact of land use.
+Comments and recommendations have been given where insufficient stations exist.
+
+Chapter 7 provides more detail of the abovementioned issues.
+
+Finally in the water quality worksheet, the analysis of water quality monitoring involved documenting
+the usable water quality gauging station names, station description, number of samples in the water
+
+Water Resources of South Africa - 2012 Study: Executive Summary
+45
+
+46
+
+quality database, start period of monitoring, end period of monitoring, median 50% TDS value, 95%
+TDS value (i.e. 95% of the samples are below this value) and comments and recommendations for
+each quaternary catchment by Dr Chris Herold.
+
+These spreadsheets are available on the website.
+
+WR2012 AND WRSM2000 TRAINING COURSES (PART A)
+Mr Allan Bailey has conducted 2 day training courses at the following universities:
+
+= University of the Witwatersrand;
+
+= University of North-West (in 2013 and 2015);
+
+= University of Stellenbosch (in 2013 and 2015);
+
+= University of Pretoria/SAICE Water Division (2015) and
+= University of the Western Cape (in 2013 and 2015).
+
+Other training courses have also been given to DWS and consulting engineering organizations.
+
+The two day course developed under this task covers both how to use the WRSM/Pitman model as
+well as what information is available on the WR2012 website and how to make use of it. Ms Sarah
+Collinge has been trained to assist in giving the WRSM/Pitman course.
+
+There has been a great deal of informal training by Mr Allan Bailey by means of e-mail and telephone
+requests for assistance on a wide variety of issues.
+
+Mr Allan Bailey has given a number of presentations at the SANCIAHS, SANCOLD and WR2012
+Launch symposiums.
+
+ENHANCEMENTS TO SAMI GROUNDWATER DATA
+
+Mr Karim Sami compiled a comprehensive report on groundwater verification studies carried out in
+various parts of the country. Of specific interest in this verification study was the updating of default
+groundwater parameters that are used in the Sami input screen of WRSM/Pitman. Every runoff
+module in every network has been updated with the latest set of these parameters. Figure 4.3 shows
+a typical groundwater plot that is obtainable from the WRSM/Pitman model.
+
+RUNOFF NO: 6 MONTHLY GROUND-SURFACE WATER FLOW - Sami Method (872E_1)
+
+MONTHLY FLCW Ma per month
+
+HYDROLOGICAL YEAR,
+Record Petod 1920-2000
+
+WRS§2900 / Pitman Mode!
+Borsiii0e 1446)
+
+Figure 4.3: Groundwater plot for quaternary B72E
+
+Water Resources of South Africa - 2012 Study: Executive Summary
+47
+
+48
+
+All the analysis are available in the report Sami, 2015.
+
+ENHANCEMENTS TO WMAS 6, 7, 11 AND 12
+
+A number of sources of data have been used to increase the level of detail particularly with regard to
+dams of small to intermediate size and streamflow gauging stations.
+
+Google Earth in particular has been a major new source of information. The sources of data have
+been shown the schematic in Figure 4.4 below. WRSM/Pitman network systems and diagrams have
+been updated accordingly, particularly but not only in these four WMAs. Where possible abstractions
+and return flows have been updated and added.
+
+SANCOLD MALLORY GOOGLE EARTH WSAM database
+DAMS DAMS with streamflow of DWS
+DATABASE with spreadsheet gauges and dams
+quaternaries
+RHDHV
+Water Board eos
+abstractions WMAs |
+andretun |]
+flows
+——————
+Studies by
+other
+DWS WRME pws Dws. consultants
+Rainfall data Streamflow Reservoir
+data records
+
+Figure 4.4: Sources of data for WMAs
+
+Particular attention was paid to WMAs 6, 7, 11 and 12 which required enhancement in detail.
+
+These enhanced details have been built into the various WRSM/Pitman networks and are on the
+website under WRSM2000 Network Model Data.
+
+WRSM/PITMAN MODEL DEVELOPMENT WITH REGARD TO THE IRRIGATION METHODOLOGY
+TYPE 4
+
+The WQT Type 4 methodology is the latest irrigation methodology developed by Dr Chris Herold and
+being used in the WRYM, WRPM and WQT models. It was coded into the WRSM/Pitman model. A
+report is available on this methodology (Herold et al., 2015).
+
+Water Resources of South Africa - 2012 Study: Executive Summary 10
+49
+
+4.10
+
+WRSM/PITMAN DAILY TIME STEP MODEL (PART B) AND DEGREE OF ACCURACY OF ABOUT
+600 STREAMFLOW GAUGING STATIONS
+
+Daily Time Step (part B)
+
+Two user friendly tools were added for formatting daily rainfall and daily observed streamflow based
+on the standard output. For rainfall the South African Weather Services output can be transformed
+into the form required by the daily time step version of the WRSM/Pitman model. Likewise for the
+DWS daily rainfall format, this can also be transformed into the form required by daily time step
+version of the WRSM/Pitman model.
+
+Degree of accuracy/usefulness of the 600 streamflow stations
+
+A statistical analysis was carried out by Dr Bill Pitman on all the usable streamflow stations in South
+Africa, Lesotho and Swaziland which number about 600. This analysis was used to categorize these
+stations into 6 categories as follows:
+
+= no apparent problems;
+
+= outliers;
+
+= imbalance among records on the same river or in the same catchment;
+= zero or near-zero annual flow leading to problems with log statistics;
+
+= very short records (< 10 years) and
+
+= some data problems or unreliable records.
+
+These six categories are shown on the GIS runoff map in different colours. The report is obtainable on
+the website (Pitman, 2015).
+
+WATER QUALITY SPREADSHEETS AND WR90 APPENDICES
+Water Quality Spreadsheets
+Water quality spreadsheets were produced for every quaternary catchment for 50 and 95 percentiles
+
+in South Africa, Lesotho and Swaziland. This analysis covered a 10 year period up to 2010 which was
+the availability of data covering the following water quality parameters:
+
+= pH;
+
+= NOs + NO, - N;
+= NH, -N;
+
+. F;
+
+" PO,-P;
+
+= SO, and
+
+" TDS.
+
+A GIS map was created showing the TDS values for the country. It can be seen that TDS varies
+widely, both naturally and from pollution of the water sources.
+
+Not all quaternary catchments had a water quality station so in some cases estimations were made by
+setting the parameters the same as an upstream quaternary or averaging certain quaternaries
+sometimes flow weighted according to Mean Annual Runoff (MAR) or interpolation. There is a
+metadata column in all the spreadsheets describing how the information was obtained. In some
+quaternaries where there were significant trends in one or more of the water quality parameters then a
+comment was made to this effect. Dr Chris Herold reviewed and added value to the comments.
+
+Water Resources of South Africa - 2012 Study: Executive Summary 11
+WR90 Appendices
+In the WR90 study (1989), hard copy output also included graphs of the following:
+
+= Appendix 10 : Deficient Flow — Duration Frequency and
+= Appendix 11 : Storage — Draft Frequency.
+
+These graphs have been included in WR2012 on request from DWS. They are available on the
+website.
+
+GRAPHICAL ENHANCEMENT OF THE WRSM/PITMAN GRAPHS
+
+Mr Grant Nyland has re-designed the WRSM/Pitman graphical interface to facilitate easy zooming,
+panning, changing to log scale, etc. A report was compiled explaining the new graphical system which
+is available from the “Help” option.
+
+Zooming in particular is a huge improvement over the previous system and Figure 4.5 shows an
+annual hydrograph that has been zoomed into (on the low flows). Where routes need to be selected
+for a graph, if they have observed flows then they are depicted with “*** Obs” followed by the
+streamflow gauge number. The second example in Figure 4.6 shows the mean monthly flows with
+“Box Plot” and “Scatter” switched on.
+
+There is a data tab that allows the user to see numerical data used in the graph.
+
+The graphical enhancements carried out for WRSM/Pitman have also been done for SALMOD and
+are shown in Figure 4.10.
+
+© pen sro
+ROUTE NO: 41 ANNUAL HYDROGRAPH
+
+‘ANNUAL FLOW Min? per annum
+Eg
+
+WRSM2000 | Pitman Model HYDROLOGICAL YEAR
+2015/1021 (08:53 pepe one
+
+Tock] tp Tezaon | Waves | Youn | TOV | 1 i | ma Vell Pl? Pent | ata
+
+Figure 4.5: Annual hydrograph with zooming
+
+Water Resources of South Africa - 2012 Study: Executive Summary 12
+MEAN MONTHLY HYDROGRAPH (874015)
+
+WRSM2000 | Pitman Model
+2015/10/21 (09.03)
+
+Cock] He Deze tao) See | Sexe | ree car
+
+Figure 4.6: Mean monthly hydrograph with “Box Plot” and “Scatter”
+
+This new system is available in the WRSM/Pitman model.
+
+4.12 ENHANCEMENTS TO SAMI GROUNDWATER (PART B) AND INCLUSION OF WRSM2000
+STUDIES
+
+Enhancements to Sami groundwater
+
+Following the report on groundwater by Mr Karim Sami in Task 7, the updating of his groundwater
+default parameters for every quaternary catchment (1 960 odd) was carried out. These revised
+groundwater parameters were incorporated in all the data sets for WRSM/Pitman prior to re-
+calibration.
+
+Inclusion of WRSM/Pitman model studies
+
+Apart from the Royal HaskoningDHV studies that have been carried out on various catchments in the
+past using WRSM/Pitman, there are other consulting engineering firms that have carried out such
+studies. Both the RHDHV and other organizations studies have been brought into WR2012 where
+they add further value. They are as follows:
+
+The uMkhomazi Water Project Phase 1, Feasibility Study Raw Water, Hydrological Assessment of
+the Umkhomazi River Catchment: P WMA 11/U10/00/3312/2/1, AECOM 2014;
+
+Establishment of Operating Rules for the Glen Alpine System. P WMA 01/A42/00/027 RHDHV
+May 2011;
+
+Reconnaissance Analysis of Potential Surface Water Support to Identified Artificially Recharged
+Alluvial Aquifers near Steytlerville, Hydrosol 2014;
+
+Proposed Mountain View Dam: Pre-Feasibility Report, ALA/187/10/MP, RHDHV 2014;
+Development of an Operating Rule for the Mhlathuze Weir, MW/PR 11/2011, RHDHV May 2013;
+The Provision of Professional Services for the Implementation of the Jozini Dam Hydroelectric
+Project, RHDHV 2009;
+
+T51and T52 Study, Aurecon 2012;
+
+RBM Water Supply Systems Review, RHDHV 2010;
+
+Water Resources of South Africa - 2012 Study: Executive Summary 13
+4.13
+
+= T20A Mabeleni Dam — Hydrological Analyses, RHDHV 2014 and
+= Eastern Cape Small Hydro Pre-feasibility study, RHDHV 2014.
+
+The latest Sami groundwater parameters and details from these studies have been included in the
+WRSM/Pitman data sets on the website.
+
+SIMULATED PRESENT DAY ANALYSIS (PART A)
+Re-calibration of the Historical Analysis
+
+In order to facilitate this task and to compare present day streamflow with historical streamflow, it was
+necessary to first carry out the historical analysis up to September 2010. This was done using
+updated rainfall, observed streamflow, reservoir inflow, outflow and transfers and land use.
+
+The individual rainfall station records have been extended to September 2010. Missing and/or
+unreliable values have been patched. This patching process was carried out on the entire record
+period. The stationarity of each updated record was checked by a mass plot. The mean annual
+precipitation (MAP) was updated accordingly.
+
+Some new stations have been added, particularly in Lesotho. Unfortunately quite a number have
+closed down even since the WR2005 study.
+
+The catchment rainfall groups have been retained from WR2005 for consistency except where rainfall
+stations had to be added to fill in gaps in the latter years. These groups dictate which individual
+stations are used to combine to form the catchment based rainfall files (in percentage of MAP) which
+have generally been set up for each rainfall zone (group of quaternary catchments) and are used in all
+the modules in the WRSM2000/Pitman analysis (runoff, reservoir, channel, irrigation and mining
+modules). In some cases where there were very few or no stations in a quaternary catchment
+extending to September 2010, stations closest to the quaternary catchment in question were used.
+
+Two new graphs have been added to the calculation of the catchment based rainfall file, namely:
+
+= the massplot and
+= the CUSUM plot.
+
+These additional plots assist in checking of catchment based rainfall files.
+
+Symons pan evaporation (for catchments and open surface water) and A-pan evaporation has been
+taken from the WR2005 study. These are monthly values with different pan factors applied.
+
+The WRSM/Pitman networks that were available from the WR2005 study were used and significant
+detail was added to them for the following:
+
+= observed streamflow gauges;
+= farm dams; and
+= some new reservoirs and water transfers.
+
+Historical and naturalised streamflow has been updated to September 2010 by using the
+WRSM/Pitman model to analyse catchments with networks generally organised on a tertiary
+catchment basis. Missing and/or unreliable streamflows were patched using a variety of approaches
+most suitable for each record. These approaches included:
+
+= using an in-house regression model and gauging stations on the same river and
+= using simulated values.
+
+Water Resources of South Africa - 2012 Study: Executive Summary 14
+A concerted effort was made to obtain all the reservoir records throughout the country so as to include
+all relevant data for the reservoirs. A new feature was added to the WRSM/Pitman model so that
+observed and simulated storage of a reservoir can be plotted graphically and compared as an aid to
+model calibration.
+
+Network diagrams for the entire country are available to be viewed from within the WRSM/Pitman
+model. Every quaternary catchment has at least one runoff module except for some quaternary
+catchments in the Lower Orange and Berg WMAs where it made sense to combine some quaternary
+catchments because their impact on the water balance was small.
+
+A re-calibration was done at every selected streamflow gauge and reservoir by comparing observed
+and simulated streamflow. In some cases previous calibrations were found to be still acceptable but in
+a lot of catchments adjustments were made to Pitman calibration parameters to bring simulated
+streamflow closer to that of observed values. This was done using calibration statistics at river
+gauging stations and reservoirs such as MAR, standard deviation and seasonal index and graphs for
+annual and monthly hydrographs, mean monthly streamflow, cumulative frequency, groundwater-
+surface water interface and wetland and reservoir storage.
+
+The re-calibration of observed versus simulated flows were considered in conjunction with the
+comparison between naturalised flows for WR90, WR2005 and WR2012. The judgement for re-
+calibration had to consider the accuracy of the observed flows with regard to patching required,
+calibration parameters of adjacent catchments, reliability of WR90, WR2005 and WR2012 naturalised
+flows, etc. Generally if the observed flows were considered to be highly reliable, preference was given
+to the calibration rather than the comparison of naturalised flows.
+
+The following aspects were considered for the re-calibration:
+
+= observed streamflow. If the discrepancy between simulated and observed was due to missing
+values in the observed, then the observed flows were patched either by correlation with another
+streamflow gauge on the same river or by simulated flows in the event of there being no suitable
+station to patch with;
+
+= rainfall. In some cases the years prior to 2005 had quite a good fit and the last five years (from
+2004 to 2009 hydrological years) showed a deterioration. In these cases the rainfall data was
+checked and rainfall data was either patched or additional stations were added to improve the fit
+between flows;
+
+= land use. In some cases such as the Crocodile West and Marico WMA, there are numerous return
+flows some of which have been subject to a lot of growth over the past 5-10 years. Capacities of
+sewage treatment works were examined and in some cases the effluent return flows were
+increased to improve the calibration; and
+
+= calibration parameters. In some cases there were changes to calibration parameters as the best
+means to improve on the calibration. This was necessary due to the improved level of detail that
+has been added to WR2012 in terms of dams, land use, etc. as well as the additional five years of
+rainfall and observed streamflow data.
+
+A full set of results comparing the observed and simulated flows at streamflow gauges is given for
+each WMA in the WR2012 User's Guide. These were updated based on the WR2012 Study.
+Comparisons of observed and simulated streamflow for some of the more important streamflow
+gauges in each WMA are given in Table 4.1.
+
+Water Resources of South Africa - 2012 Study: Executive Summary 15
+aL Asewuung eaynoexy :Apnig ZL0Z — Buy YINOg Jo SeoNosey JE]EM
+L €7'86E ee'eor 6002-SE61 (weg weljmue[d) Z00NLS oLa Buyoq/sjueyiO
+Z 88'68e 8e°8lb 6002-8261 Buyiog £00HZAI ova ‘pza ‘eza Buyoq/syuey!|O)
+Z ov'99 Ov be 6002-0261 eyo) (eq Uoodexwed) 900NZr| ver] Zino
+z €9'L9L 9°99 9861-€261 sAepung| (wed ZU) LOONZN €zN eUUWEH!SHIS | 0} Y
+vl LeZLE 60°z9e 6002-2261 ysi4 }2e19 8L0H6O £60 BWWEXISHS | O} USI)
+6 6E0bL L LOLS 9 6002-1261 a6uel0| 800HZG sa pue esa ‘ezd aBuelC Jomo7]
+S ve LI b 9s1S¢ 7 6002-0261 abueiQ £00HLG| via abues9 seddy
+€ 99°801 $ 20°16 7 6002-2261 a6uel0| (wed Joo}y Jeq ue) COONS tea a6uel9 seddr)
+z ZL L6L es'sle 9002-0661 ngnawiz 2O0HELL| lel] ewweysiey 0} nqnawizyy)
+z 90°86 £6°996 9861-2961 IZEWOAN 900HEN oln NINAWPAWIA, PU HOAW
+€ $9°80e es'ele 6002-6861 quebuin yoouzn ozn NINAWHAWA PUE HOAY
+8 L269 b BLOeL L G861-8S61 leeA| (9M sei6noq) ¢00N6o 269) [ee A 49M07|
+g 99°20 Z 2z'eel Z 9002-8961 leen| (weq Jouwso|a) Z00N6d| 99 [REA SIPPIN
+s €7'88S | ZezeL b 6002-8£61 lee) 8LOHZO| €20) jee, saddy,
+L 2Z'0v0Z L2'920 @ 6002-9£61 lee) (weg leeA) LOONLO zL0 jee, reddy,
+L v6'96r € ogles€ 9861-9961 e}oynyL ZOOHSA| Osa Bj
+€ 02’ zr6 97 LL6 6002-1961 eeynyL LOOHLA| lA BrexnyL|
+L Le6ls | 29°96S | 8661-8961 mins 9s9 2SM\ azmelyN o} MINs/
+Z 2€'S69 €0'0S9 6002-0961 a|Poo01D, 9LOH2X| vex eworul
+SL €6'bbh | @z'ssz L 6002-2861 squeHIO SLOHZA| zz syUey|O)
+OL Leos 68'08h 6002-661 squeyO (weq doyso7) zooued| zea S]URJIIO}
+z ze°80z LoLLe 6002-SZ6L alpooo1g) (weq woodsesqueH) LOONZy| LZy] CoueW pue Ise” ||PO9019
+€ 98°01 g6'9z1 2002-6261 eqeie7 (weq useuez 1) soousE| EE] eqeje7 pue nyanany
+s 668 os's8 9661-0961 euemye|e6o, 600H9V| cov ododwry
+aouaayig % (eeu uot) (Bjcuu vom) pouad piosay JOA aBneb moyweays quawysye5 Aenea, VINM
+UVIN Peeinuis | YVIN PeAlesqO
+
+sabneb moyweesys Aay 40, MOY PEAIASO SNSJOA pajeinUIS Lp aqeL
+
+db
+
+Asewung ennnoexa :kpmg ZL0z — BoUJY UNOS Jo SeouNOseY JeLeM
+
+a gels ov'68s yO0e-L261 Bieg}) (weg puelsiaasi) COONS O19} Beg
+eb s9'e9zL 8r'2ZbL 6002-S961 epeeg 900HZH| OZH| epeeig
+(e/,W UorpIW) (e/,W uoNpiW)
+aousiayIG % poled piooay JOny eBneb moyweeys VIM
+UVIN pezein UVIN Pevlesqo
+
+Naturalisation
+
+An important output of the project is the generation of time series of naturalised monthly flows for the
+study period, i.e. 1920 to 2009 (hydrological years). Apart from gauged catchments, this also requires
+the extension of calibrated model parameters to ungauged areas, based on similarities in geology,
+topography, soil type, natural vegetation and climate. The method used to generate naturalised flows
+was to set the naturalised “tickbox” on in the runoff sub-model which then results in the model ignoring
+alien vegetation, afforestation, paved flows and there are no reductions in catchment area for irrigation
+and mining activities.
+
+Naturalised flows for WR2012 are compared to those for WR90 and WR2005 in Appendix A. It can be
+seen that the MAR for the country is now evaluated as 49 251 million m*/annum, whereas in WR90
+and WR2005 it was 50 278 and 49 210 million m*/annum respectively.
+
+Differences between the WR90, WR2005 and WR2012 studies can be ascribed to the following:
+
+= the effect of climatic variations with WR2012 rainfall being extended from 2004 to 2009;
+
+= the use of additional flow records in WR2012 that were not available or were too short in the
+WR2005 study;
+
+= the revision of the Sami groundwater/surface water interaction default data and
+
+= use of Google Earth to improve various aspects of the systems.
+
+Present Day Analysis
+
+Following this analysis, the present day analysis was carried out. This is a new analysis and by
+“present day”, we are referring to land use development as at September 2010. For this purpose all
+land use from 1920 to 2009 (hydrological years) was set as for September 2010 and then run on
+historical rainfall from 1920 to 2009.
+
+This necessitated the following:
+
+= Runoff modules. Paved areas, afforestation and alien vegetation were set as for September 2010
+throughout;
+
+= Irrigation modules. Areas of irrigation were set to September 2010 throughout;
+
+= Reservoir areas and capacities were set to September 2010 throughout;
+
+= Time series abstraction, transfer and return flow files were set to appropriate values throughout.
+These time series files required significant thought as to how best to reflect the present day. In
+cases where the 2009 year was complete and representative then that year was simply used.
+However, in some cases we have missing data and data that varies tremendously from one year to
+the next. If there was missing data then that month for previous years was considered. Where the
+data varied a great deal, an average of the last 3-5 years was taken. In cases of releases from
+reservoirs, it is important not to include natural spill so the data was scanned together with the level
+trajectory and typical recent releases were chosen which did not include spills and
+
+= Mining modules. Areas were set to September 2010 throughout.
+
+A separate folder system was set up for the present day analysis with the relevant data sets.
+
+A total of 84 key points were selected covering the 19 WMAs at strategic points to compare
+naturalised streamflow with present day streamflow. These locations were generally at major dams,
+outflows to oceans or other countries or at confluences of major rivers. Spreadsheets were then
+compiled for each WMA giving details of these key points as well as the present day statistics and
+naturalized statistics for comparison for WR2012.
+
+Water Resources of South Africa - 2012 Study: Executive Summary 18
+For each WMA and key point, a spreadsheet was compiled giving MAR, standard deviation and
+seasonal index for both naturalised and present day streamflow and a document for each WMA was
+set up with the graphs showing the annual hydrograph, mean monthly flows and cumulative frequency
+at each key point.
+
+A schematic map was established showing the 19 WMAs and outflows whether they are to the ocean,
+other countries or other WMAs with the MAR values for naturalised and present day — refer to
+Figure 4.7. The total naturalised MAR is slightly higher than for WR2005 and the present day MAR is
+obviously considerably less as land use as at 2009 has been applied throughout the record period. A
+spreadsheet showing these values for the 19 WMAs together with the impact of land use and
+comparisons against WR2005 was compiled. Appendix A shows this information.
+
+A report “WRSM/Pitman Model Analysis Overview” (Pitman et al., 2015) which summarises this
+process for each of the WMAs is included on the website. Present day analyses and WRSM/Pitman
+model set-ups are available on the website.
+
+Water Resources of South Africa - 2012 Study: Executive Summary 19
+Arewiung eannoex3 :Apmig ZL0Z — Boy YINos Jo seomnosey Je}eM
+
+MoyWweajs pasyjeinjeu pue Aep juasasd Jo ayewayos Ly ainbl4
+“28 WOLD
+vis (za) 29st Gad VAS
+B/W UONIIW 6ZE9E Ad TWLOL (wou sist oa ore ae
+2/,UW UOIIIIW LSZ 6Y LYN WLOL fase twieu) o12h a 9 WOH
+wae sest Lv
+(wee) 80 4
+soz 1¥N Roce vas
+was
+(sau) eb6e ad 18 WES!
+Foos avn dese aa
+= __ oot 196
+(92) sess Od
+9089 LYN “18 1280 vas
+
+(sza) 2608 ad
+
+sou) sey ad
+Fe = OU) E29 OF AYN
+
+(sss) ort ad
+sere LYN
+
+(re) te6t a
+be H9EZ LN
+
+(sore) (up2- = "ou oz@k ad
+
+= oun) $250 LVN
+
+levse = "ou Peet Od ooueW
+(g00z = 941) rySz LYN pue 1s3M
+‘11909013
+(se) ee od sboy) ay
+z16¢ LN (cs oor a)
+} See LN (meehrs ad =
+Y : Gove) zve a
+asem NL seoivn/ 3088 (iy, SESHE aeieed)
+SM
+“409M
+(90200) (128 =m
+(srs) oer ad
+ziz.anl euemsiog
+rosy “Wy
+4.14
+
+4.15
+
+TRAINING AND USER SUPPORT (PART B)
+Training and user support consisted of the following initiatives:
+
+= WR2012 and WRSM2000 courses at universities and other institutions (partly covered in section
+4.5) and development of course material;
+
+= training of personnel both on the WRSM/Pitman model and the WR2012 deliverables;
+
+= WR2012 mini-launch at SANCIAHS at the University of the Western Cape in 2014;
+
+= WR2012 official launch at Centurion in 2015. In March 2015 the official WR2012 Launch was held
+in Centurion. Dr Ronnie McKenzie, Dr Bill Pitman, Allan Bailey and Professor Geoff Pegram gave
+presentations;
+
+= press release and SAICE articles. A document was compiled for a press release regarding the
+WR2012 Launch. Dr Bill Pitman and Allan Bailey also produced an article for the SAICE Civil
+Engineering magazine June 2015 edition;
+
+= registration of users on the website (over 600 to date);
+
+= subsequent user support to WR2012 users;
+
+= informal information sessions at Royal HaskoningDHV;
+
+= support to students who have assignments for which WR2012 provides data and information; and
+
+= SANCOLD 2014 presentation.
+
+WEBSITE DEVELOPMENT
+
+It was decided that a website (www.waterresourceswr2012.co.za) would be produced to make it as
+easy as possible for users to access data and information. In addition it allows the study team the
+means to add information which can become immediately available, i.e. users do not have to wait until
+the end of the study until deliverables become available.
+
+Once the user has logged on to the website, a menu or dashboard system is available in the so-called
+“Resource Centre”. Clicking on a menu item will then “explode” the item further to show greater levels
+of detail such as WMAs and then catchment groupings or whatever.
+
+Work done in WR2012 has been added to the website. This website contains:
+
+= models used in the study;
+
+= WRSM/Pitman data sets for South Africa, Lesotho and Swaziland;
+= WR2012 study, WRSM/Pitman model and other reports;
+
+= database containing WRSM2000 input data;
+
+= time series data;
+
+= spreadsheet information by quaternary catchment;
+
+= reservoir records; and
+
+= GIS maps.
+
+The website menu items have been numbered for easy reference. A web schematic has been added
+to the website to make it clear as to how the various menu items link to each other. This schematic
+has been shown in Figure 4.8 below, Note that in Figure 4.8, the number in brackets relates to the
+menu item in the Resource Centre (on the website), blocks with a black border indicate input and
+blocks with an orange border indicate output. Green arrows indicate the rainfall transformation from
+individual stations to catchment based rainfall. The yellow arrow indicates that the daily time step
+uses monthly rainfall as well as daily rainfall. The dark blue arrows indicate data from external
+sources and the light blue arrows are input into the WRSM/Pitman model. The red arrows indicate
+information from the WRSM/Pitman and SALMOD models.
+
+Water Resources of South Africa - 2012 Study: Executive Summary 2
+There are three folders on the WR2012 website pertaining to rainfall as shown in the website
+schematic as follows :
+
+= individual rainfall station records;
+= catchment rainfall groups; and
+= catchment based rainfall files.
+
+Models/computer programs are:
+
+= WRSM/Pitman monthly time step;
+
+= WRSM/Pitman daily time step;
+
+= SALMOD (salinity model); and
+
+= OTHER (water quality — only covered in the WR2005 study).
+
+Water Resources of South Africa - 2012 Study: Executive Summary 22
+Arewiung eannoex3 :Apmig ZL0Z — Bou YINos Jo seomnosey Je}eM
+
+oewayos aysqem :g"p eunBl4
+
+(p) suodas sayjo pue saGneb moyweans Ww
+(21) syeeyspeads “Ayjenb seyem “sayempunos6 “QOOZWSUM ()) sdew sip syseyspeaids Ayjend Jaye,
+
+Buvowuoyy “eping Jesp “Aewwng annvex3
+
+a |
+
+enoy sel) ey (pL) smoy Aep quasaig (2) smoy yeouoysiyy
+
+(51) spiooa soussey
+
+(z) JONESOY
+days sun, Areg
+ueUunid z
+10002WS4M ten ue sna)
+(e pue z) syeeyspeaids as
+puelizemg pue oujose7 Pl seven /e8n1 puey sag
+
+“YS 10} 5385 eyep pue
+(9) moyweens
+
+(L}) syuawuyoyes say pue sweBeip
+leeA Jo sisfjeue Ayjenb sie uomjau ‘sjusweoueyue YA | eel eal (sma)
+dais awl, Ajo UeUnig Paid moyweasis
+/0007WS4M painseay)
+(6) siseyspeaids
+
+(by) dows eyep AewayenD
+
+(g) sey (2) sdnou6 renee
+eee l aes peseq a eies payoied
+aM quawyr}e29 quawyae9 jenpwpuy
+= (sma)
+JWM
+
+SUSqeM CLOCHM S}Ue}U0D
+4.16 PRESENT DAY STREAMFLOW (PART B)
+
+This task was covered in section 3.12. This second part covered the WMAs 13-19.
+
+4.17 UPDATE GIS MAPS, REPORTS HAVING USED WRSM/PITMAN TO ANALYSE SOUTH AFRICA,
+LESOTHO AND SWAZILAND AND SALMOD WATER QUALITY ANALYSIS ON THE UPPER
+VAAL, MIDDLE VAAL AND LOWER VAAL SUB-WMAS
+
+4.17.1 GIS MAPS
+
+GIS maps were updated from WR2005 where there has been a change in detail. The following GIS
+maps have new information:
+
+rainfall;
+
+runoff;
+
+water quality (TDS);
+calibration parameters;
+land/water use;
+
+present day streamflow; and
+population.
+
+Particular attention has been given to the rainfall stations and observed streamflow stations maps. The
+observed streamflow stations map will now have a colour code for 6 categories of observed
+streamflow station. An example has been given below for the Thukela WMA.
+
+The following is a brief description of the GIS maps.
+
+GIS maps used/developed during the calibration process
+
+used for different catchment rainfall groups in order to determine different catchment based rainfall
+files. If the user selects the “information icon”, then the station code, start and end record period,
+MAP, WMA(s) in which it was used and catchment group name(s) will appear. Note that the hard
+copy book of maps has the overall map for South Africa, Lesotho and Swaziland as well as the 19
+WMA maps; rainfall. This GIS map contains all “usable” rainfall stations in South Africa, Lesotho
+and Swaziland”, i.e. those used in the WRSM/Pitman analyses. The rainfall station code is included
+in both hard copy and electronic form. In the electronic form the station code becomes visible as
+the user zooms in. Mean annual rainfall is shown in a particular shade based on individual rainfall
+stations. Many rainfall stations have closed down over the past 20 years or so. Only those with
+too many missing values and/or too short a period have been excluded as not “usable”. There is
+no category breakdown as for runoff. The same rainfall station may have been
+
+= runoff. This GIS map contains all “usable” observed streamflow stations in South Africa,
+Lesotho and Swaziland”, i.e. those used in the WRSM/Pitman analyses. The observed
+streamflow station code is included in both hard copy and electronic form. In the electronic form
+the station code becomes visible as the user zooms in. Naturalised mean annual runoff is
+shown in a particular shade for each quaternary catchment. Observed streamflow stations have
+been divided into six categories as explained in the Calibration report (Pitman WV, 2015).
+Some observed streamflow stations have closed down over the past 20 years or so. Only those
+with too many missing values and/or too short a period have been excluded as not “usable”. An
+example of a runoff GIS map has been given in Figure 12.1 for the Thukela WMA. If the user
+selects the “information icon”, then the station DWS code, description, latitude, longitude, start
+and end record period, WMA and category will appear. Note that the hard copy book of maps
+has the overall map for South Africa, Lesotho and Swaziland as well as the 19 WMA maps;
+
+Water Resources of South Africa - 2012 Study: Executive Summary 24
+water quality (TDS). TDS values were obtained from the IWQS and are available in the water
+quality spreadsheets. TDS values have been taken from the 95" percentile over the 10 year period
+from 2001 to 2010 and if there is no water quality station in the quaternary, then a value has been
+determined by comparison with adjoining quaternaries or flow weighting which is described in the
+“comments” column. Refer to water quality spreadsheets on the website;
+
+calibration parameters. The latest WRSM/Pitman calibration parameters as used in the model
+associated data sets have been shown for the 8 calibration parameters and
+
+present day streamflow. This GIS map is a new map which shows the naturalised streamflow
+versus the present day streamflow with land/water use as at 2010 development levels for 84 key
+locations spread over South Africa, Lesotho and Swaziland.
+
+GIS maps for information
+
+base map. This GIS map contains basic information such as rivers, reservoirs, urban areas,
+primary, tertiary, secondary and quaternary catchments, endoreic areas, WMA and other
+boundaries. Note that the hard copy book of maps has the overall map for South Africa, Lesotho
+and Swaziland as well as the 19 WMA maps;
+
+evaporation (S-pan). This GIS map of Symons pan evapotranspiration (applying to surface water )
+has not changed since the WR90/WR205 studies;
+
+evaporation (A-pan); This GIS map of A-pan evapotranspiration (applying to irrigation) has not
+changed since the WR90/WR205 studies;
+
+land cover. The latest land use GIS map from the Department of Environmental Affairs has been
+included. It is extremely detailed and the coverage exceeds 5.5 Gb;
+
+inter-basin water transfers. This GIS map contains largely WR2005 transfers as no updated
+source appeared to be readily available;
+
+simplified geology. This GIS map has not changed since the WR90/WR205 studies;
+soils. This GIS map has not changed since the WR90/WR205 studies;
+
+sediment. This GIS map has not changed since the WR90/WR205 studies;
+vegetation. This GIS map has not changed since the WR90/WR205 studies;
+
+Ecological Water Requirements (EWRs) management class. This GIS map has not changed since
+the WR90/WR205 studies. EWRs are required for most hydrological studies. These are based on
+the Ecological Management Class (EMC). EMCs were obtained from and are currently being
+reviewed by DWS and are likely to change; and
+
+population density. The 2011 census was used for this GIS map.
+
+Water Resources of South Africa - 2012 Study: Executive Summary 25
+an Figure 3.7 : Runoff : Thukela WMA
+= (now part of new 4. Pongola-Mzimkulu WMA)
+
+Figure 4.9: GIS Runoff map for the Thukela WMA
+
+4.17.2, REPORTS
+
+As for the WR2005 study, there is an executive summary and a far more detailed user guide. Other
+reports that have been included are the Sami groundwater, calibration accuracy analysis of 600
+streamflow gauges, WRSM/Pitman Model Overview and the SALMOD report. Additions have also
+been made to the WRSM/Pitman suite of reports. The full set of reports includes the following:
+
+WR2012 Executive Summary;
+
+WR2012 User Guide;
+
+WR2012 Book of Maps;
+
+WR2012 SALMOD: Salinity Modelling of the Upper Vaal, Middle Vaal and Lower Vaal sub-Water
+Management Areas (new Vaal Water Management Area);
+
+= WR2012 Calibration Accuracy;
+
+= WR2012 SAMI Groundwater module: Verification Studies, Default Parameters and Calibration
+Guide;
+
+WR2012 WRSM/Pitman Model Analysis Overview;
+
+WRSM/Pitman User Manual;
+
+WRSM/Pitman Theory Manual; and
+
+WRSM/Pitman Programmer's Code Manual.
+
+Water Resources of South Africa - 2012 Study: Executive Summary 26
+4.17.3. SALMOD SALINITY ANALYSIS
+
+For the WR2005 study only selected parts of the country which were regarded as the most
+problematic were analysed. In this study the simplified salt balance model SALMOD was analysed and
+calibrated for the entire Upper Vaal, Middle Vaal and Lower Vaal sub-WMAs (which have now been
+combined into the “new” Vaal WMA). This catchment is the most highly developed in South Africa with
+a great deal of land use/water use which impacts on water quality. Observed data was extended from
+1974 to 2009. SALMOD uses the WRSM/Pitman model output files together with other information
+that is required to analyse flow, Total Dissolved Solids (TDS) concentration and TDS load. Calibration
+is done by means of three parameters and by varying the growth or decline in return flow. The
+SALMOD model produces both statistical indicators of flow, TDS concentration and TDS load as well
+as graphs of these parameters at chosen water quality stations to aid the user in achieving a
+successful calibration.
+
+Full details are given in the report “Water Resources of South Africa 2012 Study (WR2012): SALMOD:
+Salinity Modelling of the Upper Vaal, Middle Vaal and Lower Vaal sub-Water Management Areas (new
+Vaal Water Management Area)”. This report gives a detailed analysis of flow, TDS concentration and
+TDS load at all the relevant water quality stations throughout the Upper, Middle and Lower Vaal sub-
+WMaAs. It includes insights gained from many years of experience in analysing water quality in the
+Vaal River catchment with comments about each tertiary catchment.
+
+The SALMOD report, modelling set-ups and output are contained on the website. The following graph
+and table showing statistics for the water quality station C8H007 is given as an example.
+
+Figure 4.10: SALMOD graphical output of flow, TDS and load for water quality gauge C8HO07
+
+Water Resources of South Africa - 2012 Study: Executive Summary 27
+Table 4.2: SALMOD output for water quality gauge C8HO07
+
+Route 1RV: C8H007 1975-2007
+a Flow (million m*) Concentration (mg/e) Load (t)
+Monthly Statistics
+Observed Modelled Observed Modelled Observed Modelled
+
+Mean 3.56 1.81 173.3) 175.3) 381 183
+Standard Deviation 5.30 3.78| 77.1 84.8) 598. 577
+R 8135 8932 7517
+—1 -49.1% 1.2% -51.9%
+E2 28.7% 9.9% -3.6%
+N 36 341 26
+SF .205 987 -310
+Mean 19.3 183.4 1594.5
+Standard Deviation 27.8 85.3 2205.1
+N 396 396 396
+
+The final results at key stations were compared with the Vaal River System Analysis Update Study (4
+reports — BKS et al., 1999/2000) which used a record period of 1975 to 1994 (see Table below). The
+SALMOD analysis therefore has extended the analysis period by 15 years.
+
+Comparison of flow, TDS and load at key points in the Vaal catchment for this study and the VRSAU
+study are shown in Table 4.3 below.
+
+The differences between the VRSAU study and the WR2012 study are discussed in this report. The
+differences are attributable to the period 1994 to 2010 being wetter than the 1980's, the changed
+operation by Rand Water of the Vaal supply scheme, the introduction of dilution management and
+increased irrigation in the Vaalharts scheme.
+
+Although SALMOD analyses are less detailed than the WQT model, the analyses described in this
+report as modelled by SALMOD are extremely useful for assessing incremental catchment salt export.
+As with all models, greater accuracy would be obtained with the SALMOD analyses with a more
+detailed investigation into some land use aspects such as return flow, irrigation, riverbed seepage and
+channel surface evaporation to improve on this data. These SALMOD analyses also showed
+consistent results with what was expected based on Dr Chris Herold’s experience with water quality of
+the Vaal catchment. The report does not only discuss the set up of the model and its calibration for the
+Vaal sub-catchments, it also adds value in that it is a reflection of the experience with salinity in the
+Vaal catchments, particularly the experience of Dr Chris Herold.
+
+This report and model can therefore be of key importance in the evaluation, monitoring and further
+improvement of the Vaal Quality Management Strategy for the Vaal catchments.
+
+Water Resources of South Africa - 2012 Study: Executive Summary 28
+6z Arewuung eannoex3 ‘Apmig ZL0Z — Boy YINog Jo seonoseY JE}EM
+
+“eeP SAL Jo Aigeene ayy Aq payeyoip sem OWS 40} polled plooa ay :Z B}ON
+
+paj2jnwis si anjg pue paniasgo s! pay :| 9JON
+
+Lop py] ove9z ZH] e'e09 |ozve |eost | seer (eoou6o)
+
+“| -, Jee 13M"
+zLie6 |oorsze|zols | rbos | 9lz vL60L P66I 761 8002-4261 ajay sej6nog| P7997
+6888Sb|ezpez |evee |sree |eLbL | pee (600H69)
+
+“| rf JEe/ J8MO"
+zes6 Le|oseoe [zee |sece | evel | Zo'9uL ¥661 7161 9002°8261 sem sueyeen| PPAI°M01
+O'Ss8gSb| sete |z7zey |ezee |i eel | orGer (zoouso)
+
+i -, jee a|ppl
+6199 rb| gozzy [else |rzee |szel | 6s br P66 S61 400-2161 weg joyweojg] [°° PIPPIN
+eLL0L |ogrer |ezlz |sz6ee | srz LO'LL
+
+- , Jee A 2] I]
+vezis |oosos |oovz |eooe Jape | 6e-ze v661-S86L 6002-2261 POOHPO) IEE SIPPIN
+S982 87| o'68E py| EROS |rses jez S'6EL (8L0HZ9) (Z00HZ9)
+
+Jee a|ppl
+979s ez|otssor|zlos [bess | 9:06 s9eL 7661-SL6L 6002-8261 200HZ9 /8FOHZO)_ 182A SIPPIN
+GO¢L 92] O*vELE|ZELS |S zer | G28 692L (g004Z9) (8L0HZ9) (8L0HZ9 /800YZ9) een sod
+sez 92 | ovese 6e| voy | ro6r | 9°88 s9eL v661-SL6L 6002-S261 abeueg [ee
+Z09E 91] OOF Zz] LZL | RLE «|S LZ | OGLE (L00¢uLD) (Z2LHzZ9) (ZZLHZ9 /LO0NLD) een sadn
+s29€ 91] o'erz 9L| B'OKL | e6re | vOzL | S"bOL 7661-SL6L 6002-S261 weq lee\
+vleee |ooLs2 | SES | 6'9LL S6L ow (ZO0uLD) (6LOHLO) (6LOHLO een soddn
+volve |oseez |i v9l joeze | zor bly v661-SL6L 6002-S661 | /ZOONLO) weg !eespjooly
+NWSUA |zLozHM | NYSUA | ZHOZUM | NVSHA [Z07HM | a pus-uers
+
+id Ko}
+(yyuowysuo}) (3/Bw) (yyuowy/,W UOT) AVSUA ZLOzZuM oT VINM
+peo7 SdL uonejuesueg SL Mold
+
+(donTvs 6uisn) ZL0zaM pue (LOM Buisn) Apnis NVSYA ay} UaeMjaq synsa/ Ayuljes Jo UOSUedWOD -¢°p a/qeL
+5
+
+TRAINING AND USER SUPPORT
+
+6
+
+The objective was to ensure development of personnel through twinning of individuals or groupings
+with established experts as part of the whole project implementation.
+
+Training and user support has been covered in the descriptions of Task 6 and 15.
+
+USING WR2012
+
+7
+
+To access the WR2012_ study information, the users need to register on the
+www.waterresourceswr2012.co.za site following which an e-mail will be sent to Mr Allan Bailey who
+will assign a password and e-mail it back. After logging in (with e-mail address and password), the
+“resource centre” will become available which gives a number of menu items containing information,
+GIS maps, models, etc. Some menu items such as GIS maps and WRSM/Pitman model set-ups
+require a download procedure. Use of the WRSM/Pitman model is through a key code which is
+provided by Mr Allan Bailey. Other menu items such as spreadsheets and time series can be opened
+or downloaded.
+
+CURRENT AND FUTURE WATER RESOURCES CHALLENGES
+
+71
+
+A number of challenges were experienced most of which were caused by data deterioration which is
+examined in detail in the following section.
+
+DATA DETERIORATION: RESERVOIR RECORDS/DAM BALANCES
+
+A big effort has been conducted between DWS and Mr Allan Bailey to obtain all the reservoir
+records/dam balances throughout the country. The reservoir record provides a monthly balance of all
+inflows, outflows and storages from when the dam was constructed to date. From the balance the
+streamflow into the dam is calculated. These reservoir records/dam balances are available from the
+DWS Pretoria office on request. The spill record from dams is available on the DWS website. It is of
+concern how few reservoirs have these reservoir records and how many of these records have
+missing data sometimes extending over numerous years. The following Figure 7.1 shows a map
+showing the distribution per new WMA.
+
+Water Resources of South Africa - 2012 Study: Executive Summary 30
+Arewuing eaynoaxg :Apnig Z10z — Roly YINog Jo seainosey Je}eM
+
+spio9al Jjo/esas Bujpuodsaioo pue (,WW UOlsIW | UeYy 4aj}ee/6) swep sofew Buimoys deyy :1°Z ainbi4
+
+SPs099/ JJOAJASA BIqeIIeEAe Jo JOqUINN ||
+
+Jofew jo JaquNnN ||
+
+0
+3.0 3.82 3,02
+S25 US. rz neveng pepene 3.72 7
+OOL
+
+OOL
+
+squeyi0-6108
+Zunog-epeerg
+
+PUNE NISISL-NQNAWIZ)Y
+e8ue0
+
+ren
+
+eUNAWEyY-e}06U0g
+muansr-neworuy
+sweH0
+
+ododuiy 7
+seory juoweBeuey J918MA 6
+
+anowroonoe
+
+3.08
+
+‘Souepunog jeuoReUIs}U]
+(v00z) epunog svi 61
+(z10z) Aiepunog svi 6
+ana937
+
+‘uuojes pur pue jawdojenog
+(JON) uonewoju)—_yenedso9D
+
+reiny,
+
+VISIWWN
+
+OL)”
+
+3.0
+
+Buroeidas eouyy Winos 10 SYFWM 6 eu) Sunardep dey
+‘vonduaseg,
+
+vNYMSLog
+
+ZbLoz Aine
+
+eo1yy yNog 40
+seoiy juoweBeuew 107eM 6
+
+3.08
+
+7.2 DATA DETERIORATION: RAINFALL
+
+Of greatest concern is the number of rainfall stations that are closing down. Rainfall is the most
+important data not only for WRSM/Pitman but for most other water resource models. This deterioration
+has been highlighted in numerous symposiums over the past three years or so by the WR2012 project
+team. The number of rainfall stations open is shown below in Figure 7.2 .
+
+2500
+
+N
+3
+3S
+to)
+
+1500 VA
+
+1000 Se
+
+S00
+
+Number of useful stations open
+
+0
+
+1920 1930 1940 1950 1960 1970 1980 1990 2000 2010
+
+——WR2005  ———WR2012
+
+Figure 7.2: Number of useful rainfall stations open over time
+
+7.3. DATA DETERIORATION: OBSERVED STREAMFLOW
+
+Observed streamflow for river gauges were updated to September 2010 using the DWS website and
+patched where necessary. Figure 7.3 shows the decline in the number of useful streamflow gauging
+stations. Note that some streamflow stations are of such poor quality due to missing and unreliable
+values that the project team did not consider them useful for calibration in the WR2012 study.
+
+Water Resources of South Africa - 2012 Study: Executive Summary 32
+600
+
+500
+
+&
+ts)
+8
+
+w&
+8
+8
+
+Number of useful stations open
+8
+8
+
+3
+8
+
+it
+
+1920 1930 1940 1950 1960 1970 1980 1990 2000
+
+Figure 7.3: Number of useful observed streamflow stations open over time
+
+8 PROJECT USER SUPPORT
+
+Queries on the website can be addressed to Mr Allan Bailey at wr2012@rhdhv.com. There is also a
+forum option on the website for users to post comments and questions.
+
+The WRSM/Pitman model has a drop-down help menu which takes the user to either the
+WRSM/Pitman User's Guide, the WRSM/Pitman Theory Manual or the enhanced graph manual.
+
+The WRSM/Pitman User’s Guide and the WRSM/Pitman Theory Manual can also be accessed from
+the Website.
+
+9 PROJECT DOCUMENTATION
+
+The objective of the website of WR2012 was mainly to improve and speed up access, allow user
+interaction, be easier to use and be merged with the improved tools and database. Although the
+interactive maps are available from the website, they are also available in hard copy.
+
+9.1 PROJECT WEBSITE
+
+Refer to section 4.15 for details.
+
+Water Resources of South Africa - 2012 Study: Executive Summary 33
+9.2 HARD COPY DOCUMENTS
+
+Although GIS maps are available in electronic format, there is also a Book of Maps which contains the
+following maps:
+
+= Figure 0: Base map
+
+= Figures: 0.1-0.19: Base map by Water Management Area
+
+= Figure 1: Rainfall
+
+= Figures 1.1-1.19: Rainfall map by Water Management Area
+= Figure 2a: — Evaporation (WR90 S-pan)
+
+= Figure 2b: — Evaporation (A-pan)
+
+= Figure 3: — Runoff
+
+= Figures 3.1-3.19: — Runoff map by Water Management Area
+= Figure 4a: — Landcover
+
+= Figure 4b: — Interbasin water transfers
+
+= Figure 5a: — Calibration parameter: POW
+
+= Figure 5b: — Calibration parameters : FT
+
+= Figure 5c: - Calibration parameter: ST
+
+= Figure 5d: — Calibration parameter: ZMin
+
+= Figure 5e: — Calibration parameter: ZMax
+
+= Figure 5f: — Calibration parameter: GROW
+
+= Figure 5g: — Calibration parameter: HGSL
+
+= Figure 5h: — Calibration parameter: HGGW
+
+= Figure 6: — Simplified Geology (WR90)
+
+= Figure 7: — Soils (WR90)
+
+= Figure 8: — Sediment (WR90)
+
+= Figure 9: — Vegetation (WR90)
+
+= Figure 10: - EWR Management Class
+
+= Figure 11: — Surface Water Quality TDS
+
+= Figure 12: — Population Density
+
+= Figure 13: — Present Day and Naturalised Streamflow at Key Points
+
+10 CAPACITY BUILDING
+
+There were numerous 2 day training courses held at universities and other organisations on the
+WRSM/Pitman model and the WR2012 study. The following universities received training:
+
+= University of Stellenbosch (twice);
+
+= University of Western Cape (twice);
+= University of North-West (twice);
+
+= University of the Witwatersrand and
+= SAICE/University of Pretoria.
+
+Students at some universities are given assignments that require them to use the WRSM/Pitman
+model and data/information from the WR2012 study.
+
+The Department of Water and Sanitation also received training.
+
+Two WR2012 launches were undertaken which provided information to users. Mr Allan Bailey gave
+presentations at SANCIAHS and SANCOLD on WR2012 related issues.
+
+Water Resources of South Africa - 2012 Study: Executive Summary 34
+An article was written for the SAICE June 2015 edition (“A wealth of new freely downloadable
+information on the water resources of South Africa, Swaziland and Lesotho”).
+
+There was in-house training to a number of people on various aspects of the WR2012 study.
+Ms Sarah Collinge was trained to assist with the WRSM/Pitman course and at a later stage Mr Seun
+Oyebode (who is studying for a PhD) was also trained in this respect.
+
+On-going support was provided to over 950 users who have registered for the WR2012 website.
+Many of them have sent e-mails and made calls to Mr Allan Bailey requesting assistance and
+guidance on the use of the website.
+
+11. CONCLUSIONS AND RECOMMENDATIONS
+
+The WR2012 study was commissioned by the Water Research Commission in 2012, undertaken by
+Royal HaskoningDHV and assisted by a number of firms and individuals was completed in November
+2015. The aims and objectives of the study as listed in the introduction to this report and described
+further in each task were met and the list of deliverables as outlined in the introduction were provided.
+
+A survey of this nature is by its very extent an overview, to be used by many disciplines for overall
+planning purposes. It is likely that more detailed studies will be done in the WMAs in the study area
+and improved data and information will be collected, which in turn can be used to great benefit in
+studies of this scope in the future.
+
+This is the second time that a country-wide survey has included surface water, groundwater and water
+quality components, and it is likely that techniques to deal with these components, and the integration
+thereof, will improve with time. For example, remote sensing and it is possible that rainfall data
+applications may eventually be available on a cell phone. In addition, the computer platforms,
+programs and computer methodologies continue to show huge expansion with time and techniques to
+deal with this will need development.
+
+The naturalised mean annual runoff (MAR) for the country has been evaluated at 49 251 million m®
+per annum, which is virtually the same as for WR2005. As determined in WR2005 and not updated in
+WR2012, the utilisable groundwater exploitation potential (UGEP) has been estimated at 10 350
+million m* per annum (7 500 million m* per annum during drought conditions). There are obviously
+large differences in the unit runoff and unit groundwater potential in each WMA, driven mainly by
+natural processes and climatic variation. There are also large variations in water quality across the
+country both natural and through contamination of the water resources.
+
+There are a number of recommendations from the study:
+
+= when new detailed studies produce improved information where this was not readily available, it is
+recommended that the WRSM/Pitman systems be updated;
+
+= there have been changes to the rain gauge and streamflow networks over time with gaps in
+geographical coverage now apparent. It is recommended that a task group representation of the
+data collection agencies meet to address this issue;
+
+= quaternary catchment boundary revisions be included in the next appraisal;
+
+= the revised set of 9 WMAs be used in the next appraisal;
+
+= water use by alien vegetation be revised;
+
+= land/water use although improved from WR2005, still requires updating and correction as it has
+sometimes been extended where no information existed. It is extremely difficult to obtain but there
+have been certain studies carried out using remote sensing and these could be used in the next
+appraisal;
+
+Water Resources of South Africa - 2012 Study: Executive Summary 35
+= MAPs need to be re-assessed particularly in mountainous catchments in a separate study. Synergy
+with Professor Geoff Pegram’s study for the WRC should be investigated;
+
+= evaporation needs to be re-assessed;
+
+= for dams, calibrations should be done on both simulated inflow and simulated storage. Issues
+arising from the SALMOD water quality analysis should also be considered such as riverbed
+seepage (bedlosses) particularly in the Vaal catchment, which need to be reviewed in terms of
+location and magnitude;
+
+= enhancements to the daily time step version of WRSM/Pitman;
+
+= user feedback and requests on model enhancements and information provided should be carried
+out where practical;
+
+= the SALMOD model requires some further enhancements;
+
+= the website requires annual fees, registration of users and user support and
+
+=» WRSM/Pitman and WR2012 training and user support should be on-going.
+
+12 REFERENCES
+
+The following references are specific to work carried out by this consortium. Internal reports compiled
+by individual firms may have further references to work in specific WMAs:
+
+Bailey, AK and Pitman, WV (2015): WR2012 User Guide
+Bailey, AK and Pitman, WV (2015): WR2012 Book of Maps
+
+BKS, Stewart Scott, Ninham Shand (1999): Vaal River System Analysis Update Study: Hydro-salinity
+Model Calibration: Upper Vaal Catchment. October 2000
+
+BKS, Stewart Scott, Ninham Shand (1999): Vaal River System Analysis Update Study: Hydro-salinity
+Model Calibration: Vaal Barrage Catchment. October 1999
+
+BKS, Stewart Scott, Ninham Shand (1999): Vaal River System Analysis Update Study: Hydro-salinity
+Model Calibration: Middle Vaal Catchment. October 1999
+
+BKS, Stewart Scott, Ninham Shand (1999): Vaal River System Analysis Update Study: Hydro-salinity
+Model Calibration: Lower Vaal Catchment. January 1999
+
+Herold CE (2007): SALMOD Water Quality Analysis. March 2007.
+Herold CE (1988): Water Quality Modelling, Volume A : Water Quality Calibration Model.
+
+Herold CE, Van Rooyen P and Steyn R: Irrigation Type 4 in the WQT, WRYM and WRPM Models:
+Theoretical Background and Model Configuration, April 2013.
+
+Herold CE and Bailey AK, (2015): SALMOD Water Quality Analysis. June 2015.
+Middleton BJ and Bailey AK, (2005): Water Resources of South Africa, 2005 Study (WR2005).
+
+Pitman WV, (1976): A Mathematical Model for Generating Daily River Flows from Meteorological Data
+in South Africa, Report 2/76 . Hydrological Research Unit, University of the Witwatersrand.
+
+Pitman WV, Kakebeeke JP and Bailey AK (2015): WRSM/Pitman : Water Resources Simulation Model
+for Windows : User Manual, December 2015.
+
+Water Resources of South Africa - 2012 Study: Executive Summary 36
+Pitman WV and Bailey AK (2015): WRSM/Pitman : Water Resources Simulation Model for Windows :
+Theory Manual, December 2015.
+
+Pitman WV and Bailey AK (2015): WRSM/Pitman : Water Resources Simulation Model for Windows :
+Course Manual, December 2015.
+
+Pitman WV (2015): A Review of calibrations undertaken with the WRSM/Pitman model.
+Pitman WV and Bailey AK (2015): WRSM/Pitman Model Analysis Overview
+
+Pitman WV, Bailey AK and Nyland G (2015): WRSM/Pitman : Water Resources Simulation Model for
+Windows : Programmer's Code Manual, December 2015.
+
+Sami K (2015): Sami K (2015): WR2012 SAMI Groundwater module: Verification Studies, Default
+Parameters and Calibration Guide;
+
+Water Resources of South Africa - 2012 Study: Executive Summary 37
+Arewiung eaynoex3
+
+“APMIS ZLOZ - BO YYNOg Jo Seosnosay Je}eM
+
+€ so'pse o9's6e os'8Ly S]UBJIIO JOMO7 — OLE
+0 sg'98e 69'S8E 09°'zor pig - 098
+v 19°98 og'es 0z'901 SJURJIO PIPPIN — OSE
+z og‘ose os ze OL L6E poodjesis - ova
+ZL vy'ovz of'6lz oL0bz spuela - 068
+6 8268 v8'pLl 06991 6M - 07a
+vb Sz'y9e oz ele og'2gz squeyio Jedd - oLe SIURHIO 7
+r S°SL9 6bE0L 00°8rL 12701
+6l- £0°S v9 026 aues}ealeW - VL?
+s Szezl OLsel os'szL oouew — o€v|
+r LLS@S 0€'9bS ov'86S (sem) aUpo90I9 - OzV|
+v zg'9b se'st or'bl SUEMJON ~ OLY COLE] Pue ISE/M AI]POD0ID €
+) S8°L0E L Z0°0E L oz'sezb 1210.1
+v 98°28 ors ov'98 izpambulys — 068
+b e2'se9 €€'Sb9 O¢'blS eqele7 — 08a
+z 9778s 6272S og'pZs nyanan — 06 eqeje7 pue nyanany Z
+z 0S'9b6 ZL LE6 0€°986 [e701
+9 yS'bZb 26 vbL ozeLL SI9UZN - 08V
+s 09°06 gs'98 oe'r9 pues - oZy|
+€ eeele ovzlz 00°90 euamye|e6ow — 09V
+a £0°LbL og'ebl Og bbl eIRIed — osv|
+0 66ELE oe'eLe 00°19 O|O4OWN - OVI ododurr
+(6002-0261) (vo0z-0261) (6861-0261)
+ZLOzUM ZLOzUM. SOO7TUM O6yM quowyaie9 eauy jueweBeuew seem
+
+©} SOOZTUM Woy eBueys
+
+(e/,Wi uolpiw)
+
+(aWIN) youuny jenuuy ueay pasijesnjen
+
+SHIGNLS ZL0ZYM ‘S00ZUM ‘O6YM NASML3d YVIN GSSIIVENLVN JO NOSINVdINOD
+
+"WV XIGNAddV
+Arewung eaynoex3
+
+“APMIS ZL0Z BOL YYNog Jo Seosnosay Je}eM
+
+z oz Lerz 68°75 Z 08°085 z 12901
+z 9eee6 ov'8b6 or'ze6 26M — 089
+8b 6r'Sly Ov por OL LES abeueg [Pe - €Z9-1Z9)
+z: Se'Z80 L 60°001 | OL'9EL L jeea saddn - O19} lee, soddn |
+g 99°89 € 72188 & 06°66 € [e701
+© v6'LOE 9g'8Le orzle suewysng ~ OLA
+0 veele Berle OL LE sfepung ~ 09A
+Ol- LZ 18h 89° L0z oz'9S1 BIONYL JEMO7 - OSA
+be €z'6SL 0s'091 O9'0LL 8ZNSN — OFA
+z£ Lb6l8 0676 og'910 1 ojeyng - ofA
+& SLe8e ov'00r 0s'zor JOO ~ OZA
+9 80°PSP L 09°ZbS | 06729 L eleynuyL eddy - OLA BIOyNUL Z
+z LEELZ9 oLbey9 OLlel 9 [e401
+ihe
+
+sb LL@bb 80'rZL O@ ELL eye] pue sienu jews — 02m
+be o6'eSp @zesy 08'6Sy Iznleqn — 09M
+v Le Lez Of OL Z Os bbe Z munsn — osm
+the 62'€01 | 0z'88z | o9'99¢ | 2|06U0d — OFM)
+€ 6S:L/S os'8ss oz'8eS 9@ZnyN — O€M|
+6 ol p28 0g'016 06126 ISOJOJW — OZ
+L 69°8S6 o€' 1S6 Obes SZNIEIN - OLM| —_ (puelZems ‘oul) ezMeIYW O} NNSA g
+€ £8'EBL & 09°980 & oz'L9e & 12101
+ov 60S os'9€ 00°22 IZPOUEMN ~ ObX|
+0 zL 129 os'0/9 Oz zeL ages — 0€X
+Lb viselt 00°€90 | or'gez | (sea) apoooip - 02x!
+€ zZ0'9/2 L og'ele L o9's9¢ L HeWOY — OLX| HeWOYU] S
+s 84'8007 E2616 L 04-066 L 1210.1
+
+(6002-0261) (vooz-0z61) (6861-0261)
+0} sotzung wei aBueys % eEScuM (ejeus uw ma) Ogu quewysjed Rely juswabeuew s9jey,
+
+(uWiN) youuny jenuuy ues pes!jesnjeN
+
+Aewiung eaynoaxg :Apnig ZL.02 — Bolly YINog Jo seoinosay Je}E\\
+
+bh 1918 6E 16 ObLL ebuwojok | — OvY
+
+z LLS81 og'zel OvLiz aqnunbs - 06d
+
+br geez og'szL os'80l oreyng - zy
+
+I 8Lbbl 9zebl Oz LbL eweysioy — OLY ewUeYsI9y{ OF NGNAWIZIN ZL
+
+z yL'700 $ wzer 06826 b [e701
+
+be 6z'eee ge‘ore os'yee SWN|eMIN — 08N
+
+6 9v'ssl 90° Zbl o9'seL naoy — oZN
+
+ob bS'00z LS'LeL o9'zZb ZEW - 09N
+
+be Lo°6S £265 os'6s OUON — osN
+
+z 68°6rE y9'8se o9'zse JOA - ON
+
+ia 6g'Sez ys'9bz oz0rz HOIPIN - 0&/N
+
+€ 00°8SZ £0'8EL 06'6eL tus6win - Oz
+
+be 2z'8€01 ov'Sv0 L S680 1 SeeWOY — OLN
+
+g Leber | og'zze L 08" 18€ L nINWwIZW — OSL
+
+€ SLibey eg ley or'6ely eunAWeI ~ OF L NINYWIZW 0} HOA LL
+
+OL lz'bez s8°00z o9°sez [e701
+
+sr 99°77 89'r OL'b ul eBuel9 — 9¢2q pue veog
+
+8z- ozs Sel ras odojow - O@
+
+Zbl bes z6'1z oL'sz odojo - WLa-a bra
+
+s £0°€b of'sb 00°0S [BBA Jomo7 — 06D
+
+a gest 00'LZL 00°8rL SUEH — 0€9| [eBA Jomo7 OL
+
+L 58816 zL716 ozbzLL [e701
+
+s g0°SSL SO'LbL og'z6L 4as0usy ~ 049
+
+0 B9'LZb OF eb og'S9l SIEA - 099
+
+g 68°S6E ov 907 og’ess 18 - 0v9
+
+$ 0z'061 LLI8L og60z IBA SIPPIN — SZO-7ZD IBA SIPPIN 6
+(6002-0261) (vooz-0z61) (6861-0261)
+
+0} sotzung wey abueys % eEScuM (ejeus uw ma) Ogu quewysjed Poly juswabeuey s9}ey,
+
+(uWiN) youuny jenuuy ues pes!jesnjeN
+
+Aewiung eaynoaxg :Apnig ZL.02 — Bolly YINog Jo seoinosay Je}E\\
+
+be aia Of LL ore saeinqiy e6ueso — 08d
+
+ee- 0z'6b oLeL 06°6zL abuelo ~ €20'ZZ0'LZ0
+
+Ol &@1S oz Zs orzo esq - 090
+
+09- Lez o€'90L ogg yseeqoyeH — 0Sd
+
+odojow ‘gon
+
+oe o's ore 09'9 3zva ‘dzva "ava wae s6ue4O 4M YL
+L £9'708 9 02952 9 0z°S%6 9 [e901
+
+0) bres! 00'e61 OLOLb a6uesO epPIN — €a
+
+€ z6'S0P | oz'69¢ | Ov'zor L uopeled - 0za
+
+L Lyeler og 278 09'896 b a6ueso Jeddn — 01d
+
+bh og'9ze oz'99¢ O1'86e 181Y - 0SO (oujose7 ‘joul) aBues9 saddn gL
+L 79°6L0 Z OzztoL 06'81z Z [e401
+
+) 6z Lee oz Lee ozeze eueqebN — 06.L
+
+L 9b 79L SLe9L ovegt B10X — 08
+
+v 6z'Z0E 26 16z oz'p8z aAEXRIN ~ OLL
+
+v 9z's18 v6 ZBL 00°r6L TYNyeIUIW — 09
+
+z £g°799Z OLeL9z 08'zes Z nqnawizw — O€.L
+
+g SL 68e 99°80 oz zee PIEWN ~ OZ L|
+
+a 28°98L 08" 108 09°08 ayseqIn — OLL
+
+0 LEZLL 89 ZLL og'szb eMyND9 — OLS
+
+9 v9'ezl Lv 9€L OzbZL nanny — 09S
+
+& 82097 80892 or'vsz owios | — oss}
+
+Z ZHLOL SS'001 08°66 IEE1XO — OFS
+
+LL Lele 06'961 ov Z6L fey eIg - OFS
+
+z BLOL 90°69 o0z's9 ampul - 0zS
+
+v £916 se'e6 09°S6 19) SHUM ~ OLS}
+
+€ 18°6e Le'se Ozzy eulg - OSU
+
+(6002-0261) (vooz-0z61) (6861-0261)
+ZLOzuM ZLOz7UM. SO07UM O6YM juowya}e9 wary juewebeuey seem,
+
+©} SOOZYM Woy eBueys %|
+
+(ej. ui
+
+ju)
+
+(uWIN) youuny jenuuy ues pesijesnjeN
+
+Atewiung eaynoaxg :Apnig ZL.02 — Bolly YInog Jo seoinosay Je}E\\
+
+v 66°22 96'ez os'2z Je|AuswoogebllM — 0D
+v vest oz'6L 09'6L Yst4 12819 — 0ZO
+€ so'ze 09'¢8 00°96 eG USM ‘JOOUD ~ OLD}
+0 2v'es vs'es 0e'6h pue aImoy - Ord
+L 68°12 99'1z og'0z eBauey — 0€d
+0 LS'8b 6e 8b oLSb SIBAU |JEWS ~ OZd
+0 60'eh 682 og'8g suewysng - Old
+z 08's9 09'r9 oe'z9 sKepung J8mo7 ~ ObN
+ob vL6z 00'2z oL'se [960A - O€N
+a z1'S8 OL'06 0z'98 sKepung eIpPIN — OZN
+0 syz8 ovz8 os°96 skepung Jeddn - OLN
+L £0°Lb 96'0L ov'oL 26009 - Of
+) ereL Ob 2 ogo SJB AU [JEWS — OZ
+z L166 09°26 oz'8L sdoyyems — OLW
+a 2716 18°26 0616 soojwed — 061
+s or'sez oz'szz 00°61 e6noy — 087
+ve 96% 88'e og'ze
+Ga vere 68'S zk dyy6ulune} — 097
+or eb Sel 0z'8 yoodpues ~ 0S7
+vr bye 90°9 ors JBIAUSISSE|d - OFT
+or z's zZ6 Og bb doo} as seiddox - 07
+z 99°16 oL'e6 og'r6 ojeyng - 027
+x4 OLS of'Sb OL'8b wes - 017
+€ og ZzL zg'p@b OLveL WO — 06
+L €7'S6E o9'68e OL'e6e SISAU [TEWS — 08> BWEYISIS | O} USI S]
+ve- 99°L8L ov'plz 09°c0r [FOL
+ZL LL bz og'gt oe'ez WBIOH ~ 0S4-0L4
+(6002-0261) (vooz-0z61) (6861-0261)
+0} sotzung wei aBueys % eEScuM (ejeus uw ma) Ogu quewysjed Poly juswabeuey s9}ey,
+
+(uWiN) youuny jenuuy ues pes!jesnjeN
+
+Aewiung eaynoaxg :Apnig ZL.02 — Bolly YInog Jo seoinosay Je}E\\
+
+6 £208 06'88 OLS nyded - 0&9
+6z zt Olt o¢'o de1809-ule|y — 094
+Z ZV-0r os'ze orez Joops6ouo — Ova
+db 6r'9z og'le 08'8z anos - 0¢43
+z z9'8tb 06'8eh OL 0gr syueylO - 023
+9 ve'zos oe sly Ot zLb Suuog — 013 BuLoq/s|UepO LL
+L 69°95 L OL'6es L o97ze9 b [e901
+L eg'eL Os'zZ 0z'99 ueefeqqog — OL
+L S8ObL 0z'6eL orl swooqiney ~ 09>
+z ble 0616 og'zoL eushuy — 0S
+€ ze'09L 06'SSL og's9L SIBAU [JEWS — OP
+6 svesl or Z9L og'98L smno ~ 0€¢
+9 Z0°0€ 0z'8z 0€'0b 4esg — 07H
+Z shls 06'Lb o1's9 SIOAU [EWS — O14
+&@ SHOLL oe sel og 0eL Zunog Jemo7 — ovr
+€ o0'esz 06'6sz 09°8zz siueio — oer]
+bk 00'zbL o6'szL os'Z6L eyed - ozr]
+z- bel 09°66 ov'stl jO01D - OLF
+a 98°SbL oz'8bt 0s°z6 18A ~ 06H
+0 g'e6 0z'6 06°66 syoyueming ~ 08H ZNOD 9b
+b ELOLLZ ZeegLZ oozshz [e401
+& sL00z ov Loz og'o1z Ysi4 48m07 - 060}
+€ 6£'06 87'€6 os'bs SIA UlaI4 — 08D
+8 evel 9s'pb oreL JOIAUSIAJOOID ~ OLD
+L bel evel og'0z Jejausueeineg — 090
+v SeLb ow Lb oe Zt J91AUIerY — OSD
+Le 8z'€9 oz'¥9 09°89 BHEL - OPO
+(6002-0261) (vooz-0z61) (6861-0261)
+0} sotzung wey abueys % eEScuM (ejeus uw ma) Ogu quewysjed Poly juswabeuey s9}ey,
+
+(uWIN) youuny jenuuy ues pesijesnjeN
+
+Atewiung eaynoaxg :Apnig ZL.02 — Bolly YInog Jo seoinosay Je}E\\
+
+0 vLVLL 6b ceOLe 6y OE LZL LS leJo| pues}
+L rLvOL OLerL L 06'6ze L [e701
+be 0979p 0s'69r 09°9Lh SIBAL [JEWS ~ 02D)
+€ vb zoe 09629 ogelé Beg 1e819 - O19} 6ieg 61
+0 BL zerz oszerz 09'eLyz [e401
+z £9°002 09°26} 00902 apeelg J8MO7 ~ OLH
+L zresy of 08y ov'esy puesepuog ~ 09H
+8 eb 06'9L o9'ez 9pseig SIPPIW - OSH
+z 6L bl 09°0bL Obes 9paeig SIPPIW ~ OFH
+s vo'zs 09'S ogra euBuly ~ 0€H
+v Ob-ZOL 06'ZOl 0266 X®H - 0ZH
+0 26058 oL'sse 06'098 apeeig seddn) - 01H
+€ zo'e6 0g'96 09°86 sBueqiod - 0S9)
+br 6s'eeS oz'8es os'zos SIBAU [EWS — OD) apeeld 8b
+L £4080 L os'eZoL 0z"690 4 [e401
+(6002-0261) (vooz-0z61) (6861-0261)
+0} sotzung wei aBueys % eEScuM (ejeus uw ma) Ogu quewysjed Poly juswabeuey s9}ey,
+
+(uWIN) youuny jenuuy ues pesijesnjeN
+

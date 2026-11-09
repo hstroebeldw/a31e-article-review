@@ -1,0 +1,375 @@
+RESULTS OF THE GROUNDWATER MODEL OF A31E (two structures, all cases)
+====================================================================
+ 
+Prepared on 11 October 2026 from my GMS runs of the groundwater model
+(MODFLOW-NWT), made to APPROVED_Phase_4_Part_1B. Every value is
+CALCULATED: a result of my model, not a measurement. Never cite this
+file: in the article these are the results of this study. Results of the
+model are reported as differences between cases (APPROVED_Phase_1,
+section 11), and the two model structures are ALWAYS reported together,
+as the two bounds of the groundwater result. Neither is presented alone.
+Every shortfall is a shortfall against the registered volume of
+2.34 Mm3/a.
+ 
+Units: m3/d in the model; Mm3/a = m3/d x 365.25 / 1 000 000. Residual =
+observed minus simulated head (negative: the measured water table is
+deeper than the model's).
+ 
+ 
+1. THE TWO STRUCTURES AND HOW THEY WERE RUN
+-------------------------------------------
+Common to both: GMS 10.9.6, MODFLOW-NWT (flow package UPW, layer
+convertible; Newton solver, head tolerance 0.0001 m, flux tolerance
+10 m3/d, up to 3 000 outer iterations, option COMPLEX); well package
+with PHIRAMP 0.05 (a well's rate is reduced when the head in its cell
+falls close to the cell bottom); one layer of 207.5 m; grid, recharge,
+river and stream drains and the two conductivity zones as in the final
+model (APPROVED_Phase_4_Part_1B, section 1). Steady state. No other
+change between the structures than the two listed here.
+ 
+  Structure S (shallow outflow): the final calibrated model. Ground drain
+    1 m below the land surface in every cell. Conductivity: surface
+    deposits 0.43036208 m/d, bedrock 0.002900584 m/d (PEST on the four
+    static levels, unchanged).
+  Structure D (deep outflow): ground drain 15.27 m below the land surface
+    (the median depth to water of the 112 regional levels, file 28).
+    Conductivity re-estimated with PEST on the same four static levels at
+    the same 10 m interval, same limits (surface deposits 0.03-3.0 m/d,
+    bedrock 0.0005-0.05 m/d), log-transformed, same PEST mode, two runs:
+      run 1 from the values of S: phi 25.641 -> 11.183
+      run 2 from bedrock 0.000725146 m/d: phi 19.666 -> 11.183
+    Both runs end at the same point with BOTH conductivities at their
+    LOWER LIMITS: surface deposits 0.03 m/d, bedrock 0.0005 m/d. These
+    are the values of D. The four levels therefore do not determine
+    them; the limits do. Both values are upper limits in the sense of the
+    design (any lower value would fit the four levels at least as well).
+    Transmissivity over 207.5 m: surface deposits 6.2 m2/d, bedrock
+    0.10 m2/d (S: 89 and 0.60 m2/d; GRAII mean 22.81 m2/d, file 3).
+ 
+Budget error: 0.00 % in every run (MODFLOW-NWT closes the budget; the
+-0.54 % of the earlier PCG2 run is gone).
+ 
+ 
+2. CALIBRATION: THE FOUR STATIC LEVELS
+--------------------------------------
+Observed head = ground level from the 20 m elevation model minus the
+archive depth to water. Calibration interval 10 m at 95 % (standard
+deviation 5.102 m).
+ 
+  Residual (m)          2526AD00180  2526CA00602  2526CA00864  2526CB00135
+  S                        -28.94        -5.95        +2.61        +1.53
+  D                        -14.67        +5.64        +4.16        +5.18
+  Benchmark (land - 15.27) -14.73        +6.03        -4.96        +4.30
+ 
+                         Mean    Mean abs.   RMS     RMS without     Phi
+                         (m)     (m)         (m)     2526AD00180 (m) (10 m)
+  S                     -7.69     9.76      14.85       3.85         33.89
+  D                     +0.08     7.41       8.53       5.03         11.19
+  Benchmark             -2.34     7.50       8.61       5.15         11.39
+(The MODFLOW-2000 run of S gave -28.94, -5.93, +2.65, +1.66 m; the
+MODFLOW-NWT values above replace them. Range of observed heads 286 m.)
+ 
+In D the head cannot rise above the ground drain, 15.27 m below the land
+surface, so the best residual a borehole can reach is 15.27 m minus its
+depth to water: +6.03, -14.73 and +4.30 m at 2526CA00602, 2526AD00180 and
+2526CB00135. D reaches it at all three (within 0.9 m; the cap is set by
+the model top of the cell, not by the 20 m ground level); only
+2526CA00864 is free. The better fit of D at the four levels comes from the outflow
+depth, not from the conductivities. D at the four levels is about as
+good as the benchmark.
+ 
+ 
+3. COMPARISON WITH THE 262 LEVELS OF UNRECORDED STATUS (outside the calibration)
+-----------------------------------------------------------------------
+262 single levels (archive, file 43), 1910-1994, in 52 location groups.
+Observed head = ground level from the 20 m elevation model minus depth to
+water, for every borehole (one elevation source throughout). Simulated
+head interpolated at the borehole. "By group" = root mean square of the
+group means (each group counts once).
+ 
+                               Mean    Mean abs.   RMS    Within    RMS by
+                               (m)     (m)         (m)    +/-10 m   group (m)
+  S                            -7.0     18.0       24.3    31 %      24.8
+  D                            -5.6     11.4       16.9    62 %      19.5
+  D with the conductivities
+    of S (check, no PEST)      +4.3     14.7       22.7    53 %      23.5
+  Benchmark (land - 15.27 m)   -6.5      9.9       14.9    71 %      17.9
+ 
+By land-surface level (all 266 levels):
+  Land surface   Levels  Groups   Mean residual (m)      Median depth to water (m)
+  (m)                             S      D      Bench.   S      D      measured
+  1 000-1 100      28       5    -23.1  -11.0  -11.8      4.1   15.8    22.2
+  1 100-1 200      72      25     -9.7   -3.0   -3.9      1.6   15.4    18.3
+  1 200-1 300      80      14     -4.4   -8.9   -9.5     14.2   13.9    24.2
+  1 300-1 600      86      11     -1.9   -2.7   -3.9     12.5   16.2    16.9
+  (Simulated depth = ground level of the 20 m elevation model minus the
+  simulated head.)
+ 
+Further comparisons (262 levels):
+- Levels shallower than 5 m: measured 9; S places the water table
+  shallower than 5 m at 114 of the 262 boreholes, D at 14.
+- Surface deposits (26 levels in 11 groups): RMS S 17.1 m, D 13.8 m,
+  benchmark 13.9 m; by group S 19.7, D 15.0, benchmark 15.2 m.
+- Western arm (23 levels): RMS S 25.4 m, D 23.9 m, benchmark 22.5 m; mean
+  residual S -15.4, D -14.3 m: both structures place the water table
+  there about 15 m too high on average.
+- The scatter of depth to water inside the location groups (standard
+  deviation about 11 m) is a floor below which no model with 200 m cells
+  can fit these levels; the benchmark (14.9 m) and D (16.9 m) are close
+  to it.
+ 
+INFERENCE. The 262 levels support D over S in the valleys, where S holds
+the water table 1-4 m below the surface and the measured levels lie
+18-22 m deep; in the uplands neither structure is clearly better. D does
+about as well as the simple benchmark, which shows that the records
+constrain the outflow depth more than the conductivities. Because the
+status of these levels is not recorded, some may have been measured
+during or soon after pumping; this would make the measured levels too
+deep and favour D unfairly. The comparison is not a validation.
+ 
+ 
+4. WATER BUDGET OF THE TWO BASE CASES
+-------------------------------------
+                                S                       D
+                         m3/d   Mm3/a  share     m3/d   Mm3/a  share
+  In: recharge          48 004  17.53   100 %   48 004  17.53   100 %
+  Out: ground drain     21 005   7.67    43.8 % 46 276  16.90    96.4 %
+       river drains     10 994   4.02    22.9 %    344   0.13     0.7 %
+       stream drains    16 006   5.85    33.3 %  1 384   0.51     2.9 %
+  Rivers + streams      27 000   9.86    56.2 %  1 728   0.63     3.6 %
+  The river drains are FOUR rivers (575 drain entries in 531 cells): the
+  Klein Marico River from 300 m below the dam wall to Kromellenboog Dam
+  (195 entries), the Doringrivier (132), the Waterkloofspruit (119) and
+  the Wilgeboomspruit (129). The stream drains are all other mapped
+  streams (687 lines, 555.6 km; 4 239 entries in 3 395 cells). All of
+  them join the Klein Marico River above Kromellenboog Dam.
+  Outflow to each river (m3/d):   Klein Marico  Doringrivier  Waterkloofspruit  Wilgeboomspruit
+                            S        6 822         2 123           1 135              914
+                            D           50           251               0               43
+  Median depth to water: S 9.1 m (17 % of cells within 1 m of the
+  surface); D 15.3 m (no cell within 1 m). Under the irrigated land (the
+  45 cells of P1): S 4.5 m, D 15.3 m.
+ 
+Against the surface flows (scale only; different kinds of quantity):
+naturalised runoff of A31E 7.21 Mm3/a (modelled, includes storm runoff);
+baseflow estimates 2.00 Mm3/a (DWS, 2021) and 2.53 and 3.43 Mm3/a
+(file 3); net contribution of the reach between the dams 5.01 Mm3/a
+(APPROVED_Phase_3, table B2). The groundwater discharge to rivers and
+streams is 9.86 Mm3/a in S, above every estimate, and 0.63 Mm3/a in D,
+below every estimate. INFERENCE: the real catchment lies between the two
+structures; neither is right alone, which is why both are reported.
+ 
+The ground drain stands for seepage, springs and evaporation and plant
+uptake from the water table, lumped. In S it acts at 1 m below the
+surface; in D at 15.27 m. Its large share in both follows from the low
+bedrock conductivity, which cannot carry the recharge sideways to the
+streams (APPROVED_Phase_4_Part_1B).
+ 
+ 
+5. REGISTERED BOREHOLE USE (run 0R, a check)
+--------------------------------------------
+The 28 borehole records registered inside A31E, 265 186 m3/a (726 m3/d,
+0.265 Mm3/a) at 27 registered positions in 25 model cells, as constant
+rates. A registered position is not a borehole and a registered volume is
+not abstraction: 0R tests the base case, it is not a case of its own.
+                                     S              D
+  Rate entered (m3/d)               726            726
+  Rate pumped (m3/d)                726            578  (80 %; cells too
+                                                         near the bottom)
+  Mean drawdown in the 25 cells     13.4 m         36.3 m
+  Share from river drains           62.4 %          0.7 %
+  Share from stream drains          10.1 %          0.2 %
+  Share from ground drain           27.5 %         99.1 %
+  Change in residual at 2526AD00180  0.00 m         0.00 m
+INFERENCE. Registered use at the registered positions does not move the
+head at 2526AD00180, so it does not explain the misfit there. The base
+cases stay without wells, as designed.
+ 
+ 
+6. ABSTRACTION CASES (objective 4)
+----------------------------------
+P1 = the 45 model cells whose centre lies on the land mapped as irrigated
+in the strip below the dam (41 in surface deposits, 4 in bedrock); P2 =
+the 474 surface-deposit cells within 1 km of that land; P3 = the 410
+bedrock cells within 1 km of that land. The total rate is spread evenly
+over the cells; per P1 cell: 0.25 Mm3/a = 0.18 L/s, 0.5 = 0.35, 1.0 =
+0.70, 2.0 = 1.41, 2.34 = 1.65 L/s (scale only, beside the mapped yield
+class of 0.1-0.5 L/s under most of the irrigated land and the median
+strike yield of 0.3 L/s). Drawdown = head of the base case minus head of
+the case. Shares = change in each drain outflow / rate pumped (they add
+up to 100 % within rounding).
+ 
+6.1 P1, the abstraction curve
+  Rate      Structure  Pumped    Mean draw-  Largest    Area >1 m  Area >5 m  Pumped cells  From      From     From
+  (Mm3/a)              (m3/d)    down in     drawdown   (km2)      (km2)      >47.5 m deep  rivers    streams  ground
+                                 cells (m)   (m)                              (of 45)       (%)       (%)      drain (%)
+  0.25      S             684      0.96        4.98       2.6        0.0         0          88.7      0.4     11.0
+  0.25      D             684      4.92       24.90       3.5        0.6         0           0.3      0.0     99.8
+  0.50      S           1 369      2.30       10.81       5.2        0.5         0          88.8      0.4     10.7
+  0.50      D           1 369     20.57       76.48      11.9        7.9         7           0.5      0.0     99.5
+  1.00      S           2 738      7.43       26.41      17.0        8.0         0          86.7      0.9     12.3
+  1.00      D           2 554 *  117.5       188.2       24.5       20.1        39           1.0      0.0     98.9
+  2.00      S         not run
+  2.00      D           3 228 *  160.2       190.9       30.8       24.7        39           1.5      0.0     98.4
+  2.34      S           6 407     40.83      116.97      46.5       26.8        19          74.6      3.9     21.5
+  2.34      D           3 367 *  164.0       191.1       32.4       26.2        42           1.5      0.0     98.5
+  * D cannot deliver the rate entered: the head in most pumped cells
+    falls to near the bottom of the 207.5 m layer and the wells are
+    reduced. In D the 45 cells under the fields deliver at most about
+    3 400 m3/d (1.2 Mm3/a). "Pumped cells >47.5 m deep" = water level more
+    than 47.5 m below the land surface, the base of the weathered zone in
+    GRAII (file 3); reported as a count only, never as a prediction.
+ 
+6.2 Spreading the abstraction (0.5 and 2.34 Mm3/a)
+  Case         Structure  Mean draw-   Largest   Area >1 m  Pumped cells   From      From     From
+                          down in      drawdown  (km2)      >47.5 m deep   rivers    streams  ground
+                          cells (m)    (m)                                 (%)       (%)      drain (%)
+  P2 0.50      S            0.55         2.26       6.9      11 of 474      88.4      0.4     11.2
+  P2 0.50      D            0.73         4.41       7.6       2 of 474       2.7      0.0     97.3
+  P2 2.34      S            8.22        17.32      66.6      16 of 474      85.8      1.4     12.8
+  P3 0.50      S            3.93        15.31      20.3       9 of 410      41.3     16.7     41.9
+  (P2 2.34 and P3 in D were not run.)
+  Most cells counted below 47.5 m in P2 and P3 are cells where the water
+  table is already deeper than 47.5 m in the base case (high ground at
+  the edge of the 1 km band): S P2 0.50 11 of 11, S P2 2.34 11 of 16,
+  S P3 0.50 8 of 9, D P2 0.50 2 of 2.
+ 
+6.3 How much of D's result comes from its conductivities (one check run)
+  D with the conductivities of S (no PEST), P1 at 0.5 Mm3/a, against the
+  same structure without wells: mean drawdown in the pumped cells 2.22 m
+  (D: 20.57 m; S: 2.30 m); largest 10.3 m; 0 pumped cells below 47.5 m;
+  100 % of the water from the ground drain, 0 % from the rivers and
+  streams.
+  INFERENCE. The model structure (the depth of the outflow) decides WHERE
+  the pumped water comes from: from the river drains in S, from the deep
+  outflow in D, whatever the conductivity. The conductivity decides HOW
+  FAR the water level falls: with the conductivities of S both structures
+  give about 2.3 m at 0.5 Mm3/a; with the lower-limit conductivities of D
+  the drawdown is about nine times larger.
+ 
+6.4 Where the river water would come from (S)
+In S about 87-89 % of an abstraction of 0.25-1.0 Mm3/a under the fields
+is balanced by less discharge to the RIVER DRAINS (four rivers, see
+section 4); only 0.4-0.9 % by the stream drains; the rest by the ground
+drain. Split by river (each drain entry assigned to the nearest river
+line; an entry near a junction may belong to either river), less outflow
+in m3/d and as % of the rate pumped:
+                     Klein Marico    Doringrivier  Waterkloofspruit  Wilgeboomspruit  All four
+  S P1 0.5 (1 369)    943 (68.9 %)      0            274 (20.0 %)          0        1 216 (88.8 %)
+  S P1 2.34 (6 407) 4 182 (65.3 %)      0            595 (9.3 %)           1        4 779 (74.6 %)
+  D P1 0.5 (1 369)      7 (0.5 %)       0              0                   0            7 (0.5 %)
+In steady state this is water that would otherwise have flowed down the
+Klein Marico River and the lower Waterkloofspruit towards Kromellenboog
+Dam: a transfer between users, not new water. The drains only remove
+water, so the model cannot show a pumped valley drawing water out of the
+river itself.
+ 
+ 
+7. RECHARGE CASES (objective 5)
+-------------------------------
+Recharge x 0.72 (stress test), x 0.80 (cases A and B), x 1.20 (case C),
+sensitivity steps (APPROVED_Phase_4_Part_1B, item d). Changes against the
+base case of the same structure.
+ 
+  Case   Structure  Recharge   Ground drain   River drains   Stream drains  Mean change   Mean change in
+                    (m3/d)     (m3/d)         (m3/d)         (m3/d)         of head, all  head under the
+                                                                            cells (m)     fields (m)
+  Base   S          48 004     21 005         10 994         16 006           -              -
+  R072   S          34 563     14 906          8 402         11 256         -2.98          -0.31
+  R080   S          38 403     16 613          9 170         12 621         -1.96          -0.20
+  R120   S          57 605     25 595         12 772         19 239         +1.47          +0.17
+  Base   D          48 004     46 276            344          1 384           -              -
+  R072   D          34 563     33 456            183            925         -0.95          -0.07
+  R080   D          38 403     37 115            229          1 060         -0.61          -0.05
+  R120   D          57 605     55 457            458          1 690         +0.41          +0.04
+  Discharge to rivers and streams, S: 27 000 -> 19 658 (x0.72), 21 791
+  (x0.80), 32 011 m3/d (x1.20): it changes by
+  -27 %, -19 % and +19 %, slightly less than the recharge (-28 %, -20 %,
+  +20 %). D: 1 728 -> 1 108, 1 289, 2 148 m3/d (-36 %, -25 %, +24 %).
+  The largest falls of head are on the high ground (S down to -25 m at
+  x0.72); under the fields the water table hardly moves, because the
+  drains hold it.
+  Residuals at the four static levels: unchanged at 2526AD00180 in both
+  structures; in S, 2526CB00135 moves from +1.53 to +7.37 m (x0.72).
+ 
+Abstraction under the drier recharge (case A/B, x0.80), P1 at 0.5 Mm3/a,
+against the R080 run of the same structure:
+  S: mean drawdown in the pumped cells 2.53 m (2.30 m at full recharge);
+     89.4 % from the river drains and 0.5 % from the stream drains
+     (89.9 % from the rivers and streams together).
+  D: 28.79 m (20.57 m at full recharge); 15 pumped cells below 47.5 m
+     (7 at full recharge); 99.3 % from the ground drain.
+(The combinations with x0.72 and x1.20 were not run.)
+ 
+ 
+8. THE SCALED PAIR (no extra run needed)
+----------------------------------------
+Multiplying recharge, both conductivities and all drain conductances by
+the same factor leaves every head unchanged and scales every flow (a
+property of the equations; the PHIRAMP threshold depends only on the
+layer thickness). An abstraction Q in a model scaled by f gives the same
+heads as an abstraction Q/f in the unscaled model. So:
+  recharge and conductivities halved, P1 at 0.5 Mm3/a = P1 at 1.0 Mm3/a:
+    mean drawdown S 7.43 m, D 117.5 m (D cannot deliver it);
+  recharge and conductivities doubled, P1 at 0.5 Mm3/a = P1 at 0.25:
+    mean drawdown S 0.96 m, D 4.92 m.
+The four static levels fit the halved, the calibrated and the doubled
+model equally well, yet the drawdown at 0.5 Mm3/a ranges from 0.96 to
+7.43 m in S and from 4.9 m to beyond what the cells can deliver in D.
+INFERENCE. This is the clearest measure of what four water levels cannot
+decide: the absolute recharge and conductivity, and with them the
+drawdown.
+ 
+ 
+9. THE SCREENING BALANCE (from file 42 and the archive)
+-------------------------------------------------------
+Mean shortfall against the registered volume = (1 - reliability by
+volume, 74 years) x 2.34 x the demand factor of the case:
+  Mm3/a          Reference   A      B      C      Stress
+  With the rule    0.48     0.65   0.70   0.47   0.79
+  Without          0.27     0.41   0.44   0.27   0.51
+Rate during the longest event of the Reference run: 1.80 Mm3/a with the
+rule (21.86 Mm3 in 146 months), 2.05 without (3.42 Mm3 in 20 months).
+As a share of the recharge of 17.336 Mm3/a (DWS, 2021): mean shortfall of
+the Reference run 1.6-2.8 %; longest event 10-12 %; the whole registered
+volume 13.5 %.
+As a continuous rate: 0.27 Mm3/a = 8.7 L/s, 0.48 Mm3/a = 15.2 L/s, the
+registered volume = 74.2 L/s. At the median strike yield of 0.3 L/s that
+is 29-51 boreholes for the mean shortfall and about 247 for the
+registered volume; the strike yields of all 109 boreholes add up to
+93 L/s. Scale only: a strike yield is measured while drilling and is not
+a sustainable yield; a zero may mean "not recorded".
+ 
+ 
+10. RUNS THAT WERE NOT MADE (decided on 11 October 2026)
+-------------------------------------------------------
+Of the 74 runs of the design, 27 were made (plus D_TEST and the two PEST
+runs). Not made, with the reason:
+- S P1 at 2.0 Mm3/a: read between 1.0 and 2.34.
+- D P2 at 2.34 and D P3 at 0.5.
+- Recharge x0.72 and x1.20 combined with abstraction (both structures);
+  x0.80 with abstraction was made (cases A and B, the main cases).
+- The sensitivity set: conductivities x0.25/x0.5/x2, river and stream
+  drain conductance x0.1/x10, ground-drain conductance x0.001, outflow
+  depth 12.8 and 26.8 m in D. Partly covered by: the scaled pair (section
+  8, no run needed), D with the conductivities of S (6.3), and the two
+  structures themselves (outflow depth 1 m against 15.27 m).
+These are stated as limitations; no result in the article rests on them.
+ 
+ 
+11. FILES BEHIND THIS SUMMARY
+----------------------------
+My GMS runs: A31E_GW_S_00, _0R, _P1_025, _P1_050, _P1_100, _P1_234,
+_P2_050, _P2_234, _P3_050, _R072, _R080, _R120, _R080_P1_050;
+A31E_GW_D_00, _0R, _P1_025 to _P1_234 (five rates), _P2_050, _R072,
+_R080, _R120, _R080_P1_050, _KofS_P1_050; A31E_GW_D_TEST, _PEST1,
+_PEST2. Figures O, P and Q (file 35).
+ 
+ 
+12. CORRECTIONS IN UPDATE 19 (11 October 2026)
+----------------------------------------------
+- Sections 4 and 6.4: the river drains are four rivers, not the Klein
+  Marico River alone; the outflow and the captured water are split by
+  river (read from the same GMS output files).
+- Section 7: the share from the stream drains in S at recharge x 0.80
+  with P1 at 0.5 Mm3/a (0.5 %) is added.

@@ -1,0 +1,25 @@
+WHICH WORKBOOK IS THE LATEST (8 November 2026)
+
+No single earlier file had both case M and the firm-yield sheet. They are combined now:
+
+LATEST (use as the truth):
+  1_water_balance_LATEST/A31E_Dam_Water_Balance_v2_caseM_FirmYield_sw1.xlsx   inflow switch 1 (primary series)
+  1_water_balance_LATEST/A31E_Dam_Water_Balance_v2_caseM_FirmYield_sw2.xlsx   inflow switch 2 (adjusted series)
+Both: Reference run unchanged; case M entered in place of case A (Params row 39: inflow 0.93,
+evaporation 1.064, demand 1.064; sheets Run_A and Run_A_N hold M); case D = old case B row
+(0.80, 1.064, 1.064; Run_B, Run_B_N); sheet FirmYield (Reference run, demand 0.20 to 0.50 Mm3/a).
+Check values: sw1 Reference 364 (rule) and 118 (no restriction) failure months; sw2 366 and 120.
+The adjusted series (sw2) is the one in the Block 3 results table 49a.
+
+Older files they replace: A31E_Dam_Water_Balance_v2.xlsx (original, no M, no FirmYield, 10 Oct),
+M_sw1/M_sw2.xlsx (M, no FirmYield, 20 Oct), A31E_Dam_Water_Balance_v2_FirmYield.xlsx
+(FirmYield, case A still the old 0.8/1.036, 21 Oct).
+The FirmYield values are typed results of recalculations (not formulas) for the Reference run.
+
+OTHER WORKBOOKS BEHIND TABLES (2_other_workbooks_behind_tables):
+  49e_geology_dolomite_table.xlsx        geology / dolomite share table
+  49h_flood_profiles_Q100_SDF.xlsx       water-level profiles, Q100 SDF plan
+  A31E_Gauge_data_quality_tables.xlsx    Tables A and B, gauge data quality
+  design_hydrographs_15min.xlsx          design hydrographs (flood)
+The result tables of the groundwater (49b), MODPATH (49c), water quality (49d) and flood
+(49f, 49g, 49i, 49j) are csv/txt files, not workbooks; they are in the file 49 set.

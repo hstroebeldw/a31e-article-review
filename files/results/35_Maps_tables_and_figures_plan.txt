@@ -1,0 +1,492 @@
+MAPS, TABLES AND FIGURES FOR MY ARTICLE, AND MY SUPERVISOR'S REMARKS
+====================================================================
+
+Prepared on 7 October 2026. Revised on 20 October 2026 (Update 23): Block 3 adds Maps 9, 10 and 11, a small addition to Map 2, Figure R, and redraws Figures N and Q (section 7 below wins over the earlier sections where they differ). Revised on 11 October 2026 (Update 18), after
+Phase 4 Part 1B was approved: Map 8 shows both groundwater structures;
+Figure O shows both; Figures P and Q are added for the groundwater
+results (drawn). Revised again on 10 October 2026, after
+Phase 4 Part 1A was approved: Figures C, D and F are drawn; Figures I to
+O are added for the Methodology and the Results; the map of my
+groundwater model is defined. Revised on 10 October 2026, after Phase 3 was
+approved: I supply the figures; Figure E moves to the conceptual
+model; Table 8 is the water balance of the dam; Map 7 uses the three
+classes of the national DRASTIC map. Revised earlier that day, after
+Phase 2 was approved: Map 3 names its two sources and its legend groups; Map 7 (DRASTIC
+aquifer vulnerability) is added for the conceptual model; the tables are
+numbered as in APPROVED_Phase_2. Revised on 8 October 2026: Map 3 uses the
+complete geology of the Council for Geoscience map sheets. Earlier
+revision: Map 2 names the
+Doringrivier and the Waterkloofspruit, and section 5
+records where the tables and figures stand.
+
+This file says which maps, tables and figures my article will contain, what
+each one must show and why it is there. I make every map in GIS and supply
+every graph and figure, as PNG images at 300 dpi and 16 cm wide. Plan the text around this list.
+
+The rule behind the list: a map, table or figure is included only if it
+helps to answer the approved research question (file APPROVED_Phase_1) or
+to explain a decision or an assumption to the reader. If you think one is
+missing, or that one of mine is not needed, say so and give the reason. Do
+not add maps or figures without telling me.
+
+
+1. WHAT MY SUPERVISOR WROTE ON MY EARLIER SUBMISSION
+----------------------------------------------------
+These remarks are on the Study Area of my submission of 5 July, which is
+attached to the Phase 2 message. They are copied word for word.
+
+- On the Study Area as a whole (mark 4/10): "there is a lack of referenced
+  research in this section. You have basically made maps and discussed what
+  you see. I know that you can produce a report much better than this."
+- "Move your maps into your document, add a caption, and refer to them in
+  your text. The features mentioned below have no value in the reader
+  cannot conceptualise."
+- On the citation "Britannica, 2025": "Please add a more scientific
+  referene."
+- On two sentences that describe the river reach and the two dams: "This is
+  repeated".
+- On "B, B/C, C and C/D" in the Soils section: "What do these IDs indicate?
+  The reader would not know what soils these are".
+
+She has also told me that a reader without any background must be able to
+follow the article. Where a classification, a code or a method is used, the
+text explains it briefly or gives a small table. This does not mean that
+the content is made simpler.
+
+
+2. THE MAPS
+-----------
+Every map stands in the text, directly under the paragraph that describes
+it, with a numbered caption, and is referred to in the text. No map goes
+into an annexure.
+
+MAP 1. Locality and supply system
+  From my existing locality map.
+  Shows: A31E; the neighbouring catchments A31D and A31C, labelled as
+  upstream; Zeerust; the main roads; the Klein Marico River; Klein
+  Maricopoort Dam and Kromellenboog Dam, both named; an inset of the
+  province.
+  Removed: the schools.
+  Why: it shows where A31E is and that Klein Maricopoort Dam stands at the
+  upstream boundary, so that the water it stores comes from outside.
+
+MAP 2. Topography, drainage and monitoring stations
+  From my existing "Hydrological Map".
+  Shows: elevation; the rivers, with the Doringrivier, the
+  Waterkloofspruit and the Wilgeboomspruit named (file 38); both dams;
+  and every station whose record is used (file 36): A3R002, A3H031, A3H030
+  and A3H042 at Klein Maricopoort Dam, the rainfall and evaporation station
+  A3E003 at the same dam, A3H016 on the Wilgeboomspruit, and A3R003, A3H033
+  and A3H032 at Kromellenboog Dam.
+  Removed: the four rain stations now on the map (0545839 W, 0546630 W,
+  0509123 W and 0509395 W), because I hold no rainfall data for them.
+  Why: one map for relief, drainage and the records. It replaces my slope
+  map: the elevation map already shows the relief, and no slope value is
+  used in the study.
+
+MAP 3. Geology
+  From the 1:250 000 geological map sheets 2526 Rustenburg (Walraven, 1981)
+  and 2524 Mafikeng (Michaluk & Keyser, 1991; the westernmost 12 km2 of
+  A31E). Shows the four rock groups (quartzite and sandstone; volcanic
+  rocks, diabase and tuff; mudrock, shale and hornfels; surface deposits)
+  and the open water of Kromellenboog Dam, labelled with the main
+  formations of the Pretoria Group (Timeball Hill Formation, its
+  Klapperkop Quartzite Member, Hekpoort Formation), and the mapped faults
+  (94 segments) and diabase dykes (13).
+  Legend groups, from the rock classes of my layer:
+      Quartzite and sandstone           Quartzite, Quartzite/Sandstone
+      Volcanic rocks, diabase and tuff  Volcanic rock, Tuff, Diabase
+      Mudrock, shale and hornfels       Mudrock, Shale, Hornfels,
+                                        Slate/Hornfels
+      Surface deposits                  Surficial deposits, Alluvium
+      Open water                        Water
+  Grouped this way, the shares are 31.8, 24.4, 20.9, 22.5 and 0.4 %, as
+  in the text.
+  Why: it explains why the aquifers are fractured and low-yielding, and it
+  shows that the irrigated land lies on surface deposits in the river
+  valley.
+
+MAP 4. Aquifers and boreholes
+  From my existing aquifer type and yield map.
+  Shows: aquifer type (fractured; intergranular and fractured); mapped
+  borehole yield class (0.1-0.5 L/s; 0.5-2.0 L/s); and ONLY the four
+  boreholes inside A31E that have a static water level, each labelled with
+  its depth to water:
+      2526AD00180   25.48838 S, 26.25745 E   30.00 m below ground level
+      2526CA00602   25.50977 S, 26.16042 E    9.24 m
+      2526CA00864   25.52013 S, 26.16725 E   20.23 m
+      2526CB00135   25.61732 S, 26.28300 E   10.97 m
+  Source of the four water levels: National Groundwater Archive (2019).
+  Removed: the other borehole points on the old version of this map.
+  Why: this is my one aquifer map. It shows how little is measured inside
+  A31E, which is the main limit of the groundwater part.
+
+MAP 5. Soils
+  My existing SCS soils map (groups B, B/C, C and C/D), with a small table
+  beside it that says what each group means for infiltration and runoff and
+  what share of A31E each group covers.
+  Why: it supports the account of runoff and recharge in the conceptual
+  model, and the table answers my supervisor's remark.
+
+MAP 6. Land cover, irrigation and water use  (NEW)
+  Shows: the land cover of A31E from the South African National Land Cover
+  2022, grouped into a few classes (natural woodland, natural grassland,
+  rain-fed crops, irrigated crops, fallow land, plantation, water,
+  built-up and other; file 37); the registered positions of the 76 scheme
+  records, the 29 registered boreholes and the 14 registered river
+  abstractions (file 4); both dams; the river; and the canal from Klein
+  Maricopoort Dam if I can trace its route.
+  Why: this is what the research question is about, and no map of mine
+  shows it yet. It shows that the irrigated land lies in one strip below
+  Klein Maricopoort Dam. A registered position is not a field outline, and
+  the map must say so. It also carries the section on land use and land
+  cover. The table of land-cover groups was removed in Phase 2: the text
+  gives the shares.
+
+MAP 7. Aquifer vulnerability (DRASTIC)  (NEW; in the conceptual model)
+  My clipped DRASTIC map of A31E, in the three classes of the national
+  map: low (below 90), moderate (90-140) and high (above 140) (DWAF,
+  cited by Esterhuyse, 2017). 96.7 % of A31E is low and 3.3 % moderate,
+  in a few cells along the northern edge and in the north-eastern corner;
+  no cell is high (highest index 124).
+  Why: it supports the conceptual account of the pathways along which
+  contaminants could reach groundwater, which the Project Brief asks for
+  and which is treated conceptually. One map and one paragraph. As with
+  the other layers supplied to me, the text does not say where I obtained
+  the layer; the classes are cited to the national map. The DRASTIC method itself is explained in one sentence with
+  its reference (Aller et al., 1987). It is an index of intrinsic
+  vulnerability on a coarse national grid, not a measurement.
+
+MAP 8. Groundwater model: simulated depth to water, structures S and D
+  (Methodology or Results)
+  Made in GIS in the same layout as the other maps, as two panels side by
+  side: left, structure S (outflow 1 m below the surface); right,
+  structure D (outflow 15.27 m below the surface). Each panel: the model
+  area (A31E), the simulated depth to water in classes (for example
+  0-2, 2-5, 5-10, 10-20, 20-50, >50 m), the rivers and streams, both
+  dams, the land mapped as irrigated in the strip below the dam, and the
+  four calibration boreholes, each with its residual (observed minus
+  simulated head) for that structure.
+  Why: it shows in one view the difference that matters: S holds the
+  water table within a few metres of the surface along the valleys, D
+  about 15 m below it, which is where the measured levels lie. It also
+  shows where the pumped cells of the abstraction cases are.
+  (Optional: contour lines of the simulated head for S only.)
+  Not shown: the starting heads. They are an input (equal to the land
+  surface), not a result.
+
+NOT INCLUDED, and why:
+- Slope: see Map 2.
+- Vegetation: the vegetation types do not bear on the research question.
+  One sentence in the text is enough. The land cover on Map 6 takes its
+  place.
+- Rainfall distribution: WR2012 gives one rainfall series for the whole of
+  A31E, and I hold one station record. Rainfall is shown as graphs
+  (Figures A, B, E and F) and the station is marked on Map 2.
+- Flow accumulation, drainage density, evaporation deficit, wetlands and
+  recharge potential: none of them is used in the analysis.
+- Flood: one river section is now modelled (Block 3): see Map 11 in section 7.
+
+
+3. THE TABLES
+-------------
+Numbered as in APPROVED_Phase_2. Study Area: Table 1 stations and
+records; Table 2 rock groups; Table 3 groundwater terms and GRAII values;
+Table 4 the four boreholes; Table 5 SCS soil groups; Table 6 registered
+water use by resource type; Table 7 the overlay table. Conceptual model:
+Table 8 the water balance of Klein Maricopoort Dam from the records. The
+data-quality table below becomes Table 9, in the Methodology.
+
+TABLE 1. Stations and records used: station, what it measures, period of
+  the monthly record, number of months and share with a value (file 36).
+TABLE 9 (was "Table 2"). Data quality: the share of each record under
+  each DWS quality code (file 36).
+Why: the reader can see which records the study rests on, how long they
+are and how good they are, before any result is given. No daily data are
+used, so no daily ranges are given.
+
+The small tables of the Study Area (Tables 2 to 7) are written in
+APPROVED_Phase_2. The land-cover table and the table of three quantities
+were removed there.
+
+
+4. THE FIGURES
+--------------
+Each graph has one vertical axis. Where two quantities have different
+units they are drawn as two panels, one under the other, on the same time
+scale. All figures A to O were drawn on 10 October 2026. Their captions
+and places are listed with each.
+
+FIGURE G. Schematic section of A31E along the Klein Marico River, from
+  the upper dam wall to the lower dam: the water from outside A31E
+  (orange: inflow, canal, spill and release) and the water from rain on
+  A31E (blue: runoff, recharge, groundwater towards the valleys).
+  Why: it lets a reader follow how water moves before the numbers.
+
+FIGURE H. Detailed diagram of every flow with its quantity, means for
+  hydrological years 1987-2009 (APPROVED_Phase_3, part C).
+  Why: it carries the numbers of the conceptual model in one place.
+
+FIGURE A. Yearly rainfall at Klein Maricopoort Dam (station A3E003,
+  complete years) and in WR2012 rainfall zone A3B, hydrological years
+  1967-2008.
+  Why: it shows that the one rain station at the dam agrees with the
+  regional rainfall on average (583 against 594 mm/a over 41 complete
+  years) but not year by year. This is the reason for using the WR2012
+  rainfall for the long record.
+
+FIGURE B. Average monthly rainfall and S-pan evaporation at Klein
+  Maricopoort Dam (station A3E003), hydrological years 1967-2014.
+  Why: it shows the summer rainfall season and that pan evaporation is
+  greater than rainfall in every month (about 580 against about 2 000 mm
+  per year). This is why evaporation from the dam surface must be part of
+  the water balance.
+
+FIGURE C. Average monthly volume in the canal from Klein Maricopoort Dam
+  (station A3H031), hydrological years 1997-2014 without 2010.
+  Why: it shows that water is delivered in every month (0.12 to 0.22 Mm3
+  per month). The water balance takes the seasonal pattern of demand from
+  this record and the yearly total from the registered volume.
+
+FIGURE D. Upper panel: monthly storage in Klein Maricopoort Dam, June 1936
+  to November 2010 (reservoir record of A3R002). Lower panel: yearly volume
+  in the canal, hydrological years 1936-2024 (station A3H031), with the
+  registered scheme volume of 2.34 Mm3/a as a reference line. Years that
+  are not counted (a missing or gap-coded month, or a doubtful year) are
+  drawn in grey. Redrawn in Update 19 so that the grey years are exactly
+  the years the counts of Section 6.1 leave out (1975, 1976, 1983, 1994,
+  2002, 2008, 2010, 2012, 2013, 2015-2021, 2023).
+  Why: this is the central figure. It shows the twelve years in which the
+  dam stood nearly empty, and how often and for how long deliveries fell
+  below the registered volume.
+
+FIGURE E. Upper panel: yearly rainfall in WR2012 rainfall zone A3B. Lower
+  panel: yearly inflow to Klein Maricopoort Dam (WR2012 patched observed
+  flow). Hydrological years 1981-2009, each with its long-term mean or
+  median as a line.
+  Why: it shows that the inflow stayed far below its median for ten years
+  after rainfall had recovered. This is the reason the study keeps the
+  recorded inflow sequence and does not rebuild inflow from the rainfall of
+  each year. The years 1975-1980 are left out because the inflow of those
+  years is doubtful. Hydrological years 1994 and 2008 are drawn in grey:
+  they rest on patched months that the storage record contradicts. It
+  stands in the conceptual model (Section 4.1), not in the Results.
+
+FIGURE F. Upper panel: monthly rainfall in WR2012 rainfall zone A3B. Lower
+  panel: monthly flow of the Wilgeboomspruit (station A3H016). December
+  1965 to August 1992. Breaks in the line are gaps in the record.
+  Why: it shows a stream inside A31E that flowed in every month on record
+  until January 1984 and was then dry in 42 of 50 months. It is the only
+  evidence inside A31E of how the catchment, and by inference its
+  groundwater, responded to the drought that emptied the dam.
+
+FIGURE I. (Methodology) Upper panel: monthly release to the river at
+  A3H030 against storage at the start of the month, 1987-2010 (259
+  months), with the mean of each storage band as a line. Lower panel: the
+  share of the registered volume that the canal received in each storage
+  zone, for the fit period, the test period and both periods (the rule
+  used, at most 1.00).
+  Why: it shows where the release table and the restriction rule of the
+  water balance come from, and that the two periods differ in the middle
+  zones.
+
+FIGURE J. (Results) Simulated and recorded monthly storage of Klein
+  Maricopoort Dam, hydrological years 1987-2009 (test of the rule).
+  Why: it shows how well the water balance reproduces the storage record
+  in a period that was not used to fit the rule.
+
+FIGURE K. (Results) Simulated and recorded yearly canal volume,
+  hydrological years 1987-2009 (recorded: complete years only), with the
+  registered volume as a line.
+  Why: it shows the test of the canal deliveries, and that the rule
+  delivers more than was recorded in several years after 1995.
+
+FIGURE L. (Results) Reference run, hydrological years 1936-2009, both
+  bounds. Upper panel: monthly storage. Lower panel: yearly canal delivery
+  against the registered volume. The doubtful years 1975-1980 shaded.
+  Why: it shows when and for how long the supply falls short, and how far
+  apart the two bounds are.
+
+FIGURE M. (Results) Reliability by time and by volume against the demand
+  on the canal, 0.5 to 3.0 Mm3/a, both bounds, all 74 years, with the
+  registered volume (2.34) and the WR2012 demand (2.73) marked.
+  Why: it answers supporting question 3 and shows how much the answer
+  depends on the restriction rule.
+
+FIGURE N. (Results) Share of months in which storage is at or above each
+  level, for the Reference run and climate cases A, B, C and the stress
+  test. Left panel with the restriction rule, right panel without.
+  Why: it shows in one view how each climate case shifts how full the
+  dam is.
+
+FIGURE O. (Results, groundwater) Simulated against observed head at the
+  four static levels, two panels: structure S and structure D, with the
+  line simulated = observed and each residual (file 44, section 2).
+  Caption: Figure O: Simulated against observed head at the four
+  boreholes in A31E with a static water level (National Groundwater
+  Archive), for structure S (outflow 1 m below the surface) and structure
+  D (outflow 15.27 m below the surface), with the residual (observed
+  minus simulated) of each.
+  Why: it shows the calibration of both structures, the 29 m misfit of S
+  at 2526AD00180, and that D fits about as well as the simple benchmark
+  because its outflow depth caps the heads.
+
+FIGURE P. (Results, groundwater) Observed minus simulated head at the
+  262 levels of unrecorded status and the four static levels, against
+  ground level (20 m elevation model); upper panel structure S, lower
+  panel structure D; group means as open circles; the band of +/-10 m
+  (file 44, section 3).
+  Caption: Figure P: Residual (observed minus simulated head) at the
+  single water levels recorded inside A31E (National Groundwater Archive,
+  1910-1994) against ground level, for structure S (upper panel) and
+  structure D (lower panel). Grey: levels whose status is not recorded,
+  not used in the calibration; open circles: the mean of each location
+  group; blue: the four static levels.
+  Why: it shows that S places the water table far too high in the
+  valleys below about 1 200 m, that D removes most of this pattern, and
+  how much scatter the single levels themselves carry.
+
+FIGURE Q. (Results, groundwater) The abstraction curve under the
+  irrigated land (P1): upper panel, the mean drawdown in the pumped cells
+  (logarithmic scale); lower panel, the share of the pumped water taken
+  from the rivers and streams; both against the abstraction rate, for
+  structures S and D, with the range of the mean shortfall of all cases,
+  the rate during the longest event and the registered volume marked
+  (file 44, section 6).
+  Caption: Figure Q: Steady-state response of the groundwater model to
+  abstraction spread over the 45 model cells under the land mapped as
+  irrigated, for structure S and structure D. Upper panel: mean drawdown
+  in the pumped cells; lower panel: share of the abstraction balanced by
+  less discharge to the rivers and streams. Open circles: rates that
+  structure D cannot deliver (label: rate delivered, Mm3/a). Shaded: the
+  mean shortfall against the registered volume in all cases and both
+  bounds (0.27-0.79 Mm3/a) and the rate during the longest shortfall
+  event of the Reference run (1.80-2.05 Mm3/a).
+  Why: it answers objective 4 in one view, as a pair of bounds: how far
+  the water level falls and where the water comes from.
+
+NOT INCLUDED, and why:
+- A histogram of yearly rainfall and cumulative daily rainfall sequences:
+  the study uses the whole recorded sequence and no daily data.
+- S-pan against A-pan evaporation: station A3E003 has no A-pan record.
+- Tables or graphs of daily flow: only monthly records are used.
+
+
+5. WHERE THE TABLES AND FIGURES STAND
+-------------------------------------
+Decided on 7 October 2026, with the Phase 2 plan.
+  Study Area     Maps 1 to 6; Tables 1 to 7; Figures A and B.
+  Conceptual model  Figure G (schematic section); Figure E; Table 8;
+                 Figure H (detailed diagram); Map 7 (DRASTIC).
+  Methodology    Table 9; Figure C; Figure I.
+  Results        Figures D and F (records); Figures J to N (water balance
+                 of the dam); Figures O, P and Q (groundwater model);
+                 Map 8 (Section 6.5).
+The places of Table 9 and Figures C, D and F are confirmed again when the
+Methodology is designed.
+No outline of the irrigation scheme is drawn on Maps 3, 4 and 5: a
+registered position is not a field (file 38, section 6).
+
+
+6. SECTIONS 5 AND 6 AS APPROVED (Block 1, 11 October 2026)
+----------------------------------------------------------
+The worded captions of Figures C, D, F, I to Q and Map 8 are those in
+APPROVED_Block_1_Sections_5_and_6. They win over the descriptions above.
+  5.1  Table 9 (data quality, five groups of codes)
+  5.2  Table 10 (terms of the water balance); Figure C
+  5.3  Figure I
+  5.4  Table 11 (reliability, resilience, vulnerability)
+  5.5  Table 12 (climate cases)
+  5.7  Table 13 (the groundwater model, S against D)
+  5.9  Table 14 (runs made)
+  6.1  Figure D
+  6.2  Table 15 (reach between the dams); Figure F
+  6.3  Table 16 (test measures); Figures J and K
+  6.4  Table 17 (criteria, both bounds); Figure L; Table 18 (longest
+       events); Figure M
+  6.5  Figure O; Table 19 (fit: S, D, benchmark); Figure P; Map 8;
+       Table 20 (water budgets)
+  6.6  Figure Q; Table 21 (cases at 0.5 Mm3/a)
+  6.7  Table 22 (climate cases); Figure N
+  6.8  Table 23 (shortfall against the two structures)
+Figures A to Q are renumbered 1, 2, 3 ... in order of appearance when the
+Word document is compiled.
+
+
+7. BLOCK 3 ADDITIONS (Update 23, 20 October 2026; FINAL as made, Update 24, 21 October 2026)
+----------------------------------------------------------------------------------------------
+Every map is made by me in GIS in the layout of Maps 1-8 (A4 landscape, 300 dpi); the figures are
+drawn by the helper. The captions below are the approved captions of APPROVED_Full_text_v2.
+Map files (A31E_Maps folder): Map 2 = "Topography, Main Rivers & Monitoring Sites of Catchment A31E";
+Map 8 = Depth_to_water_S / _D; Map 9 = Structure S/D_Additional Drawdown; Map 10 = Structure S_Shallow
+outflow / Structure D_Deep outflow; Map 11 = Flood_Depth. Two-panel maps are two separate images, each
+titled "Structure S..." / "Structure D...", placed above each other in Word and labelled (a) and (b).
+
+MAP 2 (changed). Topography (SRTM), main rivers (Doringrivier, Klein Marico, Waterkloofspruit,
+  Wilgeboomspruit), dams, DWS dam and river gauges, water-quality sites (incl. 188257, 188038, 188030),
+  HEC-RAS model area. Flood points F1-F3 are not drawn (defined in Table 14a). The stations at the
+  dam wall are only partly labelled (stated in the caption).
+  Caption: Map 2: Topography, main rivers and monitoring sites of A31E, with the area of the HEC-RAS
+  model along the Klein Marico River. The stations at the Klein Maricopoort Dam wall (A3R002, A3H030,
+  A3H031, A3H042 and A3E003) lie within 400 m of one another; only some are labelled.
+
+MAP 8 (caption only): "(a) structure S ... (b) structure D" in place of left/right.
+
+MAP 6 (caption only, decided in Update 24): the map shows the land cover only, so the caption no longer
+  names the registered water-use positions; Section 2.7 gives their positions in words.
+  Caption: Map 6: Land cover of A31E in 2022 (DFFE, 2024). The land cover is classified from satellite
+  images and is not surveyed on the ground.
+VEGETATION MAP: left out (decided in Update 24); Section 2.7 names the three vegetation types in one
+  sentence and the map adds nothing that the text needs.
+
+MAP 9. Additional lowering of the water table under case D (recharge x0.89), with 0.5 Mm3/a pumped
+  from the 45 cells under the irrigated land in BOTH runs (head P1_050 x1.0 minus head P1_050 x0.89).
+  Two images (S, D), classes <0.5, 0.5-1, 1-2, 2-5, >5 m (orange ramp), pumped cells outlined, rivers,
+  dams. Legend heading "Additional lowering (m)". Numbers: file 49 section 3 (corrected).
+  Caption: Map 9: Additional lowering of the simulated water table when recharge falls to 89% of the
+  base value (case D), for (a) structure S and (b) structure D, with 0.5 Mm3/a abstracted from the 45
+  model cells under the land mapped as irrigated in both runs.
+
+MAP 10. Particle paths from the 45 cells under the irrigated land, base runs without wells, S and D,
+  on a hillshade (NOT on the depth to water: the text gives the depths, Section 6.5 and Map 8). Dark red
+  paths, yellow end-of-path dots, irrigated cells dashed, inset of the eastern cluster.
+  Caption: Map 10: Flow paths of 405 particles released in the 45 model cells under the irrigated land
+  (MODPATH 7; Pollock, 2016), for (a) structure S and (b) structure D. Yellow dots mark the end of each
+  path. In S, 387 of the 405 paths end at a river; in D none do. The paths show advective flow
+  direction only; contaminant transport is not modelled, and travel times depend on an assumed
+  porosity.
+
+MAP 11. Maximum depth of the 1:100-year SDF flood from the RAS Mapper depth raster on the terrain
+  (classes 0.01-0.5, 0.5-1, 1-2, 2-4, >4 m, blue ramp), outline of the 1:50-year flood, land mapped as
+  IRRIGATED hatched (not SANLC cultivated land: the 40 % of cultivated land is read from Table 23b, never
+  from the map), model boundary, inset of the irrigated land.
+  Caption: Map 11: Maximum depth of the 1:100-year flood (SDF method) in the modelled reach of the Klein
+  Marico River, from the HEC-RAS 2D model, with the outline of the 1:50-year flood. Hatching shows land
+  mapped as irrigated; the inset shows the irrigated land in more detail. Depth classes 0.01-0.5,
+  0.5-1, 1-2, 2-4 and >4 m.
+  NOTE FOR BLOCK 4: Map 11 appears in the text (6.9) before Map 10 (6.10); maps are renumbered in order
+  of appearance in the Word document, as the figures and tables are.
+
+NOT ADDED, and why:
+- Pathlines on the lowering map: they come from different runs (base runs against the case-D runs).
+- A map of the flood design catchments with the dolomite: Table 14a carries it, and Map 1 shows A31D.
+- Figures of the design hydrograph, the flood hydrographs and the River_Long profile: their numbers go
+  in Table 23a/23b or one sentence.
+- Maps of the old climate cases A, C and the stress test: these cases are no longer used.
+
+FIGURE N (redrawn, Section 6.7). Share of months with storage at or above each level, Reference run and
+  cases M and D, with and without the restriction rule (two panels).
+FIGURE Q (redrawn, Section 6.6). Unchanged except the shaded band of the mean shortfall, 0.27-0.70
+  Mm3/a (Reference, M and D, both bounds).
+FIGURE R (new, Section 6.10). EC (upper panel) and sulphate (lower panel) at the DWS water-quality
+  sites along the river, Kromellenboog Dam and the Wilgeboomspruit, with the 40 mS/m irrigation limit
+  and the median groundwater EC; single samples as circles. Caption as in APPROVED_Full_text_v2.
+
+NEW TABLES (letter numbers until Block 4): 12 (cases M and D, replaced), 14a (flood catchments), 14b
+  (HEC-RAS set-up), 14c (water-quality sites), 21 (row x0.89), 22 (M and D), 23 (row M and D), 23a
+  (design floods), 23b (floods by plan), 23c (particle tracking), 23d (water-quality screening).
+
+WHERE THEY STAND
+  Methodology  5.5 Table 12; 5.11 Tables 14a, 14b; 5.12 Table 14c.
+  Results      6.5 Map 8; 6.6 Figure Q, Table 21; 6.7 Table 22, Figure N, Map 9; 6.8 Table 23;
+               6.9 Tables 23a, 23b, Map 11; 6.10 Table 23c, Map 10, Table 23d, Figure R.

@@ -1,0 +1,9 @@
+SANRAL Drainage Manual 6th ed. (2013) - checks of the article's citations (8 Nov 2026)
+Supported: SDF always required and compared with other methods (p.3-4); dolomite flood may be less than half of SDF (3-45);
+ triangular hydrograph (3-45, 3-47); time of concentration formula (3-46); SDF basin 1 C2 10 %, C100 40 % (Table 3B.1, 3B-2);
+ Midgley and Pitman formula and Table 3.17 (3-61, 3-62); RMF and Table 3.18 (3-65 to 3-67).
+ RMF recomputed at 1 357 km2: K3 15.9*A^0.60 = 1 205 m3/s; K4 47.9*A^0.54 = 2 355 m3/s (matches Table 11).
+Does not match: "calibrated on 29 catchments" - the manual describes 29 drainage basins built from 152 gauging stations (3-43, 3-44).
+Not reproducible from the article: Midgley and Pitman peak 889 m3/s (K_T, slope, hydraulic length, centroid distance not stated).
+Not verified: K3/K4 boundary near A31E (Figure 3.37 too coarse); Tc = 16.4 h (length and slope not in the article).
+DWS 2021 (Gazette 45568): p.130 Mar_EWR5 in A31E, category C - matches. p.156 A31E population 936, recharge 17.336, baseflow 2.00 - matches.

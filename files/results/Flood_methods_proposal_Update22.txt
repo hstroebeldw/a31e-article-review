@@ -1,0 +1,146 @@
+FLOOD RISK ON THE KLEIN MARICO RIVER IN A31E: METHODS AND HEC-RAS OUTLINE
+==========================================================================
+Prepared 19 October 2026 (Update 22). STATUS: PROPOSAL. The final choice
+of method is made with the student after the SANRAL Drainage Manual and
+the data in section 4 are in hand. Method details marked [manual] must be
+confirmed against the manual before they are used or cited.
+ 
+ 
+1. THE SYSTEM THE FLOOD MOVES THROUGH
+-------------------------------------
+- Reach: Klein Marico River from the wall of Klein Maricopoort Dam
+  (A3R002) to Kromellenboog Dam (A3R003), 24.7 km, fall about 104 m
+  (about 4 m/km) (Section 2.3).
+- Catchment at the upper dam 1 157 km² (A31D and A31C); at the lower dam
+  1 762 km² (DWS, s.a.c). A31E adds about 605 km² through the Doringrivier
+  (joins 4.2 km below the wall, a quarter of A31E), the Waterkloofspruit
+  (13.7 km) and the Wilgeboomspruit (at the head of Kromellenboog Dam).
+- Upper dam: 7.07 Mm³ over 136.8 ha at full supply (DWA, 2012). One metre
+  of surcharge above the spillway crest stores only about 1.4 Mm³, small
+  against the volume of a large flood from 1 157 km², so attenuation is
+  expected to be modest [to be checked with the volume of the design
+  hydrograph].
+- Known risk statements: DWAF (2004:170-171) rated the spillway of Klein
+  Maricopoort Dam "a major risk" and the spillway capacity of Kromellenboog
+  Dam "a major risk factor". News24 (2011) reports that rehabilitation of
+  Klein Maricopoort Dam began in August 2009, that the spillway work was
+  60% complete in January 2011, and that residents "downstream from Klein
+  Maricopoort Dam to Kromellenboog Dam" were warned of possible flooding.
+  The present spillway may therefore differ from the one DWAF (2004)
+  assessed. [Ask DWS Dam Safety Office for the current spillway data if
+  possible; otherwise state the uncertainty.]
+- Side note for Section 6.1: the canal volume of 10.57 Mm³ in hydrological
+  year 2010, left out as unexplained, falls in the rehabilitation period.
+  That the two are linked is only a possibility; it is not to be written
+  as a finding unless a source confirms it.
+ 
+ 
+2. THE METHODS (SANRAL Drainage Manual, 6th ed., Chapter 3) [manual]
+--------------------------------------------------------------------
+  Method | What it needs | Fit for this reach | Main weakness
+  Rational / Alternative Rational | area, Tc, runoff coefficient, design
+    rainfall | No for the main river (manual limits it to small
+    catchments, about 15 km² [manual]); possible for small side streams |
+    lumped coefficient; small areas only
+  SCS-SA | soils (SCS groups, already mapped), land cover, design rainfall
+    | No for the main river (small catchments, about 30 km² [manual]) |
+    small areas only
+  Synthetic unit hydrograph (HRU, 1972) | area, L, slope, veld type |
+    Possible (medium catchments [manual]) | old regional calibration;
+    gives a hydrograph, not just a peak
+  Standard Design Flood, SDF (Alexander, 2002) | area, longest
+    watercourse, 10-85 slope, MAP or design rainfall, SDF basin
+    coefficients (C2, C100) [manual] | YES: built for consistent design
+    at this scale; uses data in hand | known to be conservative against
+    statistical estimates in some basins; peak only
+  Empirical: Regional Maximum Flood, RMF (Kovacs, 1988) | area, K-region
+    | YES as an upper envelope | not a return-period flood
+  Statistical flood frequency (LN, LP3, GEV on annual maximum peaks) |
+    at least about 20 years of ANNUAL MAXIMUM INSTANTANEOUS PEAKS
+    [manual] | YES IF the DWS peak records of A3R002 (spill) or A3R003
+    can be obtained | monthly volumes cannot be used; dam raised in 1966
+    and spillway rehabilitated 2009-2011 (non-stationary record)
+ 
+Records in hand are monthly volumes only. They cannot give a peak. A
+statistical analysis is possible only with the DWS annual maximum (peak)
+series.
+ 
+ 
+3. PROVISIONAL RECOMMENDATION
+-----------------------------
+- Main estimate: SDF for the inflow to Klein Maricopoort Dam (1 157 km²)
+  and for the river at Kromellenboog Dam (1 762 km²), for return periods
+  of 1:20, 1:50 and 1:100 years, with the RMF as an upper envelope.
+- Check: statistical analysis of the A3R002 spill peaks after 1966, if the
+  DWS peak series can be downloaded. If it agrees with the SDF within the
+  usual spread, the SDF stands; if not, the difference is reported and the
+  statistical value preferred, because it is measured at the upstream
+  boundary of the reach and already contains the attenuation by the dam.
+- Attenuation by Klein Maricopoort Dam: conservatively ignored in the
+  hydraulic runs (dam full at the start, peak passed on), with a
+  one-paragraph volume check (surcharge storage against hydrograph volume).
+- Tributaries of A31E: peak flows added at the three junctions (SDF on
+  each sub-catchment), with the note that peaks are unlikely to coincide.
+- Kromellenboog Dam: downstream boundary at full supply level; its own
+  spillway safety is discussed from DWAF (2004), not modelled.
+- Hydraulic model: HEC-RAS 1D STEADY flow (peaks only, which is what the
+  SDF and RMF give), mapped in RAS Mapper. Unsteady 2D needs a hydrograph
+  and the SRTM 30 m terrain does not justify the extra effort; the
+  student's existing 2D mesh can be used as a visual cross-check of
+  inundation extent only if he wishes.
+- Risk = flood extent and depth against what lies in it: land mapped as
+  irrigated (SANLC 2022), the canal (route unknown; note it), built-up
+  land, road crossings.
+ 
+ 
+4. DATA NEEDED BEFORE THE CHOICE
+--------------------------------
+1. SANRAL Drainage Manual (6th ed., 2013), at least Chapter 3 (flood
+   hydrology) with its tables for the SDF basins and the RMF K-regions,
+   and Chapter 4 or the table of Manning's n values.
+2. The design rainfall file the student already has (design flood peak
+   rainfall data), with the name of the program/source that produced it.
+3. If the DWS Hydrological Services site is online: the annual maximum /
+   peak flow series for A3R002 and A3R003 (and A3H016, A3H030, A3H042 if
+   offered), as CSV. If it is offline, say so; the SDF then stands alone.
+4. HEC-RAS version (6.x?) and whether the SRTM 30 m tile is the 1 arc-
+   second void-filled product (file name is enough).
+5. Spillway of Klein Maricopoort Dam: crest length and type, measured on
+   Google Earth (date of image), or any DWS dam-safety data.
+6. Preference: 1D steady (recommended) or 2D.
+ 
+ 
+5. HEC-RAS OUTLINE (full click-by-click plan follows in Update 23)
+-----------------------------------------------------------------
+Part A, can start now (independent of the method):
+ A1 Terrain: SRTM 30 m GeoTIFF -> Project Raster to WGS 1984 UTM Zone 35S
+    (EPSG 32735), bilinear, cell 30 m; clip to the reach with a 2 km
+    buffer, from 300 m below the wall of Klein Maricopoort Dam to 1 km
+    into Kromellenboog Dam; export GeoTIFF (float32).
+ A2 Manning's n layer: clip SANLC 2022 to the same extent; add a field
+    N_VALUE by land-cover group (provisional, from Chow, 1959, normal
+    values; to be replaced by the manual's table if it differs):
+      Main channel (natural, winding, some pools, weeds, stones)  0.040
+      Dense bush and woodland                                     0.100
+      Open bush / thicket with grass                              0.060
+      Natural grassland                                           0.035
+      Cultivated (pivots, crops)                                  0.040
+      Fallow land and old fields                                  0.035
+      Built-up                                                    0.100
+      Open water                                                  0.035
+      Bare ground / erosion                                       0.030
+    Export as a polygon shapefile with the field N_VALUE (or a raster).
+ A3 Note the date of the SRTM (February 2000): Kromellenboog Dam shows a
+    flat water surface at its level of that month, and the river channel
+    itself (tens of metres wide) is narrower than a 30 m cell; the
+    vertical error of SRTM over Africa is several metres. These go into
+    the limitations, not into the method as corrections.
+Part B, after the choice: river centre line, bank lines, flow paths,
+ cross-sections (spacing, width), flow-change locations at the three
+ junctions, steady flow file (1:20, 1:50, 1:100, RMF), boundary
+ conditions (upstream normal depth with slope; downstream known water
+ surface = FSL of Kromellenboog Dam), mixed-regime run, checks (critical
+ depth warnings, cross-section extent), RAS Mapper depth and extent
+ rasters, export to ArcGIS Pro for Map 9 (flood extent and depth with
+ irrigated land).
+ 

@@ -1,0 +1,260 @@
+49. BLOCK 3 RESULTS: CLIMATE CASES M AND D, GROUNDWATER UNDER M AND D, PATHWAYS (MODPATH), WATER QUALITY ALONG THE TWO PATHS, FLOOD (HEC-RAS 2D)
+==========================================================================================================================================
+Prepared 20 October 2026 (Update 23); corrected 21 October 2026 (Update 24): section 3 (Map 9 now
+with the wells running in both runs), section 5 (shares recalculated, guideline values verified),
+section 6 (flood points renamed F1/F2/F3; irrigated land flooded added; method notes), section 7. Every value is CALCULATED from my own runs (Excel water balance,
+GMS/MODFLOW-NWT and MODPATH, HEC-RAS 7.0.1) or from the data files named. Never cite file 49: in the
+article these are the results of this study. Records are cited to their custodians (DWS WMS, DWS
+Hydrological Services, WR2012, IPCC WGI Atlas, SANRAL). Words in [square brackets] are working notes,
+never tags in the article. The structures S and D are always reported together; reliability is always
+reported for both bounds (with the restriction rule = lower bound; without restriction = upper bound).
+
+DECISIONS OF THE STUDENT THAT THIS FILE RESTS ON
+- Climate: two projection-based cases for about 2050 (2041-2060) replace cases A, B, C and the stress
+  test: M (projected median) and D (dry end of the projections). No wet case (the panel asked whether
+  A31E becomes wetter or drier); supporting question 5 is reworded to the median and dry end of the
+  projections (wording in the project instructions, additions of 20 October 2026). Old cases A, C and stress leave the article; old case B had the same
+  surface-water factors as D, so its surface-water results are D's.
+- Flood: HEC-RAS 2D unsteady model of one Klein Marico reach (the reach below the Doringrivier
+  junction), design flood by the SDF method with Midgley & Pitman and the RMF as checks.
+- Pathways: MODPATH particle tracking in GMS from the land mapped as irrigated (both structures), and a
+  screening of the DWS water-quality records along the two paths. Contaminant TRANSPORT is still not
+  modelled.
+
+
+1. CLIMATE CASES M AND D (grounding; see file 45 of Update 22 for the full evidence)
+-----------------------------------------------------------------------------------
+Region: A31E (about 25.5 S, 26.2 E) lies in IPCC AR6 reference region E. Southern Africa (ESAF), about
+1.2 degrees east of the WSAF boundary (Iturbide et al., 2020). Data: IPCC WGI Atlas regional datasets
+(CMIP6, 27-34 models per scenario; CORDEX-Africa 21-31 GCM-RCM pairs), land only, hydrological year.
+Change for 2041-2060 against the mean of the water-balance record (hydrological years 1937-2009):
+  SSP2-4.5: warming p10 / median / p90 = 1.5 / 1.9 / 2.4 C; annual rain -8.5 / -3.1 / +0.5 %
+  SSP5-8.5: 1.9 / 2.4 / 2.9 C; -7.9 / -3.0 / +2.8 %   (SSP1-2.6 and SSP3-7.0 in file 45)
+Against 1995-2014 (as the Atlas publishes it), CMIP6 SSP2-4.5: spring (Sep-Nov) rain -9.9 % median,
+91 % of models drier; CORDEX RCP4.5 spring -5.7 %, 90 % drier. Green Book (Engelbrecht, 2019): >3 C
+possible over the northern interior by 2021-2050 under RCP8.5; rainfall change pattern mixed (p. 37).
+From rain to the case factors:
+  Inflow: rainfall elasticity of inflow to Klein Maricopoort Dam 2.0-2.5 (WR2012 patched observed inflow
+    against zone A3B rain, 1936-2009, non-parametric estimator of Sankarasubramanian et al., 2001).
+    Median -3.1 % rain -> inflow about -7 %; p10 -8.5 % -> about -17 to -21 %.
+  Recharge: recharge ~ rain^1.34-1.39 (MacDonald et al., 2021): median -> about -4 %; p10 -> about -11 %.
+  Evaporation depth and demand: +3.2 to 4 % per C (Scheff & Frierson, 2014): 1.9 C -> about +6.4 %.
+  Case | Warming | Inflow x | Evaporation and demand x | Recharge x
+  M    | 1.9 C   | 0.93     | 1.064                    | 0.96
+  D    | 1.9 C   | 0.80     | 1.064                    | 0.89
+  D takes the inflow and recharge at about the 10th percentile of the projected rain (the dry end), with
+  the median warming. A uniform factor cannot represent the later start of the rains (spring signal):
+  this is stated as a reason the cases may understate the loss of reliability.
+
+2. WATER BALANCE OF KLEIN MARICOPOORT DAM UNDER M AND D (Excel, A31E_Dam_Water_Balance_v2)
+-----------------------------------------------------------------------------------------
+M was run by entering M's factors in the case table; D = old case B (same factors). All 74 hydrological
+years 1936-2009, inflow as recorded (series 1); series 2 (adjusted inflow) in brackets.
+  Criterion                          Reference rule / none   M rule / none        D rule / none
+  Reliability by time                0.590 / 0.867           0.541 / 0.829        0.477 / 0.791
+                                     (0.588 / 0.865)         (0.533 / 0.824)      (0.474 / 0.787)
+  Reliability by volume              0.795 / 0.883           0.758 / 0.854        0.720 / 0.823
+                                     (0.790 / 0.877)         (0.752 / 0.849)      (0.714 / 0.818)
+  Failure months (of 888)            364 / 118               408 / 152            464 / 186
+  Shortfall events                   16 / 11                 17 / 15              17 / 19
+  Resilience                         0.044 / 0.093           0.042 / 0.099        0.037 / 0.102
+  Vulnerability                      0.496 / 0.879           0.524 / 0.858        0.532 / 0.850
+  Longest event (months)             146 / 20                148 / 35             163 / 35
+  Largest event shortfall (Mm3)      21.86 / 3.42            24.55 / 6.15         26.62 / 6.41
+  Yearly reliability                 0.446 / 0.770           0.405 / 0.703        0.324 / 0.635
+  Months below half the registered volume  156 / 111         187 / 138            214 / 164
+Without 1975-1980 (68 years), series 1: reliability by time M 0.500 / 0.814, D 0.431 / 0.772;
+by volume M 0.737 / 0.842, D 0.696 / 0.807; yearly M 0.353 / 0.676, D 0.265 / 0.603 (Reference
+0.554 / 0.855; 0.777 / 0.873; 0.397 / 0.750).
+Longest events: M rule 1983-10 to 1996-01 (148 months); D rule 1983-10 to 1997-04 (163 months).
+Mean shortfall against the registered volume = (1 - reliability by volume) x 2.34 x demand factor:
+  Reference 0.48 / 0.27; M 0.60 / 0.36; D 0.70 / 0.44 Mm3/a (rule / no restriction).
+  Range used in Figure Q: 0.27-0.70 Mm3/a (was 0.27-0.79 with the stress test).
+Figure N (redrawn): storage duration for Reference, M and D, both bounds.
+Full table: 3_DATA/49a_RRV_Reference_M_D_both_series.csv.
+
+3. GROUNDWATER MODEL UNDER M AND D (GMS, MODFLOW-NWT, steady state; runs A31E_GW_{S,D}_{R096,R089}
+   with and without P1 at 0.5 Mm3/a). Budgets in Mm3/a (base case in brackets; file 44).
+-------------------------------------------------------------------------------------------------
+  Run          Recharge   Ground drain   Rivers   Streams   Rivers+streams
+  S base       17.53      7.67           4.02     5.85      9.87
+  S x0.96      16.83      7.34           3.88     5.60      9.49 (-3.8 %)
+  S x0.89      15.60      6.78           3.65     5.17      8.83 (-10.5 %)
+  D base       17.53      16.90          0.13     0.51      0.63
+  D x0.96      16.83      16.23          0.12     0.48      0.60 (-5 %)
+  D x0.89      15.60      15.06          0.10     0.44      0.54 (-14 %)
+  All runs closed with a budget discrepancy of 0.00 %.
+Additional lowering of the water table under the reduced recharge - THIS IS WHAT MAP 9 SHOWS (corrected
+21 October 2026). Both runs carry 0.5 Mm3/a at P1 (45 cells under the land mapped as irrigated), so the
+drawdown of the abstraction itself is removed: lowering = head(P1_050, recharge x1.0) - head(P1_050,
+recharge x0.89), all 15 142 active cells (602 km2). Wording in the article: "additional lowering", never
+"drawdown" (drawdown is the effect of pumping).
+  S x0.96: mean 0.35 m, 95th percentile 1.18 m, largest 3.34 m; under the 45 pumped cells mean 0.08 m
+  S x0.89: mean 1.00 m (median 0.55), 95th percentile 3.39 m, largest 9.31 m; >1 m over 220 km2,
+           >5 m over 7 km2 (6.7); under the 45 pumped cells mean 0.23 m (largest 0.75 m)
+  D x0.96: mean 0.13 m, 95th percentile 0.79 m, largest 2.52 m; under the pumped cells mean 1.26 m
+  D x0.89: mean 0.38 m (median 0.00), 95th percentile 2.31 m, largest 7.52 m; >1 m over 85 km2,
+           >5 m over 3.5 km2; under the 45 pumped cells mean 3.78 m (largest 7.52 m)
+  Reading: in S the largest falls are on the high ground between the valleys; in the valleys and under
+  the fields the drains hold the water table. In D the lowering is small over most of the catchment
+  but largest under and around the pumped cells, where the abstraction has drawn the water table below
+  the ground drain, so the drain no longer holds it and the drier climate adds about 3.8 m to the
+  drawdown (consistent with the drawdown table below: 24.32 against 20.57 m). Case M gives about a third
+  of case D. Classes of Map 9 (both panels): <0.5, 0.5-1, 1-2, 2-5, >5 m.
+  Layers: 3_DATA/53_GIS_layers_for_the_maps/Map09_additional_lowering/ (Map9_additional_lowering_S/D.shp,
+  fields ADD_DD_M, CLASS 0-4, PUMPED), UTM 35S; statistics Map9_statistics.csv.
+  Reference only (not mapped, not in the article): the same comparison WITHOUT wells (base minus case):
+  S x0.89 mean 1.00 m, under the fields -0.11 m; D x0.89 mean 0.30 m, largest 6.62 m, >1 m over 73 km2,
+  under the fields -0.03 m (reference_no_wells/).
+P1 at 0.5 Mm3/a (45 cells under the land mapped as irrigated), drawdown against the run of the same
+recharge without wells:
+  Case     S: mean drawdown in pumped cells / largest / share from rivers   D: mean / largest / cells >47.5 m deep
+  base     2.30 m / 10.81 m / 88.8 %                                          20.57 m / 76.48 m / 7 of 45
+  x0.96    2.34 m / 10.90 m / 89.1 %                                          21.82 m / 78.68 m / 8
+  x0.89    2.42 m / 11.07 m / 89.3 %                                          24.32 m / 83.38 m / 9
+  Share from rivers AND streams (Table 21): x0.89 S 89.8 %, D 0.6 %.
+  D takes 99.4-99.5 % of the pumped water from the ground drain (less seepage and evaporation from the
+  water table), 0.5-0.6 % from rivers. Area with drawdown >1 m: S 5.4 / 6.0 km2; D 12.5 / 13.5 km2
+  (x0.96 / x0.89). [The old x0.80 results of file 44 section 7 are replaced by these.]
+Figure Q (redrawn): only the shaded band of the mean shortfall changes (0.27-0.70 Mm3/a).
+
+4. PATHWAYS FROM THE IRRIGATED LAND (MODPATH in GMS, my runs)
+-------------------------------------------------------------
+Set-up: base runs A31E_GW_S_00 and A31E_GW_D_00 (no wells); 405 particles (9 in each of the 45 cells
+under the land mapped as irrigated), started at the water table, tracked forward. Porosity entered as
+1.0 in all cells so that travel times scale directly: t(n) = t(1.0) x n. Effective porosity of 0.10 for
+the surface deposits (41 of the 45 cells) and 0.01 for the fractured bedrock [source for these values
+to be found and verified in the project chat]. Weak sinks: runs made with "pass through" and with
+"stop"; the two give identical results (byte-identical endpoint files) - report this in one sentence.
+  Structure S: 387 of 405 particles end in a cell whose river drain discharges (the Klein Marico River
+    and its tributaries), 18 in cells where only the ground drain discharges; 45 do not leave their
+    start cell. Path length median 537 m, 90th percentile 3.0 km, longest 3.9 km.
+    Travel time to the river: median 1 404 years at n = 1.0 -> 140 years at n = 0.10 (14 years at 0.01);
+    90th percentile about 700 years at n = 0.10; shortest a few months.
+  Structure D: none of the 405 particles reaches a river or stream drain that discharges; all end where
+    only the ground drain discharges; 288 do not leave their start cell. Path length median 0 m,
+    90th percentile 351 m, longest 1.2 km. Median time to the sink 73 years at n = 1.0 -> 7 years at 0.10.
+  Reading [INFERENCE, to be worded with care]: in S, water recharged under the fields reaches the river
+  after decades to centuries along paths of a few hundred metres; in D it leaves the water table below
+  the fields (as seepage/evapotranspiration in the lumped ground drain) and does not reach the river.
+  Times are advective only (no dispersion, sorption or decay) and rest on an assumed porosity.
+Map 10 layers: 3_DATA/51_GIS_layers_Map10_MODPATH_pathlines.zip (pathlines_S/D, endpoints_S/D; UTM 35S). Do not label times on
+the map (the shapefile times are at n = 1.0).
+
+5. WATER QUALITY ALONG THE TWO PATHS (DWS National Water Management System, extracted May 2024; file 12
+   and the site list of file 5)
+-------------------------------------------------------------------------------------------------
+Sites in order along the river (positions WGS-84, file 5):
+  A3H030   weir below Klein Maricopoort Dam (-25.5221, 26.1511)       1989-1993  n = 56
+  A3H042Q01 river below Klein Maricopoort Dam (-25.5216, 26.1516)    2012-2023  n = 81
+  188257   Kalkdam at Enzelsberg road (-25.5163, 26.1586)              2005-2007  n = 3
+  188038   Nooitgedacht on the Klein Marico (-25.5054, 26.2062)        2004-2005  n = 3
+  188030   Dammenbrug at bridge (-25.4872, 26.2519)                    2004       n = 1
+  A3R003Q01 Kromellenboog Dam near the wall (-25.4435, 26.3454)        1966-2023  n = 248
+  A3H016Q01 Wilgeboomspruit, runoff generated inside A31E (-25.5972, 26.3069) 1971-1991 n = 54
+  Groundwater of A31E: median EC 17.7 mS/m of 7 samples (DWS, 2021, Reserve; file 15).
+Medians (file 5): EC 51.2, 62.3, 76.3, 77.7, 82.6, 21.7, 3.85 mS/m; SO4 30.3, 57, 145, 102, 119, 17.7,
+  3.05 mg/L; Cl 21, 34.6, 45.2, 29.4, 36.1, 6, 1.5 mg/L (same site order).
+Common period 2012-2023: A3H042Q01 EC 62.3 mS/m (n 81) against A3R003Q01 20.7 mS/m (n 87).
+Screening against the South African Water Quality Guidelines (values verified with page numbers,
+21 October 2026): irrigation, upper limit of the target water quality range (DWAF, 1996a, vol. 4):
+EC 40 mS/m (p. 155), SAR 2.0 (p. 134), Cl 100 mg/L (p. 48; 140 mg/L for water applied to the soil),
+Na 70 mg/L (p. 144); aquatic ecosystems, trophic class boundaries for the average summer concentration
+(DWAF, 1996b, vol. 7): inorganic N 0.5 and 2.5 mg/L (p. 84), inorganic P 0.025 mg/L (p. 97).
+Shares RECALCULATED (corrected 21 October 2026): each share is of the samples in which that quantity was
+analysed (n_EC, n_N, n_P in 49d); detection-limit values are taken at the limit and never count as an
+exceedance; surface samples only at A3R003Q01 (n_EC 248). Inorganic N = NO3+NO2-N + NH4-N, or NO3+NO2-N
+where NH4 was not analysed.
+  Share of samples (%)  EC>40   Cl>100  Na>70  SAR>2  InorgN>0.5  InorgN>2.5  PO4-P>0.025
+  A3H030                86      0       0      0      2           0           4
+  A3H042Q01             99      0       0      0      12          4           19
+  188257 / 188038 / 188030  100 / 100 / 100  0  0  0  0 / 0 / 100  0      0 / 33 / 100
+  A3R003Q01             17      0       0      0      16          0           29
+  A3H016Q01             0       0       0      0      5           2           20
+  95th percentiles below the upper dam (A3H042Q01): inorganic N 0.88 mg/L, PO4-P 0.135 mg/L.
+Reading [INFERENCE]: the water released from Klein Maricopoort Dam (path 1, water from outside A31E) is
+saline relative to the runoff (A3H016) and groundwater of A31E (path 2), and stays above 40 mS/m along
+the reach to at least Dammenbrug; Kromellenboog Dam lies between the two, as a mixture would. Mixing
+check, 2012-2023: with 19 % of the inflow to Kromellenboog Dam from the upper dam (Table 15,
+1987-2009), 0.19 x 62.3 + 0.81 x EC_reach = 20.7 gives EC_reach about 11 mS/m, between the
+Wilgeboomspruit (3.9) and groundwater (17.7) - consistent, but evaporation in the dam and different
+periods make it a check only. High EC is not by itself contamination (instructions); the irrigation
+guideline is the yardstick for the canal users. No guideline exceedance for Cl, Na or SAR at any site.
+Figure R: EC and sulphate by site along the river (box plots; single samples as circles).
+Table: 3_DATA/49d_water_quality_screening.csv (corrected version of 21 October 2026).
+
+6. FLOOD: DESIGN FLOOD AND HEC-RAS 2D
+------------------------------------
+6.1 Design flood at F2 (inflow point of the HEC-RAS reach, 419 697 E, 7 179 054 N, UTM 35S, below the
+  Doringrivier junction): catchment 1 357.26 km2 (F1, the dam wall, 1 162.09 km2; F3, Doringrivier,
+  162.65 km2), longest watercourse 94.12 km, 10-85 slope 5.36 m/km (elevations 1 155 and 1 533 m), Lc
+  27.38 km. Dolomite (Malmani Subgroup) covers 629.6 km2 = 46.4 % of F2 (54.2 % of F1, none in F3)
+  (CGS 1:250 000 sheets 2526 Rustenburg and 2524 Mafikeng). Formations: Eccles 262.4, Frisco 206.2,
+  Monte Christo 99.2, Lyttelton 61.6, Oaktree 0.3 km2 (3_DATA/49e_geology_dolomite_table.xlsx).
+  SDF (SANRAL Drainage Manual, 6th ed., ch. 3): Tc = 16.44 h; T100: point rainfall 161.8 mm, ARF 84.4 %,
+  C100 = 0.40. Peaks: 1:2 92, 1:5 289, 1:10 464, 1:20 662, 1:50 974, 1:100 1 252 m3/s.
+  Midgley & Pitman: the empirical deterministic FORMULA of SANRAL (2013) 3.6.3, pp. 3-61-3-62
+  (Q_T = 0.0377 K_T P A^0.6 C^0.2; Bushveld K_T), not the seven-region curves of 3.6.2; MAP 597 mm:
+  1:10 374, 1:20 507, 1:50 703, 1:100 889 m3/s. SDF basin 1 (C2 10 %, C100 40 %; Table 3B.1, p. 3B-2).
+  RMF (Kovacs, 1988): K3 1 205 m3/s; K4 2 355 m3/s; the catchment lies on the K3/K4 boundary (p. 3-67).
+  The 1:100 SDF exceeds the K3 RMF, and the manual warns that floods from dolomite catchments may be
+  less than half the SDF: the SDF is the conservative case, Midgley & Pitman the lower alternative.
+  Hydrographs: triangular, rise Tc (16.44 h), recession 2 Tc, base flow 5 m3/s, 15-minute values
+  09OCT2026 00:00 to 11OCT2026 12:00 (241 values). Peaks entered 972.2 (Q50_SDF), 1 249.7 (Q100_SDF),
+  887.4 (Q100_MP) m3/s; volumes 86.7, 111.3, 79.1 Mm3. Attenuation by Klein Maricopoort Dam is not included
+  (makes the flood larger), and the Waterkloofspruit, which joins 13.7 km below the wall and so within
+  the modelled reach, is not added (makes the flood below its junction smaller).
+6.2 HEC-RAS 7.0.1 set-up: 2D unsteady, Diffusion Wave equations (SWE-ELM as a check); terrain SRTM 30 m
+  (UTM 35S); one 2D area of 24.3 km2, 31 155 cells, 30 m cells refined to 15 m along a breakline on
+  the river (15.7 km between the boundary lines); Manning's n from SANLC 2022 groups: woodland 0.075,
+  open bush 0.058, grassland 0.036, cultivated 0.040, fallow 0.032, built-up 0.100, bare 0.022, water
+  0.035; a 40 m strip along the channel 0.040. Manning's n not calibrated; chosen within the ranges of
+  Chow (in the HEC-RAS Hydraulic Reference Manual, Table 3-1) and the HEC-RAS 2D User's Manual (NLCD
+  table); bare 0.022 lies 0.001 below the lowest value given for barren land. Upstream boundary: flow hydrograph (EG slope 0.00346
+  from the terrain); downstream boundary: normal depth, slope 0.00423. Computation interval 10 s (5 s
+  for SWE-ELM), output every 15 minutes, 60 hours simulated. Volume accounting error 0.0007-0.0016 %.
+6.3 Results (per plan; extracted from the HEC-RAS result files, mesh-cell values):
+  Plan          Inflow peak  Outflow peak  Peak reduced  Delay  Flooded  Max depth  Mean depth  Cultivated land
+                (m3/s)       (m3/s)        (%)           (h)    (km2)    (m)        wet (m)     flooded (km2, >1 m)
+  Q50_SDF        972          951           2.1           2.25   7.72     7.4        2.34        3.17 (2.77)
+  Q100_SDF      1 250        1 236          1.1           1.75   7.97     7.6        2.53        3.24 (2.88)
+  Q100_MP        887          858           3.3           2.00   7.60     7.3        2.28        3.13 (2.71)
+  Q100_SDF_SWE  1 250        1 234          1.3           2.00   8.34     8.0        2.66        3.33 (2.99)
+  Area deeper than 1 m / 2 m, Q100_SDF: 6.66 / 4.93 km2. Water held on the floodplain at the peak:
+  13.5, 15.3, 12.8, 17.0 Mm3; 3.5-3.6 Mm3 still ponded in hollows at the end. Cultivated land in the
+  model area: 8.04 km2 (SANLC 2022); about 40 % of it floods under every design flood; fallow and
+  built-up land flooded < 0.02 km2. [Open: re-extracting SANLC 2022 at 20 m inside the model area gives
+  4.99 km2 of crop classes 38-40 and 7.27 km2 with fallow (42-45, 73); the 8.04 km2 could not be
+  reproduced - keep 8.04 in the article until rechecked.]
+  Land mapped as irrigated flooded (irrigated-land layer, 165 ha in the strip; calculated in GIS from
+  the mesh-cell results): Q50_SDF 42.8 ha (>1 m 35.1), Q100_SDF 44.2 ha (>1 m 38.1) in 9 patches,
+  Q100_MP 41.7 ha (33.5), Q100_SDF_SWE 45.6 ha (39.7). Section 2.7 keeps 168 ha (whole catchment).
+  Velocity (largest on each face): median 0.7, 90th percentile 2.2, 99th percentile 4.2 m/s (Q100_SDF);
+  isolated faces up to 15 m/s at two places are numerical spikes on steep cells and are not reported.
+  The water surface along the river falls continuously from 1 117.1 m to 1 064.6 m over 15.7 km.
+  Cross-sections (Q100_SDF): XS_1 flooded width about 450 m, max depth 2.8 m; XS_2 480 m, 4.5 m;
+  XS_3 360 m, 2.8 m (3_DATA/49h_flood_profiles_Q100_SDF.xlsx).
+  SWE-ELM check: flooded area 5 % larger, peak within 0.2 %; local convergence warnings (largest water
+  surface error 1.12 m in one cell) on the rising limb; volume error 0.0016 %.
+  Reading [INFERENCE]: the reach barely attenuates the flood (1-3 %), because the floodplain stores at
+  most about 15 % of the flood volume; the design floods differ more by method (SDF about 41 % above
+  Midgley & Pitman; Midgley & Pitman about 29 % below the SDF) than the flooded area does (7.6 against 8.0 km2), because the valley confines the flow.
+6.4 Limitations to state: SRTM 30 m terrain (February 2000; the channel is narrower than one cell;
+  vertical error of metres); no measured peak flows, so no statistical flood frequency (the DWS records
+  in hand are monthly volumes); the SDF is not calibrated for dolomite catchments; the flood touches the
+  model boundary over about 0.5 km on the north side near 424 400-424 800 E, 7 179 550-7 179 770 N
+  (25 cells, up to 3.2 m deep), so the extent there may be understated; spillway condition after the
+  2009-2011 rehabilitation unknown (News24, 2011: 60 % complete in January 2011); results are per 30 m
+  mesh cell. Map 11 is drawn from the RAS Mapper depth raster on the terrain (classes 0.01-0.5, 0.5-1,
+  1-2, 2-4, >4 m); the numbers stay those of the mesh cells.
+  Terrain-based flow accumulation (D8 on SRTM 30 m) does not trace a continuous path through one flat
+  bend; the 2D model follows it (water surface falls continuously) - a limitation of D8 in flat valleys.
+Layers: 3_DATA/52_GIS_layers_Map11_flood.zip (cells_<plan>.shp with DEPTH_M, WSE_M, VEL_MS, TPEAK_H, D_CLASS; extent_<plan>.shp;
+depth GeoTIFFs); tables 3_DATA/49f-49j (results by plan, land cover flooded, profiles, design and routed hydrographs).
+
+7. REFERENCES
+-------------
+All references of Block 3 are verified and in the reference list of APPROVED_Full_text_v2 (NWU Harvard,
+with links). Alexander (2002), Pitman & Midgley and Chow are cited through Smithers (2012), SANRAL
+(2013) and USACE HEC (s.a.b). Effective porosity: Woessner & Poeter (2020). DWAF (1996a) vol. 4 is the
+2nd edition; DWAF (1996b) vol. 7 is the 1st edition.

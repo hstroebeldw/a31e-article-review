@@ -1,0 +1,91 @@
+CONTAMINANT PATHWAYS: EXTENDING SECTION 4.5 TO MEET THE BRIEF
+=============================================================
+Prepared 19 October 2026 (Update 22). STATUS: PROPOSAL.
+ 
+The Brief asks for a conceptual and/or numerical model "to improve
+understanding of ... potential contaminant transport pathways". Section 4.5
+now names three routes and shows Map 7 (DRASTIC). It does not yet show
+sources, evidence that the routes carry anything, how fast they move, or
+who receives the water. A screening of source -> pathway -> receptor,
+using data already in hand, closes that gap without transport modelling.
+ 
+ 
+1. WHAT THE DATA IN HAND ALREADY SHOW (first look, DWS WMS data)
+-----------------------------------------------------------------
+Medians, all samples (DWS, s.a.f); periods differ by site:
+  Site (what it is)                         Period     EC mS/m (n)   SO4 mg/L   Cl mg/L   NO3+NO2-N mg/L  PO4-P mg/L
+  A3H030 river below the upper dam          1989-1993  51.3 (57)     30.3       21.0      0.11            0.012
+  A3H042Q01 river below the upper dam       2012-2023  62.3 (81)     57.0       34.6      0.27 (p95 5.0)  0.044 (p95 0.25)
+  A3H016Q01 Wilgeboomspruit (inside A31E)   1971-1991   3.9 (54)      7.0        3.8      0.12            0.014
+  A3R003Q01 Kromellenboog Dam               1966-2023  21.7 (254)    17.8        7.2      0.20            0.023
+  188030 / 188038 / 188257 (location?)      2004-2007  76-83 (1-3)   102-145    29-45     0.12-0.68       0.016-0.028
+  Groundwater A31E, Reserve (7 samples): EC 17.7 mS/m, SO4 2.0, Cl 3.3,
+  NOx-N 0.35 mg/L (DWS, 2021).
+ 
+Reading (inference, to be tested in the analysis):
+- The two paths of the conceptual model carry two different waters. Water
+  from outside A31E, below the upper dam, is three to sixteen times more
+  saline than the runoff and groundwater of A31E itself, and Kromellenboog
+  Dam lies between them, as a mixture would. This agrees with return flows
+  from Zeerust and irrigation above the dam (DWAF, 2004:57, 86).
+- Simple mixing check: with 19% of the inflow to Kromellenboog Dam coming
+  from the upper dam (Table 15, 1987-2009), an EC of about 55 mS/m from
+  upstream and 22 mS/m in the lower dam imply about 14 mS/m for the water
+  of the reach, between the Wilgeboomspruit (4) and groundwater (18). The
+  numbers are consistent; evaporation in the dam and different periods
+  make this a check only.
+- Nutrients below the upper dam are mostly low in the median, but the
+  95th percentiles at A3H042 (NO3+NO2-N 5.0 mg/L; PO4-P 0.25 mg/L) show
+  episodes worth reporting against the South African Water Quality
+  Guidelines.
+- Points to check: the A3H016 EC values (very low; units/period), and
+  where sites 188030, 188038 and 188257 lie (their salinity is the
+  highest of all).
+ 
+ 
+2. PROPOSED CONTENT
+-------------------
+(a) Section 4.5 rewritten as a source-pathway-receptor account:
+    - Sources: return flows from Zeerust and irrigation above the dam
+      (salts, nutrients); the irrigated land below the dam (fertiliser
+      nitrogen and phosphorus, salts in drainage water); rural settlements
+      (on-site sanitation; the Reserve gives 936 people in A31E in 2011);
+      road crossings and other land uses on Map 6 [student to confirm what
+      the land cover and his layers show: mines, landfill, feedlots].
+    - Pathways: the three routes already named, plus floods (wash-off and
+      deposition on the flooded land; link to the new flood section).
+    - Receptors: the canal and its irrigators (path 1), groundwater and
+      boreholes under the irrigated land (path 3), the river reach, which
+      is an Ecological Reserve site (Mar_EWR5, present ecological state C;
+      DWS, 2021), and Kromellenboog Dam and the scheme in A31F.
+(b) Methodology, one short section: screening of the WMS records against
+    the South African Water Quality Guidelines for irrigation and aquatic
+    ecosystems [DWAF 1996 volumes; to be obtained and cited], comparison of
+    the sites along the two paths over a common period, and the mixing
+    check above. Travel time of groundwater from the irrigated land to the
+    river with Darcy's law, from the model heads and conductivities of S
+    and D and a stated range of effective porosity [source to be found].
+(c) OPTIONAL numerical step in GMS (no transport modelling): MODPATH
+    particle tracking, forward from the 45 cells under the irrigated land,
+    in S and D. It shows where water recharged under the fields leaves the
+    model (river drains in S, ground drain in D) and how long it takes for
+    the assumed porosity. This is the Brief's "numerical" pathway model
+    and uses the model as it is. Explicit GMS steps would follow.
+(d) Results: one table (sites along the two paths, medians and guideline
+    exceedances), one figure (EC and SO4 by site, box plots, ordered along
+    the river), and the travel times (and particle tracks, if run).
+(e) Discussion: what the two waters mean for the canal irrigators, for the
+    aquifer under the fields and for the lower dam; the limit that no
+    groundwater-quality series exists.
+(f) DRASTIC stays as it is (Map 7), with its caveats.
+ 
+ 
+3. DATA NEEDED
+--------------
+1. The earlier contaminant assignment with its data (to cross-check).
+2. The WMS site list with coordinates and descriptions for all seven
+   sites (especially 188030, 188038, 188257, and A3H042Q01).
+3. Confirmation of what point sources his GIS layers show in or just above
+   A31E (wastewater works of Zeerust, landfill, mines, feedlots).
+4. Choice: with or without the MODPATH step.
+ 

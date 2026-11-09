@@ -1,0 +1,12 @@
+item,value,source
+gross_area_km2,602,WR2012 quaternary spreadsheet WMA 3 row A31E
+net_area_km2,602,same
+evaporation_zone,2A,same
+MAE_WR2005_mm,1901,same
+MAE_WR90_mm,1900,same
+rainfall_zone,A3B,same
+MAP_mm,597,same
+MAR_WR90_Mm3,9.2,same (1920-1989)
+MAR_WR2005_Mm3,7.37,same (1920-2004)
+MAR_WR2012_Mm3,7.21,same (1920-2009)
+hughes_baseflow_3.43_Mm3,NOT IN THIS FILE,still unsourced
