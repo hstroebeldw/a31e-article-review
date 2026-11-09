@@ -1,3 +1,5 @@
+**SUPERSEDED on 9 November (21:40): the Midgley and Pitman run stays at 889 m³/s (597 mm); use `Results_plain_v3_climate_flood_pathways.md` for 6.6 to 6.8.**
+
 # Results 6.6 to 6.8 (climate, flood, pathways and water quality), plain style, version 4
 
 Draft for approval. Not in the article. Version 4 changes only the Midgley and Pitman figures of 6.7 (mean annual rainfall of 563 mm instead of 597 mm; see `Methods_flood_SDF_v4.md`); everything else is as in version 3. Version 3 replaced `Results_plain_v2_climate_flood_pathways.md` after the panel of 9 November (surface water, groundwater, flood, water quality, citations, editor). The tables, figures and maps are unchanged except where the notes say so. The text now gives the pattern and a few figures; the tables carry the rest. Causes and interpretations are left to the Discussion.
