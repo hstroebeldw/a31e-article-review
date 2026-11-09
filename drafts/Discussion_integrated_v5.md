@@ -1,0 +1,32 @@
+# Discussion (Section 7), integrated, version 5
+
+Draft for approval. Not in the article. It replaces the six sub-sections 7.1 to 7.6 by one section of seven paragraphs without sub-headings. Block 1 v14 and Block 2 v2 are not changed. Results 6.2 to 6.5 are in `Results_plain_v1.md`. Results 6.6 to 6.8 (climate, flood, pathways and water quality) have not yet been through the panel, so paragraphs 4 and 5 lean on the current text.
+
+---
+
+## 7. Discussion
+
+The canal supply cannot be relied on for the registered volume. The dam is small against that volume, the inflow stayed low for twelve years, and in those years it was just over a third of the volume. The inflow is not gauged but is the remainder of the dam's own record, so it carries every error of that record. Whether the low inflow came from recharge that stayed low from 1983 to 1995 (Pyburn, 2015:113, citing an earlier study) or from greater use of water upstream (Kapangaziwiri et al., 2011:128) is not settled. The water balance reproduces the storage of the dam and the yearly canal volume in the test that looks forward, but it was built from the same records and is not an independent check.
+
+The restriction rule matters more for the reliability than the size of the demand, so it is the first thing to settle. In the model, restricting deliveries as the dam empties makes the failures more frequent and longer but less deep, and it delivers less water in total. A similar trade-off was found in a simulated reservoir (Hashimoto et al., 1982:19). The records do not show which restriction was applied. The firm yield with no restriction is about a quarter of the 1.4 Mm³/a that the Department gives, a figure that rests on hydrology not updated since 1988 (DWAF, 2004:50, 83).
+
+The drought also shows that A31E carries two waters that behave differently. The water that the dam releases comes from outside A31E. It failed in the drought, and in most samples below the dam it is above the salinity target for irrigation. Return flows from irrigation and mines upstream carry more salt (DWAF, 2004:57), but the records do not show how much of it reaches the dam. The runoff and the groundwater of A31E are much fresher. Most of the water that reached Kromellenboog Dam in the drought came from the reach between the dams, but it enters the river below the canal and could not replace the canal supply.
+
+Groundwater is tied to both waters, and this limits it as a backup. The shortfall is a small share of the recharge, but that says little about the water that can be taken, because pumped water often comes from less discharge elsewhere (Leake & Barlow, 2013). In structure S, pumping under the irrigated land takes mostly water that would otherwise have flowed down the river towards Kromellenboog Dam. In structure D, the pumped cells cannot deliver the larger rates. The records cannot show which structure is closer to the catchment, and models that fit alike can predict very differently (Troldborg et al., 2007), so the result is a range. Where boreholes are placed also matters, because spreading them lowers the drawdown in both structures. Drainage below the irrigated fields would recharge the same aquifer, and no series of groundwater quality exists below the fields. Which way water leaves the land depends on the same unknown: in structure S nearly all the water from under the irrigated land would reach a river, and in structure D none would, because the water table stands below the river beds.
+
+A warmer and probably somewhat drier climate weakens the canal supply and, in structure D, the groundwater backup, so planning should be tested against the dry end of the projections and not the median. The climate cases probably understate the loss, because they keep the recorded sequence of years and cannot show changes in the length of droughts. The projections point to more agricultural and ecological drought in southern Africa (Ranasinghe et al., 2021:1771).
+
+Part of the irrigated land lies on the floodplain, so its users face two risks: a shortage of water that lasts for years, and flooding. The size of the design flood depends mainly on the choice of method, which the records cannot settle, and the dolomite above the dam may make the SDF too high (SANRAL, 2013:3-45). The flooded extent is a screening and not a flood line, because the terrain is coarse and no flood has been recorded in the reach. The present state of the spillways of both dams is not known to this study.
+
+For the catchment, this means that planning should assume droughts of several years and not the registered volume, and that groundwater cannot yet be relied on as a backup, because its effect on the river has not been established. Each range has a known cause that data could narrow: the unknown restriction rule for the canal, and the unknown position of the water table relative to the river bed for groundwater.
+
+---
+
+## Notes for the author (not article text)
+
+**What changed from version 4** (editor review of Sections 8 and 9 found three gaps in this section)
+- Paragraph 1 has one new sentence on the water balance: it reproduces the storage of the dam and the yearly canal volume in the forward test, and it is not independent of the records. This is what Block 1 v14 says (forward test passes on storage and yearly canal volume, fails on monthly canal volume; the reverse test narrowly fails on the yearly canal volume). The Conclusions now rely on this sentence and do not repeat it in full.
+- Paragraph 4 has one new sentence on the paths: in structure S, 387 of 405 particles end at a river; in structure D none do, because the water table is deeper than the river beds (Results 6.8). The numbers stay in Results. Without this sentence, research question 5 (the paths) had no answer in the Discussion, and the Conclusions could not answer it. It ties the path to the same unknown as the groundwater result, so it adds no new interpretation. Say if you want it out; then Question 5 is answered for water quality only.
+- Paragraph 7: "partial backup" is replaced by "cannot yet be relied on as a backup". "Partial" was a finding that the model does not give: it shows a range from mostly river water (S) to cells that cannot deliver (D), and it cannot say whether the water would sustain the scheme in a long drought. Recommendation 3 and the Conclusions use the same wording.
+
+The notes of version 4 on DWAF (2004) pages, the aquifer inference and earlier changes still apply. The section is now about 765 words in seven paragraphs.
