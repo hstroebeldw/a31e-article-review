@@ -62,3 +62,18 @@ Total registered water use in A31E is 3.38 Mm³/a: 69% scheme (canal), 22% river
 - `files/notes/` : earlier panel report, citation inventory, repetition map and structure template.
 - `context/A31E_Verification_Report.md` : the verification report (status 8 November 2026).
 - `drafts/` : blocks to review. `reviews/` : where the reports are written.
+
+## 7. Updates of 9 November 2026 (afternoon), read after section 5
+
+Sources now read by the main session (replace the matching lines in section 5):
+- DWAF (2004): p. 50 Table 5.1 gives Klein Maricopoort 1.4 million m³/a ("Yield"; source: Crocodile (West) and Marico situation assessment report). P. 54 says the yield of the ISP was obtained from the firm yields of the dams in Table 5.1, so the "described as a firm yield (p. 54)" claim is supported. P. 83: "no update of the hydrological information of the Marico River catchment since the TSWASA agreement" (1988, pp. 50–51) and "The level of confidence on the hydrological information is very low."
+- Pyburn (2015), printed pages: p. 45 is about the Paardenvallei eyes only (declined to almost nil in 1986; low flow for almost a decade until the rains of 1996). P. 113: a 12-year period of no or very little recharge was calculated between 1983 and 1995, corresponding with a decline in spring flow and water tables. P. 5: Rietpoort Well Field commissioned (1974); Rietpoort Spring ceased flowing ten years later "during a period of low rainfall". P. 109 ascribes that cessation (March 1984) to the intensive pumping of the well field. The article cites pp. 28, 44 and 4 (probably PDF page numbers); the printed pages are 45, 5 and 113. Pyburn never mentions the dam.
+- Kapangaziwiri et al. (2011:128): gauged low flows "often affected by poorly defined upstream developments".
+- Fowler et al. (2022): sustained hillslope drainage and delayed recharge rated plausible; farm dams in-between.
+- Peterson et al. (2021): 161 catchments, 37%, by mid-2017, confirmed only through a press report (abstract not opened).
+
+Analysis added in the main session (not in the workbook): script `files/notes/A31E_test_replication_sim.py` is not present here; the numbers are: forward test (rule 1, 1987–2009) storage NSE 0.86, monthly canal 0.38, yearly canal 0.60 (PBIAS −22.4%); reverse test (rule 2, pattern 2, years 1966–74 and 1981–86, series 1): monthly canal NSE 0.53, RSR 0.69, PBIAS +21.8% (154 months); yearly canal NSE 0.34, RSR 0.81, PBIAS +22.5% (12 years). A rule fitted on 1987–2009 itself gives yearly PBIAS −7.2% (NSE 0.68) forward. Recorded-canal run: storage NSE 0.996. The reviewers may re-run these from the workbook (the structure of Run_Test is described in its formulas); treat them as unverified until you have recomputed them.
+
+Errors removed from earlier versions: the median yearly inflow of 1996–2009 is 3.22 Mm³/a, below the long-term median 3.71 (6 of 14 years above), so no argument may use a return of the inflow to above its median after 1996.
+
+Rules for the Discussion (author, 9 November): short, one point per paragraph, the point first; few numbers; no new results; no pointers back to sections; plain words ("store", "memory", "onset", "persistence" are not used); the tone of the Introduction.

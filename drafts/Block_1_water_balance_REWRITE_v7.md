@@ -1,0 +1,140 @@
+# Block 1 rewrite, version 4: Sections 6.2, 6.3 and 7.1
+
+Draft for approval. Not in the article. Table numbers: Table 6 (water balance), Table 7 (reach, new), Table 8 (test, new), Table 9 (reliability, was Table 7); later tables and all cross-references move up by two when this goes in.
+
+---
+
+## 6.2 The canal and the water of A31E
+
+The inflow to Klein Maricopoort Dam, calculated from the dam's own record (series 1), has a median of 3.71 Mm³/a over the hydrological years 1936–2009, or 3.22 Mm³/a without the doubtful years 1975–1980 (Figure 6). It stayed below both medians from 1982 to 1994, although the rainfall of 1987 to 1990 was above its long-term mean, and over the ten years from 1985 to 1994 it averaged 0.84 Mm³/a, which is about a third of the registered volume before any evaporation. The dam fell from 99% of its capacity in December 1982 to 22% in March 1984, and it stayed low until the rains of 1995 and 1996 (DWA, 2012).
+
+Evaporation took a third of the water that entered the dam over 1987–2009 and about half in 1987–1995, when the canal carried only 0.30 Mm³/a (Table 6). The survey capacity of 7.07 Mm³ equals about three years of the registered scheme volume, and about 1.8 years once the evaporation at the mean storage of 1987–2009 and the release to the river are added to that volume.
+
+**Table 6: Water balance of Klein Maricopoort Dam from the records, in Mm³/a (DWA, 2012; DWS, s.a.b).** The inflow is the remainder that closes the balance of the other terms; the monthly series used in the simulations averages 3.39 Mm³/a for 1987–2009. The canal is the irrigation entry of the dam record, which differs from gauge A3H031 (1.23 Mm³/a for 1987–2009). The second column starts in 1987, the first hydrological year in which every outflow is gauged, and ends in 1995, the hydrological year in which the dam recovered. Rounding leaves the columns up to 0.01 apart.
+
+| Term | 1987–2009 | 1987–1995 (drought and recovery) | 1996–2009 |
+| --- | --- | --- | --- |
+| Inflow from the river (remainder) | 3.32 | 1.23 | 4.67 |
+| Rain on the water surface | 0.42 | 0.24 | 0.53 |
+| Evaporation | 1.23 | 0.74 | 1.55 |
+| Canal | 1.20 | 0.30 | 1.78 |
+| Spill | 0.87 | 0.00 | 1.43 |
+| Release to the river | 0.33 | 0.07 | 0.49 |
+| Losses | 0.01 | 0.01 | 0.01 |
+| Change in storage | +0.11 | +0.35 | −0.05 |
+
+Of the 38 years of the raised dam, from 1966 to 2009, with a complete canal record, the canal carried less than the registered volume in 24 years (63%), with a mean shortfall in those years of 58% of the registered volume (Figure 7). The longest run of shortfall years lasted ten years, from 1984 to 1993; 1994 is not counted because one month has no value (DWS, s.a.b). In five of the shortfall years the dam never fell below 75% of its capacity.
+
+The reach between the dams supplied the water that Klein Maricopoort Dam did not pass on. Its net contribution is the inflow to Kromellenboog Dam less the spill and release of the upper dam. It is net of river abstraction and includes return flow of canal water, which the records cannot separate (Table 7). Over 1987–2009 the net contribution was 81% of the inflow to Kromellenboog Dam, 98% in 1987–1995 and 75% in 1996–2009, although the zone rainfall of the two periods was almost the same. It is positive in every year, and it has a rank correlation of 0.76 with the zone rainfall over 21 years (DWA, 2012; DWS, s.a.b). Because the canal carried far less water in 1987–1995 than later, part of the rise after 1995 may be return flow of canal water.
+
+**Table 7 (new): The inflow to Kromellenboog Dam and the water of the reach between the dams, in Mm³/a (DWA, 2012; DWS, s.a.b).**
+
+| Term | 1987–2009 | 1987–1995 | 1996–2009 |
+| --- | --- | --- | --- |
+| Inflow to Kromellenboog Dam (balance) | 6.21 | 3.87 | 7.71 |
+| Passed on by Klein Maricopoort Dam (spill and release) | 1.19 | 0.07 | 1.92 |
+| Net contribution of the reach | 5.01 | 3.80 | 5.80 |
+| Net contribution as a share of the inflow | 81% | 98% | 75% |
+| Naturalised runoff of A31E (modelled) | 6.87 | 7.42 | 6.51 |
+| Zone rainfall (mm/a) | 604 | 598 | 608 |
+
+The Wilgeboomspruit, the only gauged stream inside A31E, flowed in every dry-season month (May to September) on record before February 1984 and averaged 2.1 Mm³/a from December 1965 to January 1984. It was dry in 42 of the 50 months from February 1984 to March 1988, and three of the four months in this period with more than 100 mm of zone rainfall had no flow (211 mm in February 1988). It flowed again from April 1988 and was dry again from March 1992. From April 1988 to August 1992 it averaged 0.69 Mm³/a, a third of its earlier flow, while the zone rainfall of the months with a valid record fell from 660 to 496 mm/a (means annualised from the months with a valid value; Figure 8).
+
+---
+
+## 6.3 Reliability of the canal supply
+
+The water balance was tested in two directions (Table 8; Figure 9). In the forward test, over 1987–2009, the simulated monthly storage and yearly canal volume meet all three criteria and the monthly canal volume does not. In the reverse test, over 1966–1974 and 1981–1986, the monthly canal volume meets the criteria and the yearly canal volume does not. In both directions the rule from the other period leaves the yearly canal volume about 22% out, too high in the forward test and too low in the reverse test. In the forward test the balance delivers 22% more water than the canal carried, and about half of the difference falls in hydrological years 1995 and 1996, the two years after the drought, in which together the balance gives about three times the canal volume. The balance finds a shortfall in 192 of the 265 months with a valid canal record, against 216 in the record.
+
+**Table 8 (new): Test of the water balance in both directions.** The rule was fitted on 1966–1974 and 1981–1986 for the forward test and on 1987–2009 for the reverse test. The criteria are NSE above 0.5, RSR at most 0.7 and PBIAS within ±25% (Moriasi et al., 2007:891). A positive PBIAS means that the model is too low. Storage is not compared in the reverse test, because the area curve comes from the survey of 1982.
+
+| Measure | Forward test, 1987–2009: monthly storage | Forward: monthly canal volume | Forward: yearly canal volume | Reverse test, 1966–1974 and 1981–1986: monthly canal volume | Reverse: yearly canal volume |
+| --- | --- | --- | --- | --- | --- |
+| Values compared | 276 months | 265 months | 20 years | 154 months | 12 years |
+| NSE | 0.86 | 0.38 | 0.60 | 0.53 | 0.34 |
+| RSR | 0.37 | 0.79 | 0.64 | 0.69 | 0.81 |
+| PBIAS (%) | +7.4 | −17.2 | −22.4 | +21.8 | +22.5 |
+| Meets all three criteria | Yes | No | Yes | Yes | No |
+
+Over the 74 years, the canal receives the full registered volume in 59% to 87% of the months, and a year passes without a shortfall in 45% to 77% of the years (Table 9). With the rule, the canal fails three times as often, but a failure month still brings half of the registered volume, while without restriction the canal then receives an eighth. With the rule, the drought forms a single event from December 1983 to January 1996, with a total shortfall of more than nine times the yearly volume, and it includes 40% of all failure months (Figure 10). Without restriction, the same drought breaks into separate events of no more than 20 months. With the rule the canal receives 1.86 Mm³/a on average and without restriction 2.07 Mm³/a, and the dam under the rule loses an extra 0.15 Mm³/a to evaporation and 0.06 Mm³/a to spill. The rule fitted on the fit period alone gives a reliability by time of 0.59, and the rule fitted on the test period alone gives 0.39 and a longest event of 169 months. The adjusted inflow series, prepared for the years before 1987, changes the reliability by time to 0.588 with the rule and 0.865 without restriction.
+
+**Table 9 (was Table 7): Reliability, resilience and vulnerability of the canal supply against the registered volume of 2.34 Mm³/a, Reference run with the inflow as recorded (series 1), hydrological years 1936–2009.** Values unchanged from the current Table 7.
+
+Without restriction, a lower demand helps (Figure 11). The largest demand that the dam could have met in every month of the record is about 0.36 Mm³/a on series 1, since no month fails at 0.36 Mm³/a and one month fails at 0.37 Mm³/a, and about 0.30 Mm³/a on the adjusted series. In both, the first month to fail is October 1992, when the dam held 0.2 Mm³. At 1.5 Mm³/a the unrestricted canal fails in 8% of the months. With the rule, no firm yield exists, because the canal is restricted whenever the dam stands low. Even at a demand of 0.5 Mm³/a the rule leaves a reliability by time of 0.82 and an event of 128 months, because it restricts delivery by storage whatever the demand. The difference between the two bounds at the registered volume, 0.28 in reliability by time, is about as large as the change from raising the demand from 0.5 to 3.0 Mm³/a with the rule (0.29).
+
+---
+
+## 7.1 The canal supply in drought
+
+The canal supply is not secure through a drought as long as that of 1983 to 1995, and the size of the shortfall depends on how the canal was restricted. The two bounds show two ways of running short: with the rule the canal fails more often but each failure is shallower, and without restriction it fails less often but each failure is deeper. Hashimoto et al. (1982:19) found a similar trade-off in a simulated reservoir, where “high system reliability was accompanied by high system vulnerability”. In the model, restriction leaves less water for the canal, partly because the dam then holds more water and loses more of it to evaporation and spill. The reliability depends about as much on the rule as on the demand.
+
+The test shows that the model is consistent with the record, not that it is validated. The inflow was calculated from the recorded storage, so the storage fit mainly tests the outflows, and no gauged inflow exists to test against. Only the rule and the demand are tested independently, and the rule does not carry over from one period to the other. It gives about a fifth too much water in 1987–2009 and about a fifth too little in 1966–1986. The operation of the canal therefore changed, either because the operator restricted harder after 1987 or because irrigators asked for less water, and the records cannot separate the two. For this reason the rule run is not a strict lower bound, and the result is conditional on the rule. The same reasons may explain why the model delivers about three times what the canal carried in 1995 and 1996, which makes the reliabilities probably too high for those years.
+
+The reliabilities describe the security of the registered volume, not the water that crops used. The register records entitlements (DWS, s.a.f), and the registered area, the mapped irrigated land and the volume in the canal cannot be combined. In some shortfall years the dam stood above three-quarters full, so the canal record alone overstates how often water was short. The run without restriction avoids this by asking for the full volume every year, but the rule run carries it forward, because the rule was fitted on the volume delivered against the volume asked for. The dam is also too small for a drought of this length. After evaporation and release, its capacity covers less than two years of the registered volume, and the drought lasted twelve years.
+
+The historic firm yield is about a quarter of the 1.4 Mm³/a that the Department gives for the dam (DWAF, 2004:50), which it describes as a firm yield (DWAF, 2004:54). The two are not like with like. The Department states no assurance of supply and names only a situation assessment report as its source, while the historic firm yield is the largest draft that the recorded sequence allowed. The Department also states that the hydrological information of the Marico has not been updated since the agreement of 1988 and that its confidence is very low (DWAF, 2004:83).
+
+The drought dominates the record, so its cause decides how the results should be read. The inflow probably fell because of the dry years of 1981 to 1986 and stayed low because recharge to the groundwater stayed low for years. Pyburn (2015:113) calculated a 12-year period of no or very little recharge between 1983 and 1995 in the Zeerust dolomite, which corresponded with a decline in spring flow and water tables, and the flow of the Paardenvallei springs declined to almost nil in 1986 and stayed low until the rains of 1996 (Pyburn, 2015:45). That the water of these springs reaches the dam is inferred from the position of the dolomite above it. A second explanation is greater use of water upstream. The Rietpoort Well Field was commissioned in 1974 (Pyburn, 2015:5), and Pyburn (2015:109) ascribes the end of flow at the Rietpoort Spring in 1984 to its pumping. The records cannot separate the two, which is common where gauged low flows are affected by poorly defined upstream developments (Kapangaziwiri et al., 2011:128). In Victoria, Australia, runoff had not recovered by 2017 in 37% of 161 catchments after the Millennium Drought (Peterson et al., 2021:745), and groundwater processes, such as sustained drainage of the hillslopes and delayed recharge, were among the explanations rated plausible (Fowler et al., 2022).
+
+Two limits remain. The inflow is calculated from the storage record, so it carries the errors of every other term of the balance, and those errors matter most when the dam is low. The drought is also a single event in 74 years, so its recurrence cannot be estimated, and the reliabilities are frequencies counted in one record.
+
+---
+
+## What changed from version 5 (this is version 7; trimmed from version 6)
+
+- Removed from the article text: the rule fitted on the test period (−7%), the recorded-canal closure NSE (both moved to the Methods notes), the long Table 8 caption, and the last sentence of 7.1. Nothing else changed.
+
+## Version 6 notes
+
+**The circular test**
+- The monthly storage fit cannot be made independent, because no inflow was ever gauged and the WR2012 patched flow is itself calculated from this dam's balance. It is now described as a consistency test, and the two parts that can be tested independently are tested in both directions.
+- New: the reverse test (rule fitted on 1987–2009, model run over 1966–1974 and 1981–1986). The workbook replicated exactly (largest difference between my code and Run_Test: 1e-15 Mm³), then run on the earlier years. Script: A31E_test_replication_sim.py. These runs are not in the workbook; they would need a new sheet if you keep them.
+- Result: the rule is not transferable. Yearly canal volume PBIAS is −22.4% forward and +22.5% reverse; the yearly reverse test fails (NSE 0.34, RSR 0.81, 12 years); the monthly reverse test passes (NSE 0.53, RSR 0.69, PBIAS +21.8%). A rule fitted on the test period itself gives yearly PBIAS −7.2% (NSE 0.68). The monthly canal volume stays below 0.5 even then (NSE 0.44), so the timing of single failures is not explained by the rule.
+- Storage is not compared in the reverse test: the dam's capacity was 7.88 and 8.07 Mm³ before the 1982 survey, and the area curve comes from that survey.
+- Results use series 1 (series 2 gives the same pattern: yearly NSE 0.37, PBIAS +24.6%).
+
+**Sources, checked this session (DWAF, Pyburn, Kapangaziwiri, Fowler read; Peterson via a press report)**
+- DWAF (2004): p. 50 Table 5.1 gives Klein Maricopoort 1.4 million m³/a (“Yield”, source: Crocodile (West) and Marico situation assessment report); p. 54 says the yield of the ISP was obtained from the firm yields of the dams in Table 5.1; p. 83 says there has been no update of the hydrological information of the Marico River catchment since the agreement (1988, pp. 50–51), and that “The level of confidence on the hydrological information is very low.” The article's “described as a firm yield (p. 54)” is therefore supported.
+- Pyburn (2015): p. 45 is about the Paardenvallei eyes only (“declined to almost nil in 1986”, low flow “for almost a decade” until the rains of 1996). The article says “springs” in general: change it. P. 113: “a 12 year period of no/very little recharge was calculated between 1983 and 1995”, matching the drought. P. 5: the Rietpoort Well Field was commissioned (1974) and the Rietpoort Spring ceased flowing ten years later “during a period of low rainfall”; p. 109 ascribes the cessation (March 1984) to the intensive pumping of the well field. The article cites pp. 28, 44 and 4 (probably PDF page numbers); the printed pages are 45, 5 and 113. Pyburn does not mention the dam.
+- Kapangaziwiri et al. (2011:128): “often affected by poorly defined upstream developments which can substantially affect the interpretation of the data, specifically during periods of low flow”. Supports the wording.
+- Fowler et al. (2022): groundwater explanations (sustained hillslope drainage, delayed recharge) rated plausible; farm dams “in-between”. Wording adjusted.
+- Peterson et al. (2021): 161 catchments, 37%, by mid-2017 confirmed in a press report of the paper (phys.org); the abstract itself could not be opened. Page 745 is the first page of the paper.
+
+**Error found and removed**: the earlier argument that the return of the inflow “to above its median after 1996” limits upstream use is wrong. The median yearly inflow of 1996–2009 is 3.22 Mm³/a, below the long-term 3.71; only 6 of 14 years are above it (the mean is higher only because of two very wet years). The sentence is deleted.
+
+**Other changes**: “not a strict lower bound” now follows from the rule not carrying over; the Rietpoort “low rainfall” wording replaced by Pyburn's pumping statement; “gives no method” replaced by what Table 5.1 actually shows.
+
+**For the Methods block**: the recorded-canal run (storage NSE 0.996) as a closure check, a rule fitted on 1987–2009 giving a yearly PBIAS of −7% (the evidence that the rule is period-specific), the capacity of 7.88/8.07 Mm³ before 1982; describe both directions of the test; the recorded-canal run as a closure check; the table of rule shares for the fit, test and both periods.
+
+## Notes from version 5 and version 4 (still valid unless replaced above)
+
+
+- 7.1 shortened from about 1 000 to about 700 words. Each paragraph now opens with its point.
+- “Store” and “memory” removed (“groundwater flow to the river recovered slowly”). “Onset”, “persistence”, “entitlement run carries the demand effect” and similar wording simplified.
+- Test paragraph: states that the rule was fitted on other years (Run_Test uses the fit-period rule, Params row 48) and that the yearly canal volume is the better test.
+- Peterson and Fowler cut to one sentence; opposite consequences of the two causes cut to one sentence.
+- Interpretations 2 and 3 decided: the recovery-year optimism is kept as a hedged two-reason sentence; the entitlement effect is kept as one sentence. Unverified pages as in the notes below.
+
+## Notes from version 4 (still valid)
+
+**From the panel report (all verified before use)**
+- Inflow quoted as series 1: median 3.71 (3.22 without 1975–1980), 1985–1994 mean 0.84 (36% of the registered volume). The patched flow gives 1.01 only because of one value, April 1995 (1.68 Mm³, while storage fell). Figure 6 must be replotted on series 1, or its caption must say it shows the patched flow.
+- Rule sensitivity restored with its numbers: 0.59 (fit period), 0.39 and 169 months (test period). "Lower bound" is qualified in 7.1.
+- Firm yield recalculated in LibreOffice for both series: series 1 none at 0.36, one at 0.37 and at 0.38 (so "one month fails at 0.37", not 0.38); adjusted series none at 0.30, one at 0.32, two at 0.34 and 0.36. Limiting month October 1992 in both (dam at 0.21 Mm³).
+- Table 6 column relabelled (it includes the recovery year 1995). "The drought" is defined once, in the Introduction (October 1983 to September 1995); other spans are labelled by dates.
+- Net contribution defined, with the return-flow caveat; "behaved differently" removed; the naturalised-runoff sentence moved into new Table 7 as a row.
+- Wilgeboomspruit: both periods labelled, rainfall of both periods given (660 and 496 mm/a, recomputed), "although" removed.
+- "Three times the canal volume" now says "together" (1995: 4.1 times, 1996: 2.9 times).
+- Ten-year run: the reason 1994 breaks it is stated.
+- Results–Discussion boundary: mechanisms moved out of 6.3; "depends more on the rule than on the demand" replaced by "about as large as" in Results and "about as much" in 7.1; failure at low demand explained.
+- Draft marks kept visible ("new", "was") and must be removed on insertion. Figure 9 is cited again.
+
+**Interpretations I chose (you decide; each rests on the panel report or your results)**
+- Test: partly circular, stated plainly in 7.1 (the article's Methods already say so). Optimism in recovery years added.
+- Cause: onset (dry years) separated from persistence (store that refills slowly), the Wilgeboomspruit used as evidence, and the opposite consequences of the two causes for the reliabilities. This is the longest new reasoning in the block.
+- Hashimoto: "in a simulated reservoir" (from the literature verifier's reading).
+- Entitlement point: the rule run carries the demand effect forward.
+
+**Removed or softened**: "The result is therefore a range and not a single reliability" (now conditional on the rule); the claim that the test supports counts more than durations (not backed); Fowler's reason clause (source not read this session); the sentence on "scheme positions" (Section 6.1).
+
+**For the Methods block**: a table of the rule shares for the fit, test and both periods (zone 3: 52% and 21%); the patched-flow April 1995 value; the definition of net contribution; a sentence that the inflow is a residual.
