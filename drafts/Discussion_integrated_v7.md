@@ -1,6 +1,6 @@
 # Discussion (Section 7), integrated, version 7
 
-Draft for approval. Not in the article. It replaces `Discussion_integrated_v6.md`. Same seven paragraphs, shorter (about 480 words against 765), with no new result, no pointer back and no number except the 1.4 Mm³/a of the Department. Each paragraph says what the results mean for the catchment. What was cut is listed in the notes.
+Draft for approval. Not in the article. It replaces `Discussion_integrated_v6.md`. Same seven paragraphs, shorter (about 590 words against 777), with no new result, no pointer back and no number except the 1.4 Mm³/a of the Department. Each paragraph says what the results mean for the catchment. What was cut is listed in the notes.
 
 ---
 
