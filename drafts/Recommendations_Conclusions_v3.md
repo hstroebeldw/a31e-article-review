@@ -47,7 +47,7 @@ The registered volume cannot be assured by the dam. Each range has a cause that 
 
 ## Notes for the author (not article text)
 
-- The Conclusions are about 310 words and follow the two research questions: paragraphs 2 to 4 answer question 1 (the canal, the groundwater, the climate), paragraph 5 answers question 2 (floods and paths), and paragraph 6 links to the Recommendations.
+- The Conclusions are about 365 words and follow the two research questions: paragraphs 2 to 4 answer question 1 (the canal, the groundwater, the climate), paragraph 5 answers question 2 (floods and paths), and paragraph 6 links to the Recommendations.
 - Removed because the shortened Discussion no longer says them: "most results are ranges"; "reproduces the storage but is not independent of the records"; "these cases probably understate the loss"; "the drainage of the fields would reach the aquifer"; and in the Recommendations, spreading boreholes over the valley and the argument about the balance of recharge and use.
 - Recommendation 2 (the Department's yield) is still your decision.
 - The Abstract must be rewritten from these Conclusions after you approve them (it still says "ten years" and "0.38").
