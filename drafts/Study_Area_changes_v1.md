@@ -1,5 +1,7 @@
 # Study Area changes, version 1 (Sections 2.1 and 2.4)
 
+**SUPERSEDED by `Study_Area_v2.md`** (the dolomite share goes back to Results 6.7, because it is an overlay of two maps).
+
 Draft for approval. Not in the article. Sascha asked for a descriptive Study Area. Sections 2.1 to 2.6 already describe the catchment, so only what the rewritten blocks now rest on is added: the dolomite, which lies outside A31E but above the dam. Everything else in Section 2 stays.
 
 ---
