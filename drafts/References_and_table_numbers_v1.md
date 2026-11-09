@@ -10,16 +10,17 @@ Checked by searching the article text of the Introduction to 6.1 (unchanged part
 
 | Reference | Cited now only at (article text lines) | Used for |
 | --- | --- | --- |
+| Pyburn (2015) | 1877, 1880 | Springs of the dolomite declined in 1986; Rietpoort Spring stopped flowing |
 | Kapangaziwiri et al. (2011) | 1891, 1914 | Low flows affected by upstream developments; storage above the water table |
 | Fowler et al. (2022) | 1888 | Delayed recharge and farm dams in between |
 | Peterson et al. (2021) | 1883 | Runoff did not recover after the Millennium Drought |
 | News24 (2011) | 2012, 2088 | Rehabilitation of the upper spillway from 2009; no spill in January 2011 |
 
-**Stays:** Pyburn (2015), because Study Area v1 cites it (p. 45). Troldborg et al. (2007), Saft et al. (2015), Ranasinghe et al. (2021) and Trisos et al. (2022) are cited in Sections 1 and 3. Kovács (1988) is cited in Section 3.4 (line 568), so it stays although the Methods now cite SANRAL only. Woessner & Poeter (2020) stays for the porosity of 0.10 (line 969).
+**Stays:** Troldborg et al. (2007), Saft et al. (2015), Ranasinghe et al. (2021) and Trisos et al. (2022) are cited in Sections 1 and 3. Kovács (1988) is cited in Section 3.4 (line 568), so it stays although the Methods now cite SANRAL only. Woessner & Poeter (2020) stays for the porosity of 0.10 (line 969).
 
-**Decision for you:** if you want the cause of the low inflow, or the spillway, back in one clause, one of these returns with it. The Discussion now says only that the cause is not settled, and Recommendation 6 asks for the state of both spillways, which the News24 item (2009 rehabilitation, no spill in 2011) would support. Say if you want that clause in the Recommendation.
+**Decision for you:** if you want the cause of the low inflow, or the spillway, back in one clause, one of these returns with it (for the cause of the low inflow: Pyburn, Kapangaziwiri, Fowler and Peterson). The Discussion now says only that the cause is not settled, and Recommendation 6 asks for the state of both spillways, which the News24 item (2009 rehabilitation, no spill in 2011) would support. Say if you want that clause in the Recommendation.
 
-**Page checks still open (not changed here):** Pollock (2016) pp. 2 and 19; Niswonger et al. p. 14; Knowling & Werner (2016) p. 974; Moriasi Table 4; Barnett; SKM (2013); DWS (2021) p. 156; Pyburn (2015) p. 45. These sources are not all in the folder, so I could not re-open them in this pass.
+**Page checks still open (not changed here):** Pollock (2016) pp. 2 and 19; Niswonger et al. p. 14; Knowling & Werner (2016) p. 974; Moriasi Table 4; Barnett; SKM (2013); DWS (2021) p. 156; Pyburn (2015) pp. 5, 45, 113 would only matter if it returns. These sources are not all in the folder, so I could not re-open them in this pass.
 
 ---
 
