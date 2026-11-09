@@ -14,7 +14,7 @@ Irrigation in quaternary catchment A31E, North West Province, depends on a canal
 
 ## Notes for the author (not article text)
 
-- About 215 words, against 245 in the current Abstract. Every figure is in Results 6.2 (thirteen shortfall years 1984–1996), 6.3 (45% and 77% of the years), 6.7 (peak reduced 1% to 3%) and 6.8 (salinity); the statements on groundwater and the climate follow the Conclusions and carry no figure.
+- About 230 words. Every figure is in Results 6.2 (thirteen shortfall years 1984–1996), 6.3 (45% and 77% of the years), 6.7 (peak reduced 1% to 3%) and 6.8 (salinity); the statements on groundwater and the climate follow the Conclusions and carry no figure.
 - Removed from the current Abstract: the firm yield of 0.36 Mm³/a (Results 6.3 still has it), the lowering of 1 to 2 m and 5 to 21 m, the 89% from the rivers, and "4 to 11 percentage points" (the Results give 0.59 to 0.54 and 0.48 for the reliability by time, which is 5 and 11 points, not 4). Say if you want the firm yield back; it is the most useful single number for a reader.
 - "The 1:100-year flood passes the modelled reach almost unattenuated" became "reduces its peak by only 1% to 3%", which is what Table 11 shows.
 - Check before this goes in: the yearly reliability of 45% and 77% is against the registered volume with series 1 (Table 9); the Study Area and Introduction must give "thirteen" the same way (Section 1.1 defines the drought as October 1983 to September 1995, which is twelve years, and the canal record gives 1984–1996, thirteen shortfall years; the two periods are not the same thing).
