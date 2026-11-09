@@ -1,12 +1,14 @@
 # Discussion (Section 7), integrated, version 3
 
-Draft for approval. Not in the article. It replaces the six sub-sections 7.1 to 7.6 by one section of six paragraphs without sub-headings. Block 1 v14 and Block 2 v2 are not changed. Results 6.2 to 6.5 are in `Results_plain_v1.md`. Results 6.6 to 6.8 (climate, flood, pathways and water quality) have not yet been through the panel, so paragraphs 4 and 5 lean on the current text.
+Draft for approval. Not in the article. It replaces the six sub-sections 7.1 to 7.6 by one section of seven paragraphs without sub-headings. Block 1 v14 and Block 2 v2 are not changed. Results 6.2 to 6.5 are in `Results_plain_v1.md`. Results 6.6 to 6.8 (climate, flood, pathways and water quality) have not yet been through the panel, so paragraphs 4 and 5 lean on the current text.
 
 ---
 
 ## 7. Discussion
 
-The canal supply cannot be relied on for the registered volume. The dam is small against that volume, the inflow stayed low for twelve years, and in those years it was just over a third of the volume. The inflow is not gauged but is the remainder of the dam's own record, so it carries every error of that record. In the model, restricting deliveries as the dam empties makes the failures more frequent and longer but less deep, and it delivers less water in total. A similar trade-off was found in a simulated reservoir (Hashimoto et al., 1982:19). The records do not show which restriction was applied. The rule matters more for the reliability than the size of the demand, so it is the first thing to settle. The firm yield with no restriction is about a quarter of the 1.4 Mm³/a that the Department gives, a figure that rests on hydrology not updated since 1988 (DWAF, 2004:50, 83). Whether the low inflow came from recharge that stayed low from 1983 to 1995 (Pyburn, 2015:113, citing an earlier study) or from greater use of water upstream (Kapangaziwiri et al., 2011:128) is not settled.
+The canal supply cannot be relied on for the registered volume. The dam is small against that volume, the inflow stayed low for twelve years, and in those years it was just over a third of the volume. The inflow is not gauged but is the remainder of the dam's own record, so it carries every error of that record. Whether the low inflow came from recharge that stayed low from 1983 to 1995 (Pyburn, 2015:113, citing an earlier study) or from greater use of water upstream (Kapangaziwiri et al., 2011:128) is not settled.
+
+The restriction rule matters more for the reliability than the size of the demand, so it is the first thing to settle. In the model, restricting deliveries as the dam empties makes the failures more frequent and longer but less deep, and it delivers less water in total. A similar trade-off was found in a simulated reservoir (Hashimoto et al., 1982:19). The records do not show which restriction was applied. The firm yield with no restriction is about a quarter of the 1.4 Mm³/a that the Department gives, a figure that rests on hydrology not updated since 1988 (DWAF, 2004:50, 83).
 
 The drought also shows that A31E carries two waters that behave differently. The water that the dam releases comes from outside A31E. It failed in the drought, and in most samples below the dam it is above the salinity target for irrigation. The records do not show where its salts come from, and return flows from upstream are one source (DWAF, 2004:57). The runoff and the groundwater of A31E are much fresher. Most of the water that reached Kromellenboog Dam in the drought came from the reach between the dams, but it enters the river below the canal and could not replace the canal supply.
 
@@ -21,6 +23,8 @@ For the catchment, this means that planning should assume droughts of several ye
 ---
 
 ## Notes for the author (not article text)
+
+**Paragraph 1 is split in two** (the drought; the rule), so that each has one point: it was 194 words with surface-water corrections added. The section is 685 words in seven paragraphs.
 
 **What changed from version 2** (surface-water review, checked by the reviewer against a Python replica of the workbook that matches it exactly)
 - "The drought lasted twelve years" is now "the inflow stayed low for twelve years": the rainfall was above the mean in 1987 to 1990 (693, 660, 631 and 682 mm), so the twelve years describe the inflow and the storage of the dam, as the Introduction defines the drought (October 1983 to September 1995). The inflow of 1983 to 1994 averages 0.88 Mm³/a (0.38 of 2.34), so "just over a third" holds. The Abstract and the Conclusions still say "ten years".
