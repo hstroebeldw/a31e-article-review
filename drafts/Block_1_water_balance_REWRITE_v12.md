@@ -88,7 +88,7 @@ The drought is a single event in 74 years, so its recurrence cannot be estimated
 ## Notes for the author (not article text)
 
 **What changed from version 11 (the author's instruction of 9 November, 15:32)**
-- 7.1 now carries the central idea only: the dam cannot supply the registered volume through a drought of this length; restriction spreads the shortfall differently; the model is a consistency check; the registered volume is not the water used; the Department's yield is not comparable; the cause is not settled. About 250 words. Reasons for steps stay in Methods and Results and are not repeated.
+- 7.1 now carries the central idea only: the dam cannot supply the registered volume through a drought of this length; restriction spreads the shortfall differently; the model is a consistency check; the registered volume is not the water used; the Department's yield is not comparable; the cause is not settled. About 400 words in seven short paragraphs (down from about 500). Reasons for steps stay in Methods and Results and are not repeated.
 - No 7.2 paragraph on the reach, the Wilgeboomspruit or the canal in 1996. The Wilgeboomspruit is used once, in one clause, as independent evidence that the inflow really fell (it is not derived from the dam balance).
 - Mean rainfall number removed from 6.2 (the line in Figure 6 shows it; the article has 597 mm in the Study Area, the figure 599 mm, the workbook 605 mm for 1936–2009).
 - "Very low confidence" removed from 7.1 (it is in the Introduction); "reasons" for the rule difference kept as one sentence.
