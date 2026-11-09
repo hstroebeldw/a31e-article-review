@@ -142,7 +142,7 @@ These are only the sentences that the shortened Results 6.2–6.8 (version 6) st
 **5.2.1 Dam water balance (after the paragraph on the inflow, line 929):**
 The inflow to Kromellenboog Dam was calculated in the same way, as the remainder of its recorded balance (A3R003, A3H033), and the net contribution of the river between the dams is this inflow less the spill and release of Klein Maricopoort Dam.
 
-**5.4.1 Dam water balance (after "(Figure 2, lower panel)" of the rule paragraph is in 5.2.1, so here, after the sentence on the second inflow series, line 1124):**
+**5.4.1 Dam water balance (after the sentence on the second inflow series, line 1124):**
 The rule was also fitted on each period alone, to show how far the reliability depends on the period used.
 
 **5.4.2 Groundwater (end of the paragraph at line 1189):**
