@@ -62,3 +62,7 @@ All earlier decisions are in the text: thirteen shortfall years (1984–1996), t
 - Each figure, map and table sits in the subsection where it is first cited (section check: 0 mismatches). Table, figure and map lists and the contents page numbers were checked against the PDF.
 - Long captions shortened; the explanation of Tables 2, 3, 6–9, 11–13 and 15 and Figures 2, 4, 6, 12, 13, 15 now stands in a paragraph before the float. Map 10 no longer says that contaminant transport is not modelled.
 - Panel review of v3: `reviews/A31E_final_draft_v3_review_2026-11-10.md` (groups A to F). Its group A and B items are not yet applied to the text.
+
+## E. Draft v5 (10 November, group A fixes)
+
+Applied after checking against the workbook and result files: phosphate stations, Section 4.3 rain and recharge, removal of the "sustainable only at recharge" sentence, the 91% wording, Cuthbert and Xie wording, De Wit step marked as inference, the release sensitivity wording, 0.166 Mm³, canal 2022 and 2024, Wilgeboomspruit six complete years, 296 Mm³ as patched flow, chloride/sodium/SAR "none". Not applied (need a source or the author): recharge 29.2 mm/a, Bailey & Pitman as source of the WR2012 values, Table 15 counts, other citation wording. See `HANDOFF_FOR_NEW_CHAT.md`.

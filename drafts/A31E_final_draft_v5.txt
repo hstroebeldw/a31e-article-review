@@ -1,0 +1,2968 @@
+Storage, drought and climate change: the reliability of the canal
+supply from Klein Maricopoort Dam and the role of groundwater in
+A31E, North West Province
+
+7
+
+Abstract
+Irrigation in quaternary catchment A31E, North West Province, depends on a canal from Klein
+Maricopoort Dam, which carried less than the registered volume of 2.34 Mm³/a in thirteen
+successive years from 1984. This desktop study assessed how reliable the canal supply is, how
+far groundwater within A31E could offset its shortfalls and how both respond to a drier climate,
+and it screened the floods and contaminant paths along the irrigated reach. A monthly water
+balance of the dam (1936–2009) was run with and without a restriction rule, and a steady-state
+groundwater model was run in two structures that differ in the depth of outflow. With the rule, the
+canal delivers the registered volume in 45% of the years, and without restriction in 77%. In one
+structure, pumped groundwater would come mostly from the river that feeds Kromellenboog
+Dam. In the sensitivity cases for about 2050, the reliability of the canal is lower, most in the dry
+case. The 1:100-year flood, estimated with the SDF method, covers about a quarter of the
+irrigated land in the strip below the dam, and the modelled reach reduces its peak by only 1% to
+2%. The river below the dam is above the salinity target for irrigation in most samples. The
+registered volume cannot be assured by the dam, and groundwater cannot yet be relied on as a
+backup, because its effect on the river has not been established.
+Keywords: canal supply reliability; reservoir water balance; multi-year drought; groundwater
+flow model; capture; climate change; design flood; particle tracking
+
+8
+
+1. Introduction
+In semi-arid regions, irrigated agriculture depends largely on water that has been stored.
+Irrigators in a semi-arid South African catchment have coped with past droughts mainly through
+the construction of water storage and the adoption of more efficient irrigation (Lankford et al.,
+2023). The security of an irrigation supply depends on how reliably a dam can deliver water,
+which is described by how often the supply fails, how quickly it recovers and how severe a failure
+is (Hashimoto et al., 1982). In the Marico area of the North West Province, irrigation was the
+largest water use in 2000, at approximately 32 million cubic metres per year (Mm³/a), and most
+of this water was drawn from surface water below dams such as Marico-Bosveld and Klein
+Maricopoort (DWAF, 2004:ii, 52).
+In South Africa, the quaternary catchment serves as the fundamental hydrological unit for
+managing water resources (DWS, s.a.d). In semi-arid quaternary catchments, river flow and
+groundwater recharge do not respond to rainfall in simple proportion. Where about 500 mm of
+rain falls per year, a decrease of 10% in rainfall may reduce perennial surface drainage by half
+(De Wit & Stankiewicz, 2006), and groundwater in drylands is recharged episodically, often
+through focused recharge from ephemeral flows after intense rain (Cuthbert et al., 2019). Dry
+years tend to occur in runs, and six of the eight most severe two-year droughts in southern Africa
+between 1901 and 1999 ended between 1983 and 1996 (Rouault & Richard, 2005). During such
+dry periods, groundwater sustains river flow as baseflow, especially in dry seasons (Xie et al.,
+2024). Consequently, water availability in a quaternary catchment is strongly influenced by the
+sequence of wet and dry years and by the interaction between surface water and groundwater.
+Groundwater is a crucial water resource in many semi-arid regions, because it buffers the effects
+of rainfall variability (Calow et al., 2010). In South Africa, groundwater contributes approximately
+15% of the water consumed nationally (DWAF, cited by Knüppe, 2011:69), but in the Marico area
+it supplied 6 of the 32 Mm³/a used for irrigation (DWAF, 2004:52). Over-abstraction has already
+lowered groundwater levels in the dolomite aquifers of the North West Province (Cobbing, 2018).
+Its use for irrigation is further limited by the yield of boreholes, since yields above 5 L/s are not
+widespread in Africa (MacDonald et al., 2012).
+The A31E quaternary catchment is a semi-arid catchment in which irrigation depends on stored
+surface water. The largest part of its registered water use is not groundwater, but water that
+appears to be supplied by a canal from Klein Maricopoort Dam, which stands on the upstream
+boundary of the catchment (DWAF, 2004:50; DWS, s.a.f). A failure of this supply directly affects
+the water users in the catchment, and it raises the question of whether groundwater within A31E
+could sustain them through such a failure.
+
+1.1 Research problem
+Klein Maricopoort Dam stores water that is generated in the catchments above A31E. Of the
+3.38 Mm³/a of water use registered in A31E, 2.34 Mm³/a (69%) is registered as scheme use on
+442 ha within about 15 km of the dam wall, while 0.285 Mm³/a is registered from boreholes
+
+9
+
+(DWS, s.a.f). These scheme records are inferred to represent the users of the canal, because
+the Department lists a canal scheme for the dam and the land mapped as irrigated lies below it
+(DFFE, 2024; DWS, 2024).
+The records show that this supply has failed for extended periods. Between October 1983 and
+September 1995, the dam stood below 25% of its capacity in 139 of the 144 months, and this
+period is referred to as the drought throughout this study. During these years the canal carried a
+mean of 0.36 Mm³/a, compared with a median of 2.02 Mm³/a over 72 years of record (DWA,
+2012; DWS, s.a.b). The inflow to the dam did not recover when the rainfall did: it stayed below its
+long-term median from 1982 to 1994, although the rainfall of 1986–1995 averaged 99% of its
+long-term mean (Bailey & Pitman, 2016). The Department reports a yield of 1.4 Mm³/a for the
+dam, without a stated method and with very low confidence in the hydrological information of the
+Marico (DWAF, 2004:50, 83). How often, for how long and by how much the deliveries of the
+canal fall below the registered volume is not known.
+It is equally uncertain whether groundwater within A31E could serve as an alternative source.
+The estimated recharge of 17.336 Mm³/a is far larger than the current groundwater use (DWS,
+2021). The mapped borehole yields are low, each borehole has a single recorded water level,
+and no pumping tests or water-level series exist (DWS, s.a.c). The only gauged stream inside
+A31E was dry in 42 of the 50 months from February 1984 (DWS, s.a.b), which suggests that
+groundwater storage declined during the same drought that emptied the dam.
+Climate change adds a further uncertainty. Warming is projected with considerably more
+confidence than any change in rainfall (DEA, 2013), and droughts are projected to become more
+frequent and longer (Trisos et al., 2022). For 2041–2060, the climate models assessed by the
+IPCC project a warming of about 1.5 to 2.9 °C for eastern southern Africa (ESAF), the region in
+which A31E lies, and a change in annual rainfall of about −8.5% to +3%, with a median of about
+−3% (10th to 90th percentiles; calculated from Gutiérrez et al., 2021; Iturbide et al., 2020). The
+problem addressed in this study is that the reliability of the canal supply, the extent to which
+groundwater could offset its shortfalls and the sensitivity of both to climate change have not been
+established. Water users and the responsible authorities lack a quantified basis for drought
+planning.
+
+1.2 Aim, objectives and research questions
+The aim of this study is to quantify the reliability of the canal supply from Klein Maricopoort Dam,
+the extent to which groundwater within A31E could offset its shortfalls and the response of both
+to climate change, so that drought planning in the catchment can rest on the records rather than
+on a registered volume. The study is a desktop assessment of existing records, intended for the
+Department of Water and Sanitation (DWS), the North West Premier's Office and the consulting
+partner AGES. Flood risk along one reach of the Klein Marico River and the pathways along
+which contaminants could move are screened, and the transport of contaminants is not
+modelled.
+The objectives of the study are:
+
+10
+
+1. To compile and review the existing hydrological, geohydrological and water-use information
+for A31E, identify its gaps, and develop a conceptual model of how water moves through the
+catchment.
+2. To simulate the water balance of Klein Maricopoort Dam and its canal and quantify the
+reliability of supply against the registered scheme volume.
+3. To assess with a groundwater flow model how far abstraction within A31E could offset
+shortfalls in the canal supply, and the limits that the data place on this assessment.
+4. To assess the effects of climate change by about 2050 on the reliability of the canal supply
+and on groundwater.
+5. To screen the flood risk along the irrigated reach of the Klein Marico River and the pathways
+along which contaminants from the land could reach the rivers.
+6. To provide evidence-based recommendations, including priorities for data collection, to the
+DWS, the North West Premier's Office and AGES.
+The research questions are:
+1. How reliable is the canal supply from Klein Maricopoort Dam to irrigators in quaternary
+catchment A31E under the historical sequence of wet and dry years, to what extent could
+groundwater within A31E offset the shortfalls that arise when the dam is drawn down, and
+how would both change under plausible climate conditions for about 2050?
+2. How large are the floods along the irrigated reach, and along which paths could contaminants
+from the land reach the receptors?
+
+11
+
+2. Study Area
+2.1 Location and the two dams
+Quaternary catchment A31E lies in the North West Province, east of Zeerust, and covers
+approximately 602 km² (Bailey & Pitman, 2016). It drains to the Marico River, part of the upper
+Limpopo River basin (Jury, 2016), within the Limpopo-Olifants Water Management Area (DWS,
+2023). The Klein Marico River enters A31E at the wall of Klein Maricopoort Dam and leaves the
+catchment through Kromellenboog Dam (Map 1). The reservoir of the upper dam and its whole
+drainage area lie outside the catchment, and none of the runoff generated within A31E can reach
+Klein Maricopoort Dam. The water stored in the upper dam comes entirely from outside A31E,
+while the runoff of A31E flows to Kromellenboog Dam, which is operated for an irrigation scheme
+in the downstream catchment A31F (DWAF, 2004:50, 57).
+
+Map 1: Locality of quaternary catchment A31E, showing the Klein Marico River, Klein Maricopoort Dam at the
+upstream boundary, Kromellenboog Dam at the outlet, the upstream catchments A31D and A31C, Zeerust and
+the main roads. Inset: position in the North West Province.
+
+The canal leaves the upper dam at its wall, and the Department lists an irrigation scheme for the
+dam that is supplied “from the canal system” (DWS, 2024). The dam also releases water to the
+river. It was raised in 1966, and its survey of 1982 gives a capacity of 7.07 Mm³ at full supply
+(DWA, 2012).
+
+12
+
+2.2 Climate
+The climate of the Marico area is semi-arid, with rainfall that is “strongly seasonal with rainfall
+occurring as thunderstorms in summer” (DWAF, 2004:18). The mean annual precipitation (MAP)
+of A31E is 597 mm in the Water Resources of South Africa, 2012 study (WR2012), which takes
+its rainfall from the series of rainfall zone A3B (Bailey & Pitman, 2016:14). The mean annual
+evaporation of the evaporation zone of A31E is 1 901 mm (Bailey & Pitman, 2016).
+
+2.3 Topography and drainage
+A31E falls from the high ground in the south, where the Waterkloofspruit and the
+Wilgeboomspruit rise, to Kromellenboog Dam in the north-east. A valley crosses the northern
+part of the catchment from the Doringrivier in the west to the dam (Map 2). Four streams drain
+A31E. The Klein Marico River flows from the wall of Klein Maricopoort Dam through the valley to
+Kromellenboog Dam. The Doringrivier drains the western arm and joins it below the dam wall,
+the Waterkloofspruit joins it further downstream, and the Wilgeboomspruit reaches it at the head
+of Kromellenboog Dam.
+
+Map 2: Topography, main rivers and monitoring sites of A31E, with the area of the HEC-RAS model along the
+Klein Marico River. The stations at the wall of Klein Maricopoort Dam lie within 400 m of one another, and only
+some are labelled.
+
+2.4 Geology and hydrogeology
+A31E is underlain by rocks of the Pretoria Group, which are cut by diabase and partly covered
+by surface deposits (Map 3; Michaluk & Keyser, 1991; Walraven, 1981). Quartzite and
+sandstone, mainly of the Timeball Hill Formation, form the high ground in the south. The
+andesitic lava of the Hekpoort Formation lies in the east, mudrock in the centre-east and hornfels
+south-west of the centre, and diabase occurs in small bodies. Surface deposits, including
+
+13
+
+alluvium, lie mainly along the valley in the north. Groundwater occurrence depends primarily on
+geology, weathering and effective rainfall (MacDonald et al., 2012:2). On the hydrogeological
+map, A31E is classified as an intergranular and fractured aquifer and a fractured aquifer, and
+karst aquifers do not occur in A31E. The mapped median yield of boreholes is 0.5–2.0 L/s over
+most of A31E and 0.1–0.5 L/s in the rest (Map 4; Barnard, 1999). The National Groundwater
+Archive (NGA) holds the borehole records of the catchment (DWS, s.a.c). The Department
+judged that groundwater in the Marico can meet domestic supplies "but not bulk water
+requirements for purposes such as irrigated agriculture" (DWAF, 2004:55–56).
+
+Map 3: Geology of A31E, showing the rock types of the 1:250 000 geological maps (Michaluk & Keyser, 1991;
+Walraven, 1981). The rock types are combined into four groups: quartzite and sandstone; volcanic rocks,
+diabase and tuff; mudrock, shale and hornfels; and surface deposits, which include the alluvium.
+
+14
+
+Map 4: Aquifer types and mapped borehole-yield classes in A31E (Barnard, 1999), with the four boreholes that
+have a static water level (DWS, s.a.c). The yield classes are mapped medians, not measured yields.
+
+2.5 Soils and land cover
+The soils of A31E are assigned to the hydrological soil groups B, B/C, C and C/D, which rank
+soils according to their runoff potential when thoroughly wet, from moderately low in group B to
+high in group D (Schulze & Schütte, 2023; USDA-NRCS, 2009:7-2). Group C/D lies in the northeast and along the northern edge, group B/C in a belt from the west across the centre, group C
+in the south, and group B in one small patch in the north-east (Map 5). Natural woodland covers
+most of A31E, with natural grassland in the south and west. Fallow land, old fields and cultivated
+land lie mainly along the valley, with small patches of irrigated land, and plantation forest lies in
+the south. Kromellenboog Dam lies in the north-east (Map 6; DFFE, 2024).
+
+15
+
+Map 5: Hydrological soil groups of A31E according to the SCS classification as applied in South Africa (Schulze
+& Schütte, 2023).
+
+Map 6: Land cover of A31E in 2022 (DFFE, 2024).
+
+2.6 Water use and water quality
+Of the 3.38 Mm³/a registered in A31E, 69.3% is registered as "scheme" use, 22.2% as river
+abstraction and 8.4% as borehole use, and 98.9% of the total is for irrigation (DWS, s.a.f). The
+Department noted an increasing return flow from irrigation in A31D and from the mines around
+Zeerust, whose nutrient and salt content has limited its re-use for domestic supplies without
+
+16
+
+costly treatment (DWAF, 2004:57). It also described the return flow from the towns and from
+irrigation as "being discharged into the Klein Marico River" (DWAF, 2004:86). Water quality was
+monitored at seven sites in A31E between 1966 and 2023 (DWS, s.a.e).
+
+17
+
+3. Literature foundation
+3.1 Reliability of supply from a small dam
+The performance of a water-supply system is judged by more than the average volume that it
+delivers. Hashimoto et al. (1982:14–17) proposed three criteria for this purpose. Reliability
+describes how often the system is in a satisfactory state, resiliency describes how quickly it
+recovers once it has failed, and vulnerability describes how severe a failure is. All three criteria
+depend on a threshold that separates a satisfactory delivery from an unsatisfactory one. In this
+study, a failure is a period in which the canal delivers less than the registered scheme volume, so
+that the criteria answer directly how often, for how long and by how much deliveries fall short.
+Reliability of the supply is not the same as the resilience of the irrigators, who may plant a
+smaller area or apply less water when the supply decreases (Lankford et al., 2023).
+A small dam can carry a scheme through one dry year, but not through a run of dry years. The
+relationship between rainfall and runoff can shift during a multi-year drought (Saft et al., 2015),
+so that a relationship calibrated on wetter years may overestimate the inflow in precisely the
+years that determine reliability. Evaporation adds to this problem, since the loss increases with
+the surface area of the water and is expected to increase further as the climate warms, and it is
+often overlooked in the water accounting of small reservoirs (Aminzadeh et al., 2024). The
+registered volume is used as the threshold, because it is the volume that the scheme is entitled
+to receive, but it differs from both the water gauged at the head of the canal and the water used
+on the fields (Section 6.1).
+The only planning assessment found for the dam is the Department’s strategy report for the
+Marico, which gives a yield without a stated method, does not include the dam in its proposed
+systems model and does not mention the drought at the dam (DWAF, 2004:50, 83–84). Its
+finding that the Marico sub-area was “in balance” while the Reserve was not implemented
+(DWAF, 2004:53, 93) concerns the whole sub-area, and it says nothing about how often the
+supply of this particular dam fails.
+
+3.2 Groundwater as a backup, and modelling with few data
+Groundwater security during drought depends on the water stored in an aquifer, on access to
+this water through boreholes and on the demand placed on it (Calow et al., 2010:246). A source
+that is reliable for domestic supply may fail under the larger demand of irrigation. Sustainable
+groundwater use should be based on capture, which is the decrease in discharge and increase
+in recharge that pumping brings about, rather than on recharge alone (Seward et al., 2006:473).
+Where groundwater discharges to rivers, capture is largely a loss of streamflow, and across the
+United States it supplied about 0.85 of long-term withdrawals, with a mean of 0.61 in the 34
+aquifer systems and areas that Konikow and Leake (2014) reviewed. This loss arrives later than
+the pumping and continues after it stops (Leake & Barlow, 2013), so that a balance of recharge
+
+18
+
+and use cannot show which discharge an abstraction would reduce. In A31E, access to
+groundwater appears to be the main limitation, because the irrigated land lies on surface
+deposits of unknown thickness in the lower mapped yield class (Section 6.1).
+Where records are sparse, models are often calibrated over short periods. Ebrahim et al. (2019)
+calibrated a groundwater model of the hard-rock Hout catchment over five years and estimated
+the unmetered pumping from satellite data. A model calibrated over a few years may not
+represent a drought that is longer than its calibration period. For Klein Maricopoort Dam, the
+monthly reservoir record covers 1936 to 2010 and includes the long drought, and the simplest
+defensible approach uses this record directly. For groundwater the records are too few to identify
+a single conceptual model, and several should then be carried forward (Barnett et al., 2012:26),
+because calibrated models that differ little in their heads can differ greatly in their predictions
+(Troldborg et al., 2007:843).
+
+3.3 Climate change and the canal supply
+The projections used in this study are those assessed by the IPCC in its Sixth Assessment
+Report. The Atlas of this report gives regional results for the global models of the sixth Coupled
+Model Intercomparison Project (CMIP6) and for the regional models of CORDEX-Africa
+(Gutiérrez et al., 2021). A31E lies in the reference region of ESAF (Iturbide et al., 2020), about 1°
+east of its boundary with western southern Africa. The projections for ESAF are used because
+the catchment lies inside this region, but its regional mean is weighted towards the wetter east.
+For 2041–2060, the CMIP6 models under an intermediate emission scenario (SSP2- 4.5) give a
+median change of about −10% in the rainfall of September to November, and 91% of the models
+are drier (calculated from Gutiérrez et al., 2021; Iturbide et al., 2020, 2022). The IPCC also
+projects an increase in agricultural and ecological drought in southern Africa (Ranasinghe et al.,
+2021:1771).
+Projections that were downscaled for South Africa are less uniform. The Green Book projects
+that the warming may exceed 3 °C over the northern parts of the country by 2021–2050 under
+high emissions, and it projects more rain over the central interior but drier conditions in the northeast in most of its runs (Engelbrecht, 2019:12, 37). The ensembles agree on strong warming and
+differ on rainfall. Because perennial drainage responds more than proportionally to rainfall where
+about 500 mm falls per year (De Wit & Stankiewicz, 2006), even a modest drying could reduce
+the inflow to the dam by a larger fraction, which is an inference of this study. The wettest tenth of
+the CMIP6 models gives about +0.5% to +3% more annual rain (calculated from Gutiérrez et al.,
+2021). The climate cases of this study are drawn from the median and the dry end of the
+projections.
+
+3.4 Design floods and contaminant pathways
+Design floods in South Africa are estimated by three groups of methods (Smithers, 2012:634).
+Statistical methods analyse observed floods, deterministic methods convert a design rainfall into
+a flood, and empirical methods are based on the largest floods recorded in a region. Statistical
+analysis requires a record of observed floods that is “adequate in both length and quality”
+(Smithers, 2012:635), which the monthly records of A31E do not contain. The Standard Design
+
+19
+
+Flood (SDF) is a deterministic method that was developed from the flood records of 152 gauging
+stations in 29 drainage basins (SANRAL, 2013:3-43, 3-44). It exceeded statistical estimates by
+60% on average and is regarded as conservative (Smithers, 2012:639), and it is the design flood
+used in this study.
+Contaminants are approached through the source–pathway–receptor model, in which water is at
+risk only where a source releases a contaminant, a pathway carries it and a receptor receives it
+(Mbae et al., 2024). The pathway through the ground can be traced by particle tracking. The
+program MODPATH follows particles through the flows calculated by MODFLOW and derives
+their times of travel from the porosity of the material (Pollock, 2016:2–3). Particle tracking shows
+where water goes and roughly how long it takes, but not how a dissolved substance spreads or
+reacts.
+The literature provides the criteria, the reasons why multi-year droughts and evaporation govern
+a small dam, a projected range of climate change and methods for screening floods and
+pathways. It does not provide a measure of how often, for how long and by how much the
+deliveries from Klein Maricopoort Dam fall short, how this would change by about 2050, or
+whether groundwater in A31E could make up part of a shortfall. This study addresses that gap.
+
+20
+
+4. Conceptual model
+4.1 The system and its two sources of water
+The system studied is the land between two dams, together with the upper dam that supplies it
+(Figure 1). Water enters this system in two ways, which are referred to as the two waters. River
+flow from the catchments upstream is caught in Klein Maricopoort Dam, and rain falls on A31E
+itself. The first water feeds the canal and the irrigated land, while the second can reach neither
+the upper dam nor the canal. Path 1 carries the water from outside A31E through the upper dam,
+where evaporation removes water but not the salts dissolved in it, to the canal and the river. Path
+2 begins with the rain on A31E and runs over the ground to the streams or down to the
+groundwater. The two paths meet below the canal, on the irrigated land, where canal water
+drains to the river and the groundwater, and in Kromellenboog Dam, which receives both. The
+inflow to the upper dam is taken as recorded and serves as the condition at the upstream
+boundary.
+
+Figure 1: Schematic section of A31E along the Klein Marico River, from the wall of Klein Maricopoort Dam to
+Kromellenboog Dam, showing the water that enters from outside A31E (orange) and the water from rain on
+A31E itself (blue). Quantities are means for hydrological years 1987–2009; not to scale.
+
+4.2 The upper dam and the canal
+Water leaves the upper dam by four routes, namely evaporation, the canal, the spill and the
+release to the river, and no supply to Zeerust appears in the record. Beyond the gauge at its
+head, the canal is not measured. Its losses, the fields that it serves and the water that returns to
+the river or sinks to the groundwater are unknown, but none of this water can return to the upper
+dam. In a year of median inflow, a delivery close to the registered volume lowers the storage,
+
+21
+
+while in a wet year most of the water spills, because the dam is already full. The storage of the
+dam and the inflow from upstream respond over several years, and these slow parts of the
+system decide whether the canal can deliver.
+
+4.3 Rain on A31E, groundwater and the lower dam
+The runoff of A31E is gathered by the tributaries and ends in Kromellenboog Dam. Most of the
+rain that does not run off evaporates, and a small part recharges the groundwater, which is
+stored mainly in the weathered zone. That this groundwater moves from the high ground towards
+the valleys is an inference from four single water levels (DWS, s.a.c). Groundwater leaves the
+catchment through boreholes, as discharge to the streams, by uptake of vegetation and possibly
+as underground outflow (DWS, 2021).
+Kromellenboog Dam receives the water of both paths. The net contribution of the reach between
+the dams is mostly runoff and groundwater discharge of A31E, but it also contains any canal
+water that returns to the river from the fields, less the water abstracted from the river.
+
+4.4 Contaminant sources, pathways and receptors, and floods
+The same conceptual model shows the routes along which dissolved substances would travel
+(Section 3.4). Two main sources can be identified. The first is the return flow from Zeerust, from
+irrigation in A31D and from the mines around Zeerust, whose nutrient and salt content has
+limited its re-use (DWAF, 2004:57). Since Zeerust and A31D lie above the dam (Map 1), this
+return flow is inferred to enter the river upstream of it. The second is the irrigated land below the
+dam, where water not used by crops carries salts, and anything applied to the fields, back to the
+river or down to the groundwater. The rest of the catchment had a population of only 936 in 2011
+and contains no large urban source (DWS, 2021:156).
+These sources reach the receptors along path 1 and path 2. Below the fields, groundwater can
+discharge to the river only where the water table stands above the river bed, and where it stands
+deeper, the water leaves by evaporation and uptake by plants instead. Whether the water table
+stands above the river bed separates the two model structures of Section 5.2.2.
+Four receptors follow from these paths: the users of the canal, who receive path 1 water; the
+groundwater under the irrigated land, which this study assesses as a backup to the canal and for
+which no quality record exists; the river between the dams; and Kromellenboog Dam, which
+receives both paths. The river between the dams is an ecological flow site whose category, C
+(moderately modified), is to be maintained (DWS, 2021:130; Kleynhans & Louw, 2007:A2-11).
+The DRASTIC index indicates how easily water from the land surface reaches the groundwater
+(Aller et al., 1987:13). The index is a relative evaluation tool that does not replace on-site
+investigation (Aller et al., 1987:11, 20), and it says nothing about the surface deposits in
+particular.
+Floods follow the same two paths. A flood from upstream enters as spill over the wall of the
+upper dam, the tributaries add floods from A31E itself, and Kromellenboog Dam receives both.
+The Department identified the spillway of Klein Maricopoort Dam as “a major risk” and the
+spillway capacity of Kromellenboog Dam as “a major risk factor” (DWAF, 2004:170–171).
+
+22
+
+5. Methodology
+The methodology is described in four steps, namely the data, their preparation, their processing
+within software and their analysis (Sections 5.1 to 5.4). Each step deals in turn with the water
+balance of the dam, groundwater, floods, and water quality and climate. All the methods rest on
+the conceptual model of Section 4, and the water balance uses monthly records.
+
+5.1 Data
+5.1.1 Dam water balance
+The station records of the Department give one value per month with a quality code (DWS,
+s.a.b). The reservoir record gives the storage, outflows, evaporation and rain of Klein
+Maricopoort Dam for every month from 1936 to 2010 (DWA, 2012), and the WR2012 study
+supplies the rainfall of zone A3B and the patched inflow (Bailey & Pitman, 2016). Evaporation at
+the dam is measured with a Symons pan (S-pan). The inflow is not gauged but calculated from
+the dam’s own water balance (Bailey & Pitman, 2016:30; DWA, 2012). The only record of runoff
+generated inside A31E is that of the Wilgeboomspruit (station A3H016), which drains 39 km² and
+ends in 1992 (DWS, s.a.b). The national register of water use (DWS, s.a.f) records entitlements
+and not the actual abstraction. The monthly range of each record is listed in Table 1.
+Table 1: Stations and records used in this study, with the range of their monthly data and, in brackets, the
+number of months (Bailey & Pitman, 2016; DWA, 2012; DWS, s.a.b).
+Station
+
+What it measures
+
+Monthly data
+
+A3R002
+
+Spill over the wall of Klein Maricopoort Dam
+
+1936/06–2026/06 (1 081)
+
+A3R002
+
+Storage in the dam (reservoir record)
+
+1936/06–2010/11 (894)
+
+A3H031
+
+Volume in the canal
+
+1936/06–2026/05 (1 080)
+
+A3H030
+
+River below the dam (low flows only)
+
+1987/02–2011/05 (292)
+
+A3H042
+
+River below the dam
+
+2012/01–2026/06 (174)
+
+A3E003
+
+Rainfall at the dam
+
+1967/09–2025/02 (690)
+
+A3E003
+
+S-pan evaporation at the dam
+
+1967/10–2025/02 (689)
+
+A3H016
+
+Flow in the Wilgeboomspruit (39 km²)
+
+1965/12–1992/08 (321)
+
+A3R003
+
+Spill over the wall of Kromellenboog Dam
+
+1955/02–2026/07 (858)
+
+A3H033
+
+Volume in the Kromellenboog canal
+
+1955/02–2026/07 (858)
+
+A3H032
+
+River below Kromellenboog Dam
+
+1979/12–2026/07 (560)
+
+Zone A3B
+
+WR2012 rainfall (not a station)
+
+1920/10–2010/09 (1 080)
+
+The Department assigns a quality code to every month. Table 2 gives the share of months in
+each code for the gauges at Klein Maricopoort Dam, and Table 3 gives it for the Wilgeboomspruit
+and the gauges at and below Kromellenboog Dam. The spill and canal records at the upper dam
+have about 74% good continuous data. The S-pan record has 37.0% good continuous data and
+43.5% estimates, and the river gauge A3H042 has 5.2% good continuous data.
+
+23
+
+Table 2: Data quality of the monthly records at Klein Maricopoort Dam, in per cent of the months in each DWS
+quality code (calculated from DWS, s.a.b). The number of months is in brackets.
+Quality code
+
+A3R002 spill
+(1 081)
+
+A3H031 canal
+(1 080)
+
+A3H030 river A3H042 river A3E003
+(292)
+(174)
+rainfall (690)
+
+A3E003 Span (689)
+
+Good continuous data
+
+73.7
+
+73.8
+
+71.9
+
+5.2
+
+61.6
+
+37.0
+
+Good edited data
+
+6.0
+
+1.1
+
+0.0
+
+21.3
+
+0.0
+
+0.0
+
+Good monthly reading
+
+0.0
+
+0.0
+
+0.0
+
+0.0
+
+21.7
+
+0.2
+
+Audited gauge plate
+readings
+
+4.4
+
+0.7
+
+0.0
+
+0.0
+
+0.0
+
+0.0
+
+Height derived from flow
+
+0.0
+
+9.6
+
+0.0
+
+0.0
+
+0.0
+
+0.0
+
+Gap filled data
+
+2.4
+
+0.0
+
+0.0
+
+0.0
+
+0.0
+
+0.0
+
+Audited estimate
+
+0.4
+
+0.0
+
+2.1
+
+0.0
+
+0.0
+
+40.1
+
+Minimum value
+
+0.0
+
+0.0
+
+5.1
+
+0.0
+
+0.0
+
+0.0
+
+Above rating
+
+0.0
+
+0.0
+
+7.2
+
+0.0
+
+0.0
+
+0.0
+
+Permanent gap
+
+2.9
+
+3.5
+
+2.7
+
+10.3
+
+0.0
+
+4.4
+
+Data missing
+
+1.2
+
+1.3
+
+0.0
+
+36.2
+
+8.6
+
+3.8
+
+No info for stage/discharge
+determination
+
+0.1
+
+0.0
+
+0.0
+
+0.0
+
+0.0
+
+0.0
+
+Data unreliable
+
+0.0
+
+0.2
+
+0.0
+
+0.0
+
+0.0
+
+0.6
+
+Negative
+
+0.0
+
+0.0
+
+0.0
+
+0.0
+
+0.0
+
+0.2
+
+Undefined code 8
+
+0.3
+
+0.0
+
+0.0
+
+0.0
+
+0.0
+
+0.0
+
+Previous week’s level used
+as estimate
+
+0.5
+
+0.0
+
+0.0
+
+0.0
+
+0.0
+
+0.0
+
+Edited and checked – still
+unaudited
+
+4.8
+
+2.0
+
+0.0
+
+17.2
+
+0.0
+
+0.0
+
+Checked – still unaudited
+
+0.0
+
+4.8
+
+0.0
+
+0.0
+
+7.0
+
+4.9
+
+Checked estimate – still
+unaudited
+
+0.7
+
+0.6
+
+0.0
+
+0.0
+
+0.0
+
+3.5
+
+Unaudited
+
+0.2
+
+0.0
+
+10.3
+
+0.0
+
+1.2
+
+5.5
+
+Good edited unaudited
+
+2.5
+
+2.4
+
+0.7
+
+9.8
+
+0.0
+
+0.0
+
+24
+
+Table 3: Data quality of the monthly records of the Wilgeboomspruit and at and below Kromellenboog Dam, in
+per cent of the months in each DWS quality code (calculated from DWS, s.a.b). The number of months is in
+brackets.
+A3H016
+Quality code
+
+Wilgeboomspruit
+(321)
+
+A3R003 spill,
+Kromellenboog (858)
+
+A3H033 canal,
+Kromellenboog (858)
+
+A3H032 river below
+Kromellenboog (560)
+
+Good continuous data
+
+79.4
+
+66.2
+
+69.5
+
+51.3
+
+Good edited data
+
+0.0
+
+8.6
+
+9.3
+
+15.7
+
+Audited gauge plate
+readings
+
+0.0
+
+7.8
+
+1.1
+
+0.7
+
+Audited estimate
+
+0.0
+
+0.0
+
+1.4
+
+1.4
+
+Minimum value
+
+1.9
+
+0.0
+
+0.0
+
+0.0
+
+Above rating
+
+0.0
+
+0.0
+
+0.1
+
+0.4
+
+Permanent gap
+
+18.4
+
+1.4
+
+6.5
+
+11.3
+
+Data missing
+
+0.3
+
+0.2
+
+1.3
+
+2.0
+
+No info for
+stage/discharge
+determination
+
+0.0
+
+0.4
+
+0.0
+
+0.0
+
+Data unreliable
+
+0.0
+
+0.1
+
+0.0
+
+0.0
+
+Unknown
+
+0.0
+
+0.0
+
+0.1
+
+0.0
+
+Undefined code 8
+
+0.0
+
+4.7
+
+0.0
+
+0.0
+
+Previous week’s level
+used as estimate
+
+0.0
+
+2.0
+
+0.0
+
+0.0
+
+Edited and checked –
+still unaudited
+
+0.0
+
+5.8
+
+6.9
+
+12.0
+
+Checked – still
+unaudited
+
+0.0
+
+0.0
+
+0.7
+
+0.4
+
+Checked estimate – still 0.0
+unaudited
+
+0.1
+
+0.1
+
+0.2
+
+Good edited unaudited
+
+2.7
+
+3.0
+
+4.8
+
+0.0
+
+5.1.2 Groundwater
+The borehole records are those of the NGA (DWS, s.a.c). The NGA holds 425 boreholes inside
+A31E. Each of the 266 boreholes with a water level has a single level, measured between 1910
+and 1994, and four of these are recorded as static water levels, three of them during the drought
+(Table 4). No water-level series or pumping tests exist.
+Table 4: The four boreholes inside A31E with a static water level, with the date of the level (DWS, s.a.c), and
+the mapped classes in which they lie (measured in GIS).
+Borehole
+
+Date of level
+
+Depth to
+water (m)
+
+Rock group
+
+Aquifer type
+
+Mapped yield
+class
+
+Soil
+group
+
+2526AD00180 11 May 1994
+
+30.00
+
+Volcanic rocks, diabase Intergranular and
+and tuff
+fractured
+
+0.5–2.0 L/s
+
+B/C
+
+2526CA00602 9 July 1990
+
+9.24
+
+Quartzite and
+sandstone
+
+Fractured
+
+0.5–2.0 L/s
+
+B/C
+
+2526CA00864 10 July 1990
+
+20.23
+
+Surface deposits
+
+Intergranular and
+fractured
+
+0.1–0.5 L/s
+
+B/C
+
+2526CB00135 25 November
+1974
+
+10.97
+
+Quartzite and
+sandstone
+
+Fractured
+
+0.5–2.0 L/s
+
+C
+
+25
+
+The mapped layers are the 1:250 000 geological maps (Michaluk & Keyser, 1991; Walraven,
+1981), the 1:500 000 hydrogeological map with its borehole-yield classes (Barnard, 1999), the
+hydrological soil groups (Schulze & Schütte, 2023) and the national land cover of 2022 (DFFE,
+2024), which is classified from satellite images. The Groundwater Resource Assessment II
+(GRAII) gives the following modelled regional values for A31E (DWS, s.a.a). Transmissivity,
+which is how easily the full thickness of an aquifer passes water, is 22.81 m²/d. Storativity, which
+is the water released per m² of aquifer when its level falls by 1 m, is 0.00998 in the weathered
+zone and 0.00014 in the fractured zone below it. The weathered zone is 25.36 m thick and the
+fractured zone 182.14 m, a total of 207.5 m. Recharge, which is the part of rainfall that reaches
+the groundwater, is 4.84% of rainfall, about 29 mm/a. The Reserve determination gives the
+recharge, use and baseflow of A31E (DWS, 2021). The vulnerability of the aquifer is taken from
+the national DRASTIC map (DWAF, cited by Esterhuyse, 2017).
+
+5.1.3 Flood
+The terrain of the flood model is the 30 m Shuttle Radar Topography Mission (SRTM) elevation
+model of February 2000 (Farr et al., 2007), and the roughness follows the land-cover groups of
+the national land cover of 2022 (DFFE, 2024). The design rainfall, the runoff coefficients and the
+flood formulas are those of the drainage manual of the South African National Roads Agency
+(SANRAL, 2013).
+
+5.1.4 Water quality and climate
+The water-quality records are the analyses of the Department at seven sites in A31E (DWS,
+s.a.e). The sites, in order along the Klein Marico River, with the period of each record and the
+number of samples with an electrical conductivity (EC), are: A3H030, the river at the weir below
+Klein Maricopoort Dam (1989–1993; 56 samples); A3H042Q01, the river below the dam (2012–
+2023; 81); 188257, the river at Kalkdam, Enzelsberg road (2005–2007; 3); 188038, the river at
+Nooitgedacht (2004–2005; 3); 188030, the river at Dammenbrug (2004; 1); A3R003Q01,
+Kromellenboog Dam near the wall (1966–2023; 248); and A3H016Q01, the Wilgeboomspruit
+(1971–1991; 54). Path 1 is sampled below Klein Maricopoort Dam and at the three sites along
+the river between the dams, path 2 in the Wilgeboomspruit, and both paths in Kromellenboog
+Dam. The groundwater of A31E is represented by the median electrical conductivity of seven
+samples given in the Reserve determination (DWS, 2021:163). EC, which measures the
+dissolved salts, chloride, sodium, the sodium adsorption ratio (SAR), inorganic nitrogen and
+phosphate-P are screened against guideline values, and sulphate is reported as a median. The
+guideline values are the upper limits of the target range for irrigation, where the SAR of 2.0 is the
+value for the crop yield, and the boundaries of the trophic classes for aquatic ecosystems
+(DWAF, 1996a:134; DWAF, 1996b).
+The climate cases use the CMIP6 projections of the IPCC Atlas for ESAF for 2041–2060 under
+SSP2-4.5 (Gutiérrez et al., 2021; Iturbide et al., 2020, 2022).
+
+26
+
+5.2 Data preparation
+5.2.1 Dam water balance
+Rainfall and flow are counted by hydrological year, which runs from October to September and is
+named after the calendar year in which it begins. Months that were partly recorded are treated
+as gaps, and a yearly total is counted only for a year in which every month has a value. Three
+periods are doubtful although their codes are good. These are the calculated inflow of 1975 to
+1980, which totals 296 Mm³ in the patched WR2012 flow at the dam against 186 Mm³ at
+Kromellenboog Dam downstream, the spill record of 1977 to 1979, and the canal record of 2018
+to 2021, which repeats one flow rate (DWA, 2012; DWS, s.a.b).
+The water-surface area follows from the relation between the gauge reading and the contents of
+the reservoir since the survey of 1982, which gives the capacity of 7.07 Mm³ at full supply on
+which the reservoir record is based. Evaporation is calculated from the twelve mean monthly Span depths, because 43.5% of the pan months are estimates, with pan factors of 0.82 to 0.89
+that were back-calculated from the Department’s evaporation volumes. The release to the river is
+taken as the mean gauged release in each band of storage (Figure 2, upper panel).
+The upper panel uses the 259 months without spill and shows the mean of each storage band.
+The lower panel gives the share for the fit period (hydrological years 1966–1974 and 1981–
+1986), for the test period (1987–2009) and for both together, which is the rule used.
+The canal is asked to deliver the registered volume of 2.34 Mm³/a, which it carried when the dam
+was full (DWA, 2012; DWS, s.a.b). This volume is divided over the year according to the pattern
+of Figure 3, which is taken from the canal record A3H031 for the hydrological years 1997–2014
+without 2010. About a third of the volume falls from
+The inflow of each month is the remainder of the dam's own recorded balance. This remainder is
+available for 843 months. A further 27 months were rebuilt from the station records and 18 from
+the WR2012 patched flow, which gives the 888 months from October 1936 to September 2010.
+This is inflow series 1, and all results are for series 1 unless stated. Before 1987 the release
+entry of the dam record is a fixed value, and a second inflow series (series 2) that adjusts it was
+prepared for this period and run as a check. The inflow to Kromellenboog Dam was calculated in
+the same way, as the remainder of its recorded balance (A3R003, A3H033), and the net
+contribution of the river between the dams is this inflow less the spill and release of Klein
+Maricopoort Dam.
+No operating rule of the scheme could be obtained. The share of the registered volume that the
+canal receives when the dam is low was derived from the records, as Coerver et al. (2018) do for
+reservoirs whose rules are unknown. The rule gives this share for seven zones of storage,
+calculated as the canal volume delivered divided by the volume asked for in all months whose
+starting storage lay in that zone. The rule was fitted on hydrological years 1966–1974 and 1981–
+1986 and tested on 1987–2009, the period in which every outflow is measured (Figure 2, lower
+panel). The seasonal pattern of the canal volume in the forward test is that of Figure 3, and in the
+reverse test it is that of the months with the dam at 85% or more of its capacity in 1966–1974
+and 1981–1986.
+
+27
+
+Figure 2: Upper panel: monthly release to the river below the dam (DWS station A3H030) against the storage at
+the start of the month, 1987–2010. Lower panel: share of the registered volume that the canal received in each
+storage zone.
+
+Figure 3: Average monthly volume in the canal from Klein Maricopoort Dam (DWS station A3H031),
+hydrological years 1997–2014 without 2010.
+
+5.2.2 Groundwater
+A 20 m digital elevation model (DEM) was made in ArcGIS Pro from spot heights and contours. It
+gives the top of the groundwater model, the ground levels of the boreholes and the levels of the
+drains.
+
+28
+
+The model removes water from every cell through a ground drain, which represents seepage,
+springs, evaporation and uptake by plants. Two depths of the ground drain are used, and they
+define the two structures of the model: structure S, with a shallow ground drain, and structure D,
+with a deep one. In structure S the ground drain lies 1 m below the land surface. In structure D it
+lies 15.27 m below the surface, which is the median depth to water of 112 archive levels in A31E
+and its neighbouring catchments (DWS, s.a.c). These 112 levels include the four calibration
+levels but none of the 262 levels that are later compared with the model. The depth of 15.27 m is
+also close to the mean maximum rooting depth of tropical grassland and savanna, 15.0 m
+(Canadell et al., 1996).
+The calibration targets are the four static water levels, and the 262 other archive levels are kept
+for comparison afterwards. The recharge is the regional rate of 29.2 mm/a. The benchmark for
+the fit is a water table 15.27 m below the ground everywhere.
+The abstraction is placed in GIS in three ways. Placement P1 spreads it over the 45 model cells
+under the land mapped as irrigated, P2 over the 474 cells of surface deposits within 1 km of that
+land, and P3 over the 410 bedrock cells within the same distance. Because the effective porosity
+of A31E is not known, a porosity of 0.10 is used for the particle times, which lies within the range
+published for fine sand, silt and clay, the surface deposits in which 41 of the 45 cells under the
+irrigated land lie (Woessner & Poeter, 2020).
+
+5.2.3 Flood
+Flood extent and depth were modelled for the reach of the Klein Marico River below the
+Doringrivier, because the irrigated land lies along it. The reach begins at point F2 and runs 15.7
+km downstream (Map 2). The catchment at F2 covers 1 357 km², including the catchment of
+Klein Maricopoort Dam (F1) and that of the Doringrivier (F3), and its watercourse length and
+slope were taken from GIS.
+The peak of the SDF was calculated in the steps of the drainage manual (SANRAL, 2013:3-44 to
+3-47, 3B-2, 3B-3), with the inputs in Table 5. The catchment at F2 lies in SDF basin 1. Its area,
+the length of its longest watercourse and the slope between 10% and 85% of that length were
+taken from the GIS. The design rainfall for the time of concentration was interpolated linearly
+between the modified Hershfield value for 6 h and the daily value of the basin station, Struan
+(SAWS 546 204), and reduced by the area reduction factor. The runoff coefficient for each return
+period follows from the coefficients of the basin for the 1:2-year and 1:100-year floods through
+the return-period factors. Each peak was given the triangular hydrograph that the manual
+prescribes for the SDF, which rises over one time of concentration and falls over two (SANRAL,
+2013:3-45, 3-47).
+The SRTM model is used for the flood model alone, because the 20 m DEM smoothed the
+valleys. Manning’s n was set for each land-cover group within published ranges (USACE HEC,
+s.a.b).
+
+29
+
+Table 5: Inputs of the SDF at F2.
+Step Quantity
+
+Value
+
+1
+
+SDF basin; station
+
+1; Struan (SAWS
+546 204)
+
+2
+
+Catchment area, A
+
+1 357.26 km²
+
+3
+
+Longest watercourse, L
+
+94.12 km
+
+4
+
+Average slope between 10% and 85% of L, S
+
+0.00536 m/m
+
+5
+
+Time of concentration, Tc = (0.87 L² / (1000 S))^0.385, L in km
+
+16.44 h
+
+6
+
+Point rainfall for Tc, 1:50-year and 1:100-year (modified Hershfield at 6 h: 122.1 and 140.7 mm;
+daily value of Struan: 150 and 177 mm)
+
+138.3 and 161.8 mm
+
+7
+
+Area reduction factor
+
+84.4%
+
+8
+
+Runoff coefficient C2 and C100; C50
+
+10% and 40%;
+36.4%
+
+9
+
+Peak, Q = C I A / 3.6, with I = point rainfall × ARF / Tc
+
+Table 14
+
+5.2.4 Water quality and climate
+Surface samples were used for the water-quality screening.
+The climate cases are expressed as factors that multiply the value of the Reference run, which is
+the water balance and the groundwater model with inflow series 1, the evaporation and demand
+of the records and the regional recharge. They are sensitivity steps for about 2050 and not
+forecasts. Case M represents the median of the projections for ESAF for 2041–2060 under
+intermediate emissions (SSP2-4.5). Case D represents their dry end, with the 10th percentile of
+the rainfall and the median warming, because the projected warming is narrow in range while the
+rainfall is uncertain even in sign (Section 3.3). The factors are given in Table 6.
+The cases follow the projections of the models under SSP2-4.5 for ESAF for 2041–2060, set
+against hydrological years 1937–2009.
+Table 6: The climate cases for about 2050 (calculated from Gutiérrez et al., 2021; Iturbide et al., 2020). Each
+factor multiplies the value of the Reference run.
+Case
+
+Warming
+
+Annual rain
+
+Inflow
+
+Evaporation and demand
+
+Recharge
+
+Reference
+
+–
+
+–
+
+1.00
+
+1.00
+
+1.00
+
+M (median)
+
++1.9 °C
+
+−3.1%
+
+0.93
+
+1.064
+
+0.96
+
+D (dry end)
+
++1.9 °C
+
+−8.5%
+
+0.80
+
+1.064
+
+0.89
+
+The inflow factors follow from the rainfall elasticity of the inflow, which was estimated at 2.0 to
+2.5 with the non-parametric estimator of Sankarasubramanian et al. (2001:1775). Because the
+inflow stayed below its median from 1982 to 1994 although the rainfall was above its mean from
+1987 to 1990, this elasticity is an approximate scaling rather than a property of the catchments
+above the dam. The recharge factors follow from the finding that recharge across Africa
+increases with rainfall to a power of about 1.34 to 1.39 (MacDonald et al., 2021). The factor on
+evaporation and demand corresponds to an increase in potential evapotranspiration of about
+3.4% per °C, which lies in the upper half of the “about 1.5–4%” per °C found by Scheff and
+Frierson (2014:1554), and Cullis and Phillips (2019:25) likewise scale urban water demand by
+the change in potential evaporation.
+
+30
+
+5.3 Data processing within software
+5.3.1 Dam water balance
+The monthly water balance of the dam and its canal was built in Microsoft Excel from the station
+and reservoir records. It is a mass balance of one reservoir with a restriction rule, which is the
+form that Adeloye et al. (2016) use to calculate reliability, resilience and vulnerability for a single
+dam. A simpler storage–yield calculation would leave out evaporation, while a river-system
+model such as WEAP (Dlamini et al., 2023) would add components for which no records exist.
+In each month, the storage at the end equals the storage at the start, plus the inflow and the rain
+on the water surface, minus evaporation, the release to the river, the canal delivery and the spill.
+The balance runs over the 888 months from October 1936 to September 2010 and applies the
+present capacity of 7.07 Mm³ to every year. It describes the present dam and registered volume
+under the inflows of the past and is not a reconstruction of history. The canal receives no water
+once the storage reaches 0.166 Mm³, which is the lowest storage since the survey of 1982.
+
+5.3.2 Groundwater
+The shares of rock group, aquifer type, yield class and soil group, and all elevations, were
+measured in ArcGIS Pro by overlaying the mapped layers on the boundary of A31E and on the
+land mapped as irrigated.
+The groundwater model was built in GMS 10.9.6 and run with MODFLOW-NWT (Niswonger et
+al., 2011). It consists of one layer, 207.5 m thick, with its top at the 20 m DEM, and 15 142 active
+cells of about 200 m by 200 m (145 rows and 222 columns). The recharge of 29.2 mm/a (17.53
+Mm³/a) is applied to every cell, and the outer edge is closed. Water leaves the model only
+through drains, which remove water whenever the water level stands above them (Harbaugh,
+2005). River drains follow the four named rivers at the level of the lowest land beside the
+channel, and stream drains follow all other mapped streams at the land surface, both with a
+conductance of 10 m²/d per metre of channel. The ground drain of every cell has a conductance
+of 0.05 m²/d per m².
+The hydraulic conductivity has two zones, surface deposits (3 479 cells) and bedrock (11 663
+cells). It was estimated for each structure with PEST (Doherty & Hunt, 2010) within the limits
+0.03–3.0 m/d for the deposits and 0.0005–0.05 m/d for the bedrock, using the four static water
+levels with an interval of 10 m each. The recharge was held at its regional value, because
+recharge and conductivity cannot be separated in a calibration on heads alone (Knowling &
+Werner, 2016). The calibrated model without wells is the base case of each structure.
+A31E has no water-level series for a transient model, so the model is run at steady state, in
+which the water entering the aquifer equals the water leaving it, and the cases are compared
+with one another. The residual of a borehole is its measured water level minus the simulated
+one, and the fit is expressed as the root-mean-square error of the residuals.
+Particle tracking used MODPATH 7 (Pollock, 2016) in the base case of each structure. Nine
+particles were released at the water table in each of the 45 cells under the irrigated land, 405 in
+all, and tracked forward. The effective porosity was entered as 1.0 in every cell, and the travel
+
+31
+
+times are scaled to a porosity of 0.10 afterwards. Each particle was classed by the drains of the
+cell in which it ended.
+
+5.3.3 Flood
+The floods were routed with HEC-RAS 7.0.1 in an unsteady two-dimensional model (USACE
+HEC, s.a.a), in which the water can spread in any direction over the valley floor as the flood
+passes. The model area is 24.3 km², with a mesh of 30 m cells refined to 15 m along the river.
+Manning’s n, which describes how strongly the land surface resists the flow, was applied by landcover group. The upstream boundary at F2 is the inflow hydrograph, with an energy slope from
+the terrain, and the downstream boundary is normal depth. The default diffusion-wave equations
+were used. The hydrographs have values every 15 minutes, with a minimum of 5 m³/s.
+
+5.3.4 Water quality and climate
+The factors of Table 6 were applied to the inflow, evaporation, demand and recharge of the water
+balance and the groundwater model described above.
+
+5.4 Analysis
+5.4.1 Dam water balance
+To pass the test, the simulated monthly storage and yearly canal volume had to meet the criteria
+of Moriasi et al. (2007:891) for a satisfactory simulation, which were set for streamflow and are
+applied here by analogy. These criteria are a Nash–Sutcliffe efficiency (NSE) above 0.50, a ratio
+of the root-mean-square error to the standard deviation of the observations (RSR) of 0.70 or
+less, and a percent bias (PBIAS) within ±25%. The inflow itself cannot be tested, because it is
+calculated from the storage record. For the same reason, the fit of the monthly storage mainly
+tests the restriction rule and the outflows, while the yearly canal volume is the more independent
+test. The test is independent only for the restriction rule and the demand, because the area
+curve, the pan factors and the release table were derived from the test period itself, and passing
+a split test is in any case “a necessary, rather than a sufficient, condition” for a model to be
+adequate (Klemeš, 1986:13). After the test, the rule was refitted on both periods together, so that
+the rule used in all further runs also contains the test period. Its shares rise from 0.036 in the
+lowest zone to 1.00 above 57% of capacity. The second, adjusted inflow series was run as a
+check. The rule was also fitted on each period alone, to show how far the reliability depends on
+the period used. In the reverse test the rule was fitted on 1987–2009 and tested on 1966–1974
+and 1981–1986, with the storage at the start of each period taken from the record, and the same
+three criteria were applied to the 178 months and the 14 years with a counted canal volume.
+The supply is judged by the criteria of Hashimoto et al. (1982), calculated with the formulas of
+Adeloye et al. (2016). A month fails when the delivery is below 99% of the registered volume of
+that month. Reliability by time is the share of months without failure, reliability by volume the
+share of the registered volume delivered, and yearly reliability the share of years with the full
+volume. Resilience is the number of shortfall events, which are unbroken runs of failure months,
+divided by the number of failure months, and vulnerability is the mean depth of a shortfall. The
+shortfall of a month is the registered volume less the simulated delivery at the head of the canal,
+
+32
+
+and it is referred to as the shortfall against the registered volume throughout. Every criterion is a
+frequency counted in one record of 74 years and not a probability, since synthetic series
+(Kjeldsen & Rosbjerg, 2004) would require a stochastic model of the inflow. A curve of reliability
+against demand was run for demands of 0.5 to 3.0 Mm³/a. The historic firm yield is the largest
+demand that the dam could have met in every month of the record without restriction.
+The records cannot distinguish a month in which the canal was restricted from a month in which
+less water was wanted, and every run is made twice. With the restriction rule, the canal receives
+the share given by the rule, while without restriction it receives the full volume for as long as
+water remains in the dam. The unrestricted run gives the upper bound of reliability, because
+every restricted month counts as a failure and much of the water held back in the dam is lost to
+evaporation. The run with the rule gives the lower bound for the scheme as it was operated on
+average over the record, but it is not the lowest possible value, since a rule that restricts more
+would lower the reliability further (Section 6.3). For resilience and vulnerability the order is
+reversed, because a restricted canal fails more often but less deeply, and the two bounds are
+always reported together. The sensitivity of the results was tested by changing one input at a
+time (Pianosi et al., 2016:216), namely the inflow series, evaporation, the capacity, the release to
+the river, the rule and the seasonal pattern of demand.
+
+5.4.2 Groundwater
+The shortfall was first compared with the groundwater balance of the Reserve determination
+(DWS, 2021). Such a balance treats recharge as water that is free to be taken, while pumped
+water is balanced mostly by capture (Section 3.2), and only a flow model can show which
+discharge is reduced by pumping. With four static water levels and a steady-state calibration, the
+model belongs to Class 1, the lowest class of confidence in the Australian groundwater
+modelling guidelines, whose uses include developing coarse relationships between abstraction
+and impact (Barnett et al., 2012:20–21). Both structures are needed because four static water
+levels cannot identify a single conceptual model (Section 3.2). The fit was compared with the
+benchmark, and the 262 other archive levels were compared with both structures afterwards.
+Neither comparison is a validation (SKM, 2013:18).
+Abstraction was run at placement P1 at 0.25, 0.5, 1.0 and 2.34 Mm³/a in structure S and at 0.25,
+0.5, 1.0, 2.0 and 2.34 Mm³/a in structure D. Placement P2 was run at 0.5 Mm³/a in both
+structures and at 2.34 Mm³/a in structure S, and placement P3 at 0.5 Mm³/a in structure S, to
+test whether spreading the abstraction changes the result. The recharge was also multiplied by
+the factors of cases M and D, 0.96 and 0.89, both without wells and with 0.5 Mm³/a at P1.
+Three results are read from each case and compared with the base case at the same recharge.
+These are the rate actually pumped, because MODFLOW-NWT reduces the rate of a well when
+its cell nearly dries (Niswonger et al., 2011), the drawdown in the pumped cells, and the change
+in the outflow of each group of drains as a share of the rate pumped. The drawdown is the fall of
+the water table caused by the abstraction, and the lowering is the difference in the water table
+between two runs with the same abstraction, one at the base recharge and one at the reduced
+recharge. Both are means of 200 m model cells.
+
+33
+
+A steady-state drawdown is the state reached if pumping continued indefinitely at the mean
+recharge. It exceeds the drawdown of a single season of pumping at the same recharge, and
+during a long drought, when the recharge falls below its mean, it would be larger. The loss of
+streamflow would in reality arrive later and continue after pumping stops (Section 3.2). Two
+further comparisons show what the four water levels cannot decide. In one, the recharge, the
+conductivities and the drain conductances are all halved or all doubled, which gives the same
+water levels and so fits the four levels equally well. In the other, structure D is run with the
+conductivities of structure S. The mean shortfall and the rate needed in the longest shortfall
+event were expressed as shares of the recharge of the Reserve determination and compared
+with the rates that the model could deliver.
+The particle times are those of the moving water alone, without dispersion, retention or decay.
+They scale in proportion to the effective porosity, which was not measured, and a porosity of
+0.01 would make them ten times shorter than at 0.10.
+
+5.4.3 Flood
+The design flood was estimated with the SDF method of the drainage manual (SANRAL, 2013).
+Two plans were run, the 1:50-year and the 1:100-year flood. Two simplifications act in opposite
+directions, since ignoring the attenuation in Klein Maricopoort Dam makes the flood larger, while
+leaving out the inflow of the Waterkloofspruit makes the flood below its junction smaller. A cell of
+the mesh was counted as flooded where its maximum depth was at least 0.01 m. The peak
+reduction is the fall of the peak between the inflow at F2 and the outflow at the downstream
+boundary, and the delay is the time between the two peaks. The irrigated land flooded is the area
+of land mapped as irrigated (DFFE, 2024) that lies in the flooded cells, calculated in a GIS.
+
+5.4.4 Water quality and climate
+Each water-quality quantity was compared with its guideline value, and the share of samples
+above the guideline was counted for each site. A value above a guideline shows that the water
+could affect its use or its ecosystem, but it does not show that the water is contaminated. The
+guideline defines the trophic classes for the average summer concentration, so the share of
+single samples above a boundary is a screening indication and not a trophic classification
+(DWAF, 1996b:84, 97).
+In the climate cases, the dam was run with the inflow multiplied by 0.93 and 0.80 and
+evaporation and demand by 1.064. The canal is asked for the registered volume raised by the
+same factor, 2.49 Mm³/a, and the reliability is measured against this volume. The groundwater
+model was run with the recharge multiplied by 0.96 and 0.89 (Section 5.4.2). The simulated
+storage of the cases was compared by the share of months in which it stood at or above each
+level.
+
+34
+
+6. Results
+6.1 The irrigated land and the records
+A31E falls from 1 567 m in the south to 1 038 m at Kromellenboog Dam (Map 2). Between the
+two dams, the river falls about 104 m over a distance of 24.7 km. The Doringrivier joins the Klein
+Marico River 4.2 km below the dam wall and the Waterkloofspruit 13.7 km below it. The water
+surface of the upper dam stands at about 1 150 m, while all the land mapped as irrigated below
+it lies lower, between 1 093 and 1 140 m, so that a canal leaving the dam could reach this land
+by gravity.
+The rock types of Map 3 are combined into four groups: quartzite and sandstone cover 31.8% of
+A31E, the andesitic lava of the Hekpoort Formation and diabase 24.4%, mudrock, shale and
+hornfels 20.9%, and surface deposits 22.5%. On the hydrogeological map, 59.8% of A31E is
+classified as an intergranular and fractured aquifer and 40.2% as a fractured aquifer. Of the land
+mapped as irrigated, 91.6% lies on surface deposits. The thickness and composition of these
+deposits are not known. The mapped median borehole yield is 0.5–2.0 L/s over 75.3% of A31E
+and 0.1–0.5 L/s over the remaining area, which includes three-quarters of the irrigated land. The
+registered scheme volume is equal to about 74 L/s pumped continuously, which would require
+about 150 to 740 boreholes at yields of 0.5 to 0.1 L/s. According to the modelled regional values
+of the GRAII (Section 5.1.2), the weathered zone holds about 91% of the water that would drain
+if both zones were dewatered (storativity multiplied by thickness).
+Each of the 266 boreholes with a water level has a single level. The 262 levels that are not
+recorded as static have a median depth of 19.4 m, and the median strike yield of 109 boreholes
+is 0.3 L/s.
+The soils of A31E belong to the hydrological soil groups B/C (38.7%), C (31.5%), C/D (28.7%)
+and B (1.2%). 83.2% of the land mapped as irrigated lies on group B/C. The Wilgeboomspruit
+yielded about 53 mm/a, or 7.6% of the rainfall, in the six complete years of 1966–1980 (DWS,
+s.a.b). Natural woodland and grassland cover 87% of A31E and cultivated land 10.2%, more
+than half of which is fallow. Land mapped as irrigated covers 164.9 ha in 18 patches in the strip
+below the dam, of which 147 ha are under centre pivots (Map 6). Built-up land covers 0.3%.
+Half of the scheme positions of the register lie on higher ground above the level of the dam,
+which a canal cannot reach by gravity. Three different quantities describe irrigation from the dam.
+The register lists 442 ha and 2.34 Mm³/a, the land cover maps 165 ha of irrigated land, of which
+147 ha is under centre pivots, and the canal carried 1.89 to 2.16 Mm³/a in 2022 and 2024 (DWS,
+s.a.b).
+The yearly rainfall at the dam varied between 314 and 900 mm in 1967–2008 (Figure 4). Every
+year from 1981 to 1986 fell below the long-term mean, which is the longest such run since 1920
+(Bailey & Pitman, 2016; DWS, s.a.b). At the dam, 93% of the rain falls between October and
+
+35
+
+April, and the S-pan evaporation averages 2 005 mm/a and exceeds the rainfall in every month
+(Figure 5; DWS, s.a.b). The reservoir loses a mean of 1.07 Mm³/a to evaporation over the record
+of 1936–2010, and about 2.0 Mm³/a when the dam is nearly full (DWA, 2012).
+Only complete hydrological years are shown for the station. Hydrological year 1975 is left out,
+because its total includes an implausible 670 mm in August 1976.
+
+Figure 4: Yearly rainfall at Klein Maricopoort Dam (DWS station A3E003) and in WR2012 rainfall zone A3B,
+hydrological years 1967–2008.
+
+Figure 5: Average monthly rainfall and S-pan evaporation at Klein Maricopoort Dam (DWS station A3E003),
+hydrological years 1967–2014.
+
+6.2 The canal record and the water of A31E
+The inflow to Klein Maricopoort Dam is not gauged, so it was calculated from the dam's own
+record (series 1). Its median over the hydrological years 1936–2009 is 3.71 Mm³/a (Figure 6).
+The inflow stayed below the median from 1982 to 1994, and from 1985 to 1994 it averaged 0.84
+Mm³/a, about a third of the registered volume before any evaporation. The rainfall was well
+
+36
+
+below the long-term mean in 1982 to 1985 and in 1991, and above it in 1987 to 1990. The dam
+fell from nearly full in December 1982 to 22% of its capacity in March 1984 and stayed low until
+the rains of 1995 and 1996 (DWA, 2012).
+The inflow in the lower panel is calculated from the dam’s own record (series 1). The lines show
+the long-term mean rainfall (1920–2009) and the median inflow (1936–2009) (Bailey & Pitman,
+2016; DWA, 2012).
+
+Figure 6: Yearly rainfall in WR2012 rainfall zone A3B (upper panel) and yearly inflow to Klein Maricopoort Dam
+(series 1, lower panel), hydrological years 1981–2009. Grey: years with months not taken from the dam record.
+
+The water balance shows where the water went (Table 7). Evaporation took a third of the water
+that entered the dam in 1987–2009 and about half in 1987–1995, when the canal carried only
+0.30 Mm³/a. The capacity of 7.07 Mm³ equals about three years of the registered volume, and
+about two years once the evaporation, net of the rain on the water surface, and the release to
+the river are included.
+The inflow is the remainder that closes the balance of the other terms. The series 1 inflow, which
+uses the release entry of the dam record, averages 3.39 Mm³/a for 1987–2009. The canal is the
+irrigation entry of the dam record; gauge A3H031 gives 1.23 Mm³/a for 1987–2009. The columns
+start in 1987, the first hydrological year in which every outflow is gauged, and the second ends in
+1995, the year in which the dam recovered. Rounding leaves the columns up to 0.01 apart.
+
+37
+
+Table 7: Water balance of Klein Maricopoort Dam from the records, in Mm³/a (DWA, 2012; DWS, s.a.b).
+Term
+
+1987–2009
+
+1987–1995 (drought and recovery)
+
+1996–2009
+
+Inflow from the river (remainder)
+
+3.32
+
+1.23
+
+4.67
+
+Rain on the water surface
+
+0.42
+
+0.24
+
+0.53
+
+Evaporation
+
+1.23
+
+0.74
+
+1.55
+
+Canal
+
+1.20
+
+0.30
+
+1.78
+
+Spill
+
+0.87
+
+0.00
+
+1.43
+
+Release to the river
+
+0.33
+
+0.07
+
+0.49
+
+Losses
+
+0.01
+
+0.01
+
+0.01
+
+Change in storage
+
++0.11
+
++0.35
+
+−0.05
+
+The canal record shows how often the canal fell short. In 24 of the 38 years from 1966 to 2009
+that have a complete record (63%), the canal carried less than the registered volume, by 58% of
+that volume on average (Figure 7). The years 1984 to 1996 form one run of thirteen shortfall
+years (DWS, s.a.b).
+
+Figure 7: Upper panel: monthly storage as a percentage of the capacity at the time, June 1936 to November
+2010 (DWA, 2012). Lower panel: yearly canal volume, hydrological years 1936–2024 (DWS station A3H031),
+against the registered 2.34 Mm³/a. Grey: years not counted.
+
+To see where the water came from during the drought, the inflow to Kromellenboog Dam was
+compared with what Klein Maricopoort Dam passed on (Table 8). In 1987–1995 the upper dam
+passed on almost nothing, and most of the water that reached Kromellenboog Dam came from
+the river between the dams. Over 1987–2009, 81% of the water that reached Kromellenboog
+
+38
+
+Dam did not come from the upper dam (DWA, 2012; DWS, s.a.b). The Wilgeboomspruit, the one
+gauged stream inside A31E, was dry in 42 of the 50 months from February 1984 to March 1988
+and flowed again from April 1988 (Figure 8).
+
+Figure 8: Monthly rainfall in WR2012 rainfall zone A3B (upper panel) and monthly flow of the Wilgeboomspruit
+at DWS station A3H016 (lower panel), December 1965 to August 1992.
+
+The net contribution is the difference between two remainders of dam records. It is net of river
+abstraction and includes return flow of canal water, which the records cannot separate. Months
+with a flagged outflow are included, and the years 1992 and 1993 have no yearly value, so the
+means use the storage at the ends of the period. Rounding leaves the columns up to 0.01 apart.
+Table 8: The inflow to Kromellenboog Dam and the water of the river between the dams, in Mm³/a (DWA, 2012;
+DWS, s.a.b).
+Term
+
+1987–2009
+
+1987–1995
+
+1996–2009
+
+Inflow to Kromellenboog Dam (balance)
+
+6.21
+
+3.87
+
+7.71
+
+Passed on by Klein Maricopoort Dam (spill and release)
+
+1.19
+
+0.07
+
+1.92
+
+Net contribution of the river between the dams
+
+5.01
+
+3.80
+
+5.80
+
+6.3 Reliability of the canal supply
+The water balance was tested before it was used, because the inflow is calculated from the
+same records (Table 9; Figure 9). The restriction rule was fitted on 1966–1974 and 1981–1986
+and tested on 1987–2009 (the forward test), and fitted on 1987–2009 and tested on the earlier
+years (the reverse test). In the forward test the simulated storage and the yearly canal volume
+
+39
+
+meet all three criteria, and the monthly canal volume does not. In the reverse test the monthly
+canal volume meets the criteria and the yearly canal volume narrowly does not. The yearly canal
+volume is too high in the forward test and too low in the reverse test.
+In each test the rule was fitted on the other period: 1966–1974 and 1981–1986 for the forward
+test, and 1987–2009 for the reverse test. The criteria are NSE above 0.5, RSR at most 0.7 and
+PBIAS within ±25% (Moriasi et al., 2007:891), applied here by analogy. A positive PBIAS means
+that the model is too low (Moriasi et al., 2007:888). The storage is not compared in the reverse
+test, because the area curve comes from the survey of 1982. The seasonal pattern is that of
+Figure 3 in the forward test and that of the years tested in the reverse test.
+Table 9: Test of the water balance in both directions, with the rule fitted on the other period.
+Forward test, 1987– Forward:
+2009: monthly
+monthly canal
+storage
+volume
+
+Forward: yearly
+canal volume
+
+Reverse test, 1966–1974
+and 1981–1986: monthly
+canal volume
+
+Reverse: yearly
+canal volume
+
+Values
+compared
+
+276 months
+
+265 months
+
+20 years
+
+178 months
+
+14 years
+
+NSE
+
+0.86
+
+0.38
+
+0.60
+
+0.56
+
+0.49
+
+RSR
+
+0.37
+
+0.79
+
+0.64
+
+0.66
+
+0.72
+
+PBIAS (%)
+
++7.4
+
+−17.2
+
+−22.4
+
++19.3
+
++19.6
+
+Meets all
+three criteria
+
+Yes
+
+No
+
+Yes
+
+Yes
+
+No
+
+Measure
+
+The reliability of the canal was then calculated against the registered volume over the 74 years
+(Table 10). With the rule, the canal receives the registered volume in 59% of the months and in
+45% of the years, and without restriction in 87% and 77%. With the rule the canal fails about
+three times as often, but a failure month still brings half of the registered volume, while without
+restriction the canal then receives an eighth.
+With the rule, the drought forms one failure event from December 1983 to January 1996, the
+longest of the record. Its shortfall is more than nine times the registered yearly volume, and it
+includes 40% of all failure months (Figure 10). Without restriction, the same drought breaks into
+separate events of no more than 20 months.
+The rule costs water. The canal receives 0.21 Mm³/a less on average, and the dam loses 0.21
+Mm³/a more to evaporation and spill. The reliability also depends on the period used to fit the
+rule: fitted on the fit period alone, the rule gives a reliability by time of 0.59, and fitted on the test
+period alone it gives 0.39 and a longest event of 169 months.
+The adjusted inflow series (series 2) gives almost the same reliability, 0.588 with the rule and
+0.865 without. The other inputs matter far less. With the rule, a change of 10% in evaporation, or
+halving or raising by half the release to the river, moves the reliability by time by about 0.02, and
+every other input, including a capacity 10% smaller and the seasonal pattern of demand, moves
+it by less than 0.01. Without restriction the largest change, also about 0.02, comes from a higher
+lowest usable storage. Leaving out the doubtful years of 1975–1980 lowers the reliabilities by at
+most 0.05.
+
+40
+
+Figure 9: Upper panel: simulated and recorded monthly storage in the forward test, 1987–2009 (recorded
+storage from DWA, 2012). Lower panel: recorded and simulated yearly canal volume in the reverse test (1966–
+1974 and 1981–1986) and the forward test (1987–2009), against the registered 2.34 Mm³/a (DWS station
+A3H031).
+
+The historic firm yield is the largest demand that the dam could have met in every month of the
+record without restriction. It is about 0.36 Mm³/a (Figure 11). One month fails at 0.37 Mm³/a, in
+October 1992, when the dam held 0.2 Mm³. At 1.5 Mm³/a the unrestricted canal fails in 8% of the
+months. The rule was fitted at the registered volume, so at lower demands the curve of the rule
+in Figure 11 is the rule as fitted.
+
+41
+
+Figure 10: Reference run of the water balance, 1936–2009, with the restriction rule and without restriction.
+Upper panel: simulated monthly storage; lower panel: yearly canal delivery against the registered 2.34 Mm³/a.
+Shaded: 1975–1980, in which the inflow is doubtful.
+Table 10: Reliability, resilience and vulnerability of the canal supply against the registered volume of 2.34
+Mm³/a, Reference run with the inflow as recorded (series 1), hydrological years 1936–2009.
+Criterion
+
+With the restriction rule
+
+Without restriction
+
+Reliability by time
+
+0.590
+
+0.867
+
+Reliability by volume
+
+0.795
+
+0.883
+
+Yearly reliability
+
+0.446
+
+0.770
+
+Shortfall events; longest (months)
+
+16; 146
+
+11; 20
+
+Resilience
+
+0.044
+
+0.093
+
+Vulnerability
+
+0.50
+
+0.88
+
+Mean shortfall (Mm³/a)
+
+0.48
+
+0.27
+
+42
+
+Figure 11: Reliability of the canal supply by time and by volume against the demand on the canal, with the
+restriction rule and without restriction, 1936–2009. Vertical lines: the registered volume (2.34 Mm³/a) and the
+demand of the WR2012 study (2.73 Mm³/a).
+
+6.4 Fit and water budget of the groundwater model
+The groundwater model was calibrated separately for the two structures on four static water
+levels, which gave different conductivities (Table 11). Structure S matches three of the four levels
+within 6 m, but it misses borehole 2526AD00180 in the valley by 28.9 m. In structure D both
+conductivities lie at the lower limits of their ranges, and the model fits the four levels through the
+depth of its ground drain. The transmissivity of the bedrock is far below the regional value in both
+structures.
+The 262 archive levels that were not used in the calibration were then compared with both
+structures. Structure D has twice as many levels within 10 m as structure S, but it fits slightly
+worse than the benchmark (Table 11; Figure 12). On the lowest ground the measured water table
+is deeper than that of both structures, by twice as much in structure S. Structure S places the
+water table within 5 m of the surface at many more boreholes than the nine where the levels are
+that shallow. Under the irrigated land the depth to water is 4.5 m in structure S and 15.3 m in
+structure D (Map 7).
+Grey marks levels whose status is not recorded, open circles the mean of each location group
+and blue the four static levels.
+The benchmark is a water table 15.27 m below the ground everywhere. The lowest ground is the
+28 of the 266 levels (the 262 and the four calibration levels) at 1 000–1 100 m. The budget
+closes to 0.00% in both structures; sums are up to 0.01 apart through rounding.
+The water budget shows where the recharge goes (Table 11). The two structures receive the
+same recharge but lose it by different routes. The discharge to the rivers and streams in
+structure S exceeds the baseflow of 2.00 Mm³/a in the Reserve determination (DWS, 2021) and
+
+43
+
+the net contribution of the river between the dams (Table 8). In structure D it is below the
+baseflow. The comparison is of scale only, as the quantities are of different kinds.
+
+Figure 12: Residual (observed minus simulated head) at the single water levels recorded inside A31E (National
+Groundwater Archive, 1910–1994) against ground level, for structure S (upper panel) and structure D (lower
+panel).
+Table 11: Fit and water budget of the two base cases of the groundwater model, without wells.
+Measure
+
+Structure S
+
+Structure D
+
+Benchmark
+
+Conductivity, surface deposits / bedrock (m/d)
+
+0.430 /
+0.0029
+
+0.03 / 0.0005 (lower
+limits)
+
+–
+
+Transmissivity of the bedrock (m²/d; regional value 22.81)
+
+0.60
+
+0.10
+
+–
+
+Four calibration levels: root mean square error (m)
+
+14.85
+
+8.53
+
+8.61
+
+Same, without borehole 2526AD00180 (m)
+
+3.85
+
+5.03
+
+5.15
+
+262 other levels: root mean square error (m)
+
+24.3
+
+16.9
+
+14.9
+
+262 other levels: within 10 m (%)
+
+31
+
+62
+
+71
+
+Lowest ground (28 of 266 levels): mean residual (m)
+
+−23.1
+
+−11.0
+
+−11.8
+
+Boreholes where the water table is within 5 m of the surface
+(measured: 9 of 262)
+
+114
+
+14
+
+–
+
+Recharge (Mm³/a)
+
+17.53
+
+17.53
+
+–
+
+Out: ground drain (Mm³/a)
+
+7.67 (44%)
+
+16.90 (96%)
+
+–
+
+Out: rivers and streams (Mm³/a)
+
+9.86 (56%)
+
+0.63 (4%)
+
+–
+
+44
+
+(a) Structure S
+
+(b) Structure D
+
+Map 7: Simulated depth to water in the groundwater model of A31E for (a) structure S (outflow 1 m below the
+surface) and (b) structure D (outflow 15.27 m below the surface), with the rivers and streams and the two dams.
+
+The Reserve determination gives a recharge of 17.336 Mm³/a, a groundwater use of 0.81 Mm³/a
+and a baseflow of 2.00 Mm³/a (DWS, 2021). This leaves 14.5 Mm³/a of the recharge
+unaccounted for. The recharge is almost nine times the baseflow. The recharge of the model,
+17.53 Mm³/a, is slightly more.
+
+45
+
+6.5 Groundwater abstraction to offset the shortfall
+Abstraction was added under the irrigated land to see how far groundwater could offset the
+shortfall and where the pumped water would come from. In structure S the mean drawdown in
+the 45 pumped cells is 2.30 m at 0.5 Mm³/a and 40.8 m at the registered volume of 2.34 Mm³/a
+(Figure 13). In structure D the drawdown is five and nine times larger at 0.25 and 0.5 Mm³/a, and
+from 1.0 Mm³/a the pumped cells deliver at most about 1.2 Mm³/a.
+Open circles in the figure mark rates that structure D cannot deliver. The shaded bands show the
+mean shortfall against the registered volume in the Reference run and cases M and D, for both
+bounds (0.27–0.70 Mm³/a), and the rate during the longest shortfall event of the Reference run
+(1.80–2.05 Mm³/a).
+
+Figure 13: Steady-state response of the groundwater model to abstraction spread over the 45 model cells
+under the irrigated land, for structure S and structure D. Upper panel: mean drawdown in the pumped cells;
+lower panel: share of the abstraction balanced by less discharge to the rivers and streams.
+
+The source of the pumped water is opposite in the two structures. In structure S, 88% to 89% of
+the pumped water comes from less discharge to the rivers and streams at rates up to 1.0 Mm³/a,
+and more than three-quarters at the registered volume. At 0.5 Mm³/a, about 69% comes from the
+Klein Marico River itself and 20% from the lower Waterkloofspruit. In structure D, the rivers and
+streams supply under 2%, and the rest comes from the ground drain.
+
+46
+
+Further cases each changed one part of the set-up (Table 12). With the conductivities of
+structure S, the drawdown in structure D falls to about that of structure S, but its water still
+comes entirely from the ground drain. Spreading the abstraction over the surface deposits within
+1 km reduces the mean drawdown to a quarter in structure S and to one twenty-eighth in
+structure D, without changing the source. Abstraction from the bedrock within 1 km lowers the
+share from the rivers and streams in structure S to 58%. The halved and doubled models fit the
+four water levels equally well, and their drawdowns in structure S differ by a factor of about eight.
+The means are over the 45 cells of P1, the 474 cells of P2 and the 410 cells of P3. The halved
+and doubled models give the same water levels as the calibrated model at 1.0 and 0.25 Mm³/a,
+so their values equal those runs.
+Table 12: Mean drawdown in the pumped cells, and share of the abstraction that comes from less discharge to
+the rivers and streams, for 0.5 Mm³/a in cases that each change one part of the set-up.
+Case
+
+S: drawdown
+(m)
+
+S: from rivers and
+streams
+
+D: drawdown (m)
+
+D: from rivers and
+streams
+
+P1, under the irrigated land
+
+2.30
+
+89.2%
+
+20.6
+
+0.5%
+
+P2, spread over the deposits
+within 1 km
+
+0.55
+
+88.8%
+
+0.73
+
+2.7%
+
+P3, on the bedrock within 1 km
+
+3.93
+
+58.0%
+
+Not run
+
+Not run
+
+P1, conductivities of S in structure
+D
+
+–
+
+–
+
+2.22
+
+0%
+
+P1, recharge and conductivities
+halved
+
+7.43
+
+87.6%
+
+117.5 (93%
+delivered)
+
+1.0%
+
+P1, recharge and conductivities
+doubled
+
+0.96
+
+89.1%
+
+4.92
+
+0.3%
+
+The shortfall was then set against the recharge. The mean shortfall of the Reference run (Table
+10) is under 3% of the recharge of the Reserve determination, and the registered volume is
+13.5% of it. The rate needed during the longest shortfall event, 1.8 to 2.05 Mm³/a, cannot be
+delivered from under the irrigated land in structure D at the regional recharge. In structure S it
+lies between the runs at 1.0 and 2.34 Mm³/a.
+
+6.6 Climate change
+The two climate cases of Table 6 were applied to the water balance of the dam and to the
+groundwater model, to test how the canal supply and the groundwater respond in the two
+sensitivity cases for about 2050. Case M is the median step and case D the dry end of the
+projections. The reliability of the canal supply is measured against the registered volume raised
+by the demand factor of the case (Section 5.4.4). Table 13 gives the results against the
+Reference run.
+The reliability by time falls in each step, with and without the rule, and the mean shortfall grows.
+The longest event grows from the Reference run to case M, with and without the rule, and with
+the rule it grows further in case D. With the rule, the reliability by time falls from 0.59 in the
+Reference run to 0.54 in case M and 0.48 in case D. The dam delivers about as much water in
+case M as in the Reference run and less in case D (1.79 against 1.86 Mm³/a with the rule).
+
+47
+
+Canal supply is given with the restriction rule / without restriction, for hydrological years 1936–
+2009, against the registered volume raised by the demand factor of the case. Groundwater is the
+discharge to rivers and streams in the base case (Mm³/a) and its change under the recharge
+factor of the case.
+Table 13: The climate cases against the Reference run.
+Yearly
+reliability
+
+Mean shortfall
+(Mm³/a)
+
+Longest event
+(months)
+
+Groundwater to
+rivers, S
+
+Groundwater to
+rivers, D
+
+Reference 0.590 / 0.867
+
+0.446 / 0.770
+
+0.48 / 0.27
+
+146 / 20
+
+9.86 Mm³/a
+
+0.63 Mm³/a
+
+M
+(median)
+
+0.541 / 0.829
+
+0.405 / 0.703
+
+0.60 / 0.36
+
+148 / 35
+
+−3.8%
+
+−5%
+
+D (dry
+end)
+
+0.477 / 0.791
+
+0.324 / 0.635
+
+0.70 / 0.44
+
+163 / 35
+
+−10.5%
+
+−14%
+
+Case
+
+Reliability by
+time
+
+The simulated storage is never higher than in the Reference run, and it is lower at every level in
+Figure 14.
+
+Figure 14: Share of months in which the simulated storage of Klein Maricopoort Dam is at or above each level,
+for the Reference run and cases M and D, 1936–2009. Left: with the restriction rule; right: without restriction.
+
+In the groundwater model the discharge to the rivers and streams falls by about the same
+percentage as the recharge: by 3.8% and 10.5% in structure S and by 5% and 14% in structure
+D (Table 13). Map 8 shows how much lower the water table stands in case D than in the
+Reference run, from two runs that both include an abstraction of 0.5 Mm³/a under the irrigated
+land. The mean lowering is 1.00 m in structure S and 0.38 m in structure D. Under the pumped
+cells it averages 0.23 m in structure S and 3.78 m in structure D, where it about equals the
+increase in the drawdown of the abstraction, from 20.6 to 24.3 m. Under case M the lowering is
+about a third of that under case D.
+
+48
+
+(a) Structure S
+
+(b) Structure D
+
+Map 8: Additional lowering of the simulated water table when recharge falls to 89% of the base value (case D),
+for (a) structure S and (b) structure D, with 0.5 Mm³/a abstracted from the 45 model cells under the land
+mapped as irrigated in both runs.
+
+6.7 Flood extent and depth in the modelled reach
+The design flood at F2 was estimated with the SDF method (Section 5.2.3), and two model runs
+were routed through the 15.7 km reach, to find how large the floods are and how much of the
+irrigated land they cover.
+
+49
+
+The catchment above the reach is underlain for 46.4% by dolomite of the Malmani Subgroup, all
+of which lies above Klein Maricopoort Dam, while A31E itself contains none (Michaluk & Keyser,
+1991; Walraven, 1981). At the 1:50-year and 1:100-year return periods the SDF gives peaks of
+974 and 1 252 m³/s (Table 14).
+Table 14: Design flood peaks at F2 and the floods routed through the modelled reach (SDF method; catchment
+about 1 357 km²; model area 24.3 km²; irrigated land in the strip below the dam 165 ha, DFFE, 2024).
+Design peak
+(m³/s)
+
+Peak in / out Peak
+(m³/s)
+reduced
+
+Flooded
+(km²)
+
+Deeper than 1
+m (km²)
+
+Irrigated land
+flooded (ha)
+
+Of which deeper
+than 1 m (ha)
+
+1:50year
+
+974
+
+972 / 951
+
+2.1%
+
+7.72
+
+6.26
+
+42.8
+
+35.1
+
+1:100year
+
+1 252
+
+1 250 / 1 236 1.1%
+
+7.97
+
+6.66
+
+44.2
+
+38.1
+
+Run
+
+Over the reach the peak decreases by 1% to 2% and arrives about two hours later. The flooded
+area changes much less than the peak. The 1:100-year peak is 29% larger than the 1:50-year
+peak, but it floods 3% more land. The outlines of the two floods almost coincide on Map 9. The
+1:100-year flood covers 0.25 km² more land, equal to a strip about 8 m wide along each side of
+the 15.7 km reach.
+About a quarter of the irrigated land in the strip is flooded in each run, and most of the flooded
+part lies under more than 1 m of water.
+
+Map 9: Maximum depth of the 1:100-year flood (SDF method) in the modelled reach of the Klein Marico River,
+from the HEC-RAS 2D model, with the outline of the 1:50-year flood. Hatching shows land mapped as irrigated;
+the inset shows the irrigated land in more detail. Depth classes 0.01–0.5, 0.5–1, 1–2, 2–4 and >4 m. The depths
+were exported from HEC-RAS Mapper and drawn in ArcGIS.
+
+50
+
+6.8 Contaminant pathways and water quality
+Two things were examined. Particles were released from the 45 model cells under the irrigated
+land in the runs without abstraction and tracked forward in both model structures (MODPATH;
+Pollock, 2016), to see where water that recharges under the fields goes. The records of the
+Department of Water and Sanitation (DWS) were screened against the guidelines of DWAF
+(1996a, 1996b) to compare the water of the river below Klein Maricopoort Dam with the water of
+A31E, which is the Wilgeboomspruit and the seven groundwater samples.
+In structure S, 387 of the 405 particles (96%) end in a cell where a river drain discharges (Map
+10). The median travel time is about 140 years at an effective porosity of 0.10, and it scales with
+the porosity. In structure D no particle reaches a river or stream, and 288 of the 405 do not leave
+the cell in which they started.
+The water-quality records are in Figure 15 and Table 15. Below Klein Maricopoort Dam the
+median electrical conductivity (EC) was 51.2 mS/m in 1989–1993 (station A3H030, 56 samples)
+and 62.3 mS/m in 2012–2023 (A3H042Q01, 81 samples), and 86% and 99% of the samples
+exceeded the upper limit of the target range for irrigation, 40 mS/m. The three sites along the
+river between the dams (188257, 188038 and 188030, with three, three and one sample in
+2004–2007) had medians of 76 to 83 mS/m.
+The Wilgeboomspruit, the one gauged stream inside A31E (1971–1991), had a median of 3.85
+mS/m and no exceedance, and the seven groundwater samples of A31E (DWS, 2021:163) a
+median of 17.7 mS/m. Kromellenboog Dam, which receives both waters, lies between them and
+the river below the dam at 21.7 mS/m (1966–2023). Sulphate is also higher along the river than
+in Kromellenboog Dam and the Wilgeboomspruit, with medians of 30 and 57 mg/L below the
+dam and 102 to 145 mg/L between the dams, against 17.7 and 3.05 mg/L. Chloride, sodium and
+SAR are above their guideline values in none of the samples at any site. The chloride and
+sodium values are those for water that wets the foliage, and SAR is screened against 2.0, the
+value for the crop yield (DWAF, 1996a:134). Phosphate-P exceeds 0.025 mg/L, the boundary
+between the mesotrophic and eutrophic classes (DWAF, 1996b:97), in 19% of the samples at
+A3H042Q01 (74 samples, 2012–2023) and 4% at A3H030 (56 samples, 1989–1993) below the
+dam, 29% in Kromellenboog Dam and 20% in the Wilgeboomspruit, so the nutrients do not
+separate the two waters in the same way.
+The figure shows the upper limit of the target range for irrigation (40 mS/m; DWAF, 1996a:155)
+and the median EC of the groundwater of A31E (DWS, 2021). Single samples are shown as
+circles.
+Table 15 gives, for each site, the percentage of the samples analysed for a quantity that exceed
+the guideline value. The guidelines are EC above 40 mS/m, the upper limit of the target range for
+irrigation (DWAF, 1996a:155); inorganic nitrogen above 0.5 and 2.5 mg/L and phosphate as
+phosphorus above 0.025 mg/L, the boundaries of the trophic classes, which the guideline
+defines for the average summer concentration (DWAF, 1996b:84, 97). Chloride (100 mg/L) and
+sodium (70 mg/L), the values for water that wets the foliage, and SAR (2.0) exceed their
+guidelines in none of the samples at any site (DWAF, 1996a:48, 134, 144). Sulphate has no
+guideline in this screening.
+
+51
+
+(a) Structure S
+
+(b) Structure D
+
+Map 10: Flow paths of 405 particles released in the 45 model cells under the irrigated land (MODPATH 7;
+Pollock, 2016), for (a) structure S and (b) structure D. Yellow dots mark the end of each path. In S, 387 of the
+405 paths end at a river; in D none do. The paths show advective flow direction only, and travel times depend on
+an assumed porosity.
+
+The DRASTIC index was taken from the national map to rate how vulnerable the aquifer is to
+contamination from the surface. It is low over 96.7% of A31E and moderate over 3.3% (Map 11;
+DWAF, cited by Esterhuyse, 2017).
+
+52
+
+Figure 15: Electrical conductivity (upper panel) and sulphate (lower panel) at the DWS water-quality sites along
+the Klein Marico River below Klein Maricopoort Dam, in Kromellenboog Dam and in the Wilgeboomspruit (DWS,
+s.a.e).
+Table 15: Screening of the DWS water-quality records along the two paths (DWS, s.a.e; surface samples).
+EC median
+Samples (mS/m)
+
+EC above
+guideline
+
+Inorganic N above 0.5 Phosphate-P above
+/ 2.5 mg/L
+0.025 mg/L
+
+1989–
+1993
+
+56
+
+51.2
+
+86%
+
+2% / 0%
+
+4%
+
+A3H042Q01 1
+
+2012–
+2023
+
+81
+
+62.3
+
+99%
+
+12% / 4%
+
+19%
+
+188257
+
+1
+
+2005–
+2007
+
+3
+
+76.3
+
+100%
+
+0% / 0%
+
+0%
+
+188038
+
+1
+
+2004–
+2005
+
+3
+
+77.7
+
+100%
+
+0% / 0%
+
+33%
+
+188030
+
+1
+
+2004
+
+1
+
+82.6
+
+100%
+
+100% / 0%
+
+100%
+
+A3R003Q01 1 and
+2
+
+1966–
+2023
+
+248
+
+21.7
+
+17%
+
+16% / 0%
+
+29%
+
+A3H016Q01 2
+
+1971–
+
+54
+
+3.85
+
+0%
+
+5% / 2%
+
+20%
+
+Site
+
+Path
+
+Period
+
+A3H030
+
+1
+
+1991
+
+53
+
+Map 11: Aquifer vulnerability of A31E according to the DRASTIC index (Aller et al., 1987), in the classes of the
+national map: low (below 90), moderate (90–140) and high (above 140) (DWAF, cited by Esterhuyse, 2017). The
+index is mapped on a 1 km national grid and is not a measurement.
+
+54
+
+7. Discussion
+The canal supply from Klein Maricopoort Dam cannot be relied on for the registered volume. The
+dam is small in relation to that volume, so a drought of several years empties it, and the manner
+in which deliveries are restricted as it empties sets the balance between how often the supply
+fails and how severe a failure is (Hashimoto et al., 1982:18–19). Why the inflow remained low
+during the drought is not yet settled. The historic firm yield of the dam is also well below the 1.4
+Mm³/a that the Department gives, a figure for which the report states no method and which rests
+on hydrology that has not been updated since 1988 (DWAF, 2004:50, 54, 83).
+The drought further shows that A31E carries two waters, which differ in origin and in quality. The
+water in the canal comes from outside the catchment; it fell short during the drought, and in most
+samples its salinity is above the target for irrigation. The Wilgeboomspruit and the groundwater
+of A31E are much fresher, but this water enters the river below the canal and therefore does not
+reach it.
+Because groundwater is tied to both waters, it can back up the canal only in part. Water pumped
+from an aquifer often comes from less discharge elsewhere (Leake & Barlow, 2013). In structure
+S it comes mostly from the Klein Marico River, and so from the water that feeds Kromellenboog
+Dam. Which structure is closer to the catchment the records cannot yet show: the 262 other
+water levels favour structure D on the share within 10 m, but neither structure fits them better
+than a constant depth to water. The same question decides where water from the irrigated fields
+goes, since in structure S nearly all of it would reach a river, whereas in structure D none would.
+Climate change adds to these limits. In the two sensitivity cases for about 2050, the canal supply
+is less reliable than in the Reference run, most of all in the dry case, and in both structures the
+discharge of groundwater to the rivers and streams falls by about as much as the recharge.
+Planning should therefore be tested against the dry end of the projections rather than against the
+median.
+For part of the irrigated land, shortage is not the only risk. This land lies on the floodplain, so its
+users face both a shortage that can last for years and flooding. The model shows that about a
+quarter of the irrigated land in the strip is covered by the 1:100-year flood.
+Taken together, planning in the catchment should assume droughts of several years rather than
+the registered volume, and groundwater cannot yet be relied on as a backup, because its effect
+on the river has not been established. Each remaining range has a cause that data could
+narrow: for the canal, the restriction rule, and for groundwater, the position of the water table
+relative to the river bed.
+
+55
+
+8. Recommendations
+Each recommendation follows from the Discussion (Section 7) and names its addressees.
+1. Plan for shortfalls that last several years (DWS; Premier's Office). Drought plans should
+treat the registered volume as a volume that the dam cannot assure, and should be tested
+against the dry end of the climate projections and not the median.
+2. Review the yield that the Department gives for the dam (DWS). The report that gives the
+yield states no method, and the Marico hydrology has not been updated since 1988. The
+historic firm yield found here is well below it.
+3. State the restriction rule of the scheme and make it known to the irrigators (DWS). The
+records do not show which rule was applied, and the rule sets the balance between how often
+and how badly the canal fails.
+4. Do not rely on groundwater as a backup until its effect on the river has been assessed
+(DWS; Premier's Office; AGES). In one structure of the model most of an abstraction comes
+from the river that supplies Kromellenboog Dam.
+5. Monitor the quality of the river below the dam, the inflow to the dam and boreholes
+below the irrigated land (DWS; AGES). The river below the dam is above the salinity target
+for irrigation in most samples, and the source of its salt and the quality of the groundwater
+below the fields are not known.
+6. Collect the data that would reduce the uncertainty most. The restriction rule and the
+position of the water table relative to the river bed decide most of the ranges, so the priorities
+are:
+(a) The operating and restriction rule of the scheme, with yearly records of the water
+ordered and delivered (DWS).
+(b) A gauged record of the inflow to Klein Maricopoort Dam and of the water used above it,
+to settle the cause of the low inflow (DWS).
+(c) Water levels and electrical conductivity in boreholes beside the Klein Marico River
+below the dam (DWS; AGES).
+(d) The lithological logs of the valley deposits in the archive, and pumping tests in those
+deposits (AGES).
+(e) Water-level series in the valley and in the western arm (AGES).
+
+56
+
+9. Conclusions
+This study set out to quantify the reliability of the canal supply from Klein Maricopoort Dam, how
+far groundwater within A31E could offset its shortfalls and how both respond to a drier climate,
+and to screen the floods and the contaminant paths along the irrigated reach.
+The canal supply is not reliable for the registered volume. The dam is small against it, and one
+drought of many years, in which the inflow stayed low, left the canal short year after year.
+Groundwater within A31E cannot yet be relied on as a backup. In one structure of the model
+most of the pumped water would come from the river that feeds Kromellenboog Dam, and the
+water levels available cannot show which structure is closer to the catchment. In the sensitivity
+cases for about 2050, the canal supply and the discharge of groundwater to the rivers are both
+lower, most in the dry case.
+Part of the irrigated land lies on the floodplain and is covered by the 1:100-year flood. Water from
+under the irrigated land would reach a river in one structure and not in the other. The river below
+the dam is above the salinity target for irrigation in most samples, and the water of A31E is
+fresher.
+The registered volume cannot be assured by the dam, and the recommendations follow from
+this: plan for droughts of several years, review the yield, state the restriction rule, and collect the
+data that would narrow the two main unknowns.
+
+57
+
+References
+Adeloye, A.J., Soundharajan, B.-S., Ojha, C.S.P. & Remesan, R. 2016. Effect of hedging-integrated rule
+curves on the performance of the Pong Reservoir (India) during scenario-neutral climate change
+perturbations. Water Resources Management, 30(2):445-470. https://doi.org/10.1007/s11269-0151171-z
+Aller, L., Bennett, T., Lehr, J.H., Petty, R.J. & Hackett, G. 1987. DRASTIC: a standardized system for
+evaluating ground water pollution potential using hydrogeologic settings. Ada, OK: Robert S. Kerr
+Environmental Research Laboratory, US Environmental Protection Agency. (EPA/600/2-87/035).
+https://nepis.epa.gov/Exe/ZyPURL.cgi?Dockey=20007KU4.TXT Date of access: 10 Oct. 2026.
+Aminzadeh, M., Friedrich, N., Narayanaswamy, S., Madani, K. & Shokri, N. 2024. Evaporation loss from
+small agricultural reservoirs in a warming climate: an overlooked component of water accounting.
+Earth’s Future, 12(1), art. e2023EF004050. https://doi.org/10.1029/2023EF004050
+Bailey, A.K. & Pitman, W.V. 2016. Water Resources of South Africa, 2012 study (WR2012): executive
+summary. Pretoria: Water Research Commission. (WRC report no. TT 683/16).
+https://www.wrc.org.za/wp-content/uploads/mdocs/TT%20683-16.pdf Date of access: 4 Oct. 2026.
+Barnard, H. 1999. Hydrogeological map series of the Republic of South Africa: Johannesburg 2526, 1:500
+000 [Map]. Pretoria: Department of Water Affairs and Forestry. (Listed at:
+https://www.dws.gov.za/Groundwater/hydromapstatus.aspx) Date of access: 10 Oct. 2026.
+Barnett, B., Townley, L.R., Post, V., Evans, R.E., Hunt, R.J., Peeters, L., ... Boronkay, A. 2012. Australian
+groundwater modelling guidelines. Canberra: National Water Commission. (Waterlines Report Series,
+no. 82). https://groundwater.com.au/wp-content/uploads/2023/02/australian-groundwater-modellingguidelines.pdf Date of access: 11 Oct. 2026.
+Calow, R.C., MacDonald, A.M., Nicol, A.L. & Robins, N.S. 2010. Ground water security and drought in
+Africa: linking availability, access, and demand. Ground Water, 48(2):246-256.
+https://doi.org/10.1111/j.1745-6584.2009.00558.x
+Canadell, J., Jackson, R.B., Ehleringer, J.R., Mooney, H.A., Sala, O.E. & Schulze, E.-D. 1996. Maximum
+rooting depth of vegetation types at the global scale. Oecologia, 108(4):583-595.
+https://link.springer.com/article/10.1007/BF00329030 Date of access: 1 Oct. 2026.
+Cobbing, J. 2018. The North West dolomite aquifers, South Africa: a stalled opportunity for water security
+and development. Colombo: International Water Management Institute. (GRIPP Case Profile Series,
+03). https://doi.org/10.5337/2018.223
+Coerver, H.M., Rutten, M.M. & Van de Giesen, N.C. 2018. Deduction of reservoir operating rules for
+application in global hydrological models. Hydrology and Earth System Sciences, 22(1):831-851.
+https://doi.org/10.5194/hess-22-831-2018
+Cullis, J.D.S. & Phillips, M. 2019. Green Book – Surface water and water supply risks for settlements: a
+first order assessment of the vulnerability to climate change of surface water supply to municipalities
+across South Africa. Pretoria: Aurecon & CSIR. (Technical report). https://pta-gis-2web1.csir.co.za/portal/sharing/rest/content/items/c6ddbbdb4581437ab990ddce8d3edad3/data Date of
+access: 6 Oct. 2026.
+Cuthbert, M.O., Taylor, R.G., Favreau, G., Todd, M.C., Shamsudduha, M., Villholth, K.G., ... Kukuric, N.
+2019. Observed controls on resilience of groundwater to climate variability in sub-Saharan Africa.
+Nature, 572(7768):230-234. https://doi.org/10.1038/s41586-019-1441-7
+
+58
+
+De Wit, M. & Stankiewicz, J. 2006. Changes in surface water supply across Africa with predicted climate
+change. Science, 311(5769):1917-1921. https://doi.org/10.1126/science.1119929
+DEA (Department of Environmental Affairs). 2013. Long-Term Adaptation Scenarios Flagship Research
+Programme (LTAS) for South Africa: climate trends and scenarios for South Africa. Pretoria.
+https://www.sanbi.org/wp-content/uploads/2018/04/ltasclimate-trends-and-scenarios-techreport2013low-res.pdf Date of access: 6 Oct. 2026.
+DFFE (Department of Forestry, Fisheries and the Environment). 2024. South African National Land-Cover
+(SANLC) 2022 [Dataset]. Pretoria. https://egis.environment.gov.za/sa_national_land_cover_datasets
+Date of access: 10 Oct. 2026.
+Dlamini, N., Senzanje, A. & Mabhaudhi, T. 2023. Assessing climate change impacts on surface water
+availability using the WEAP model: a case study of the Buffalo river catchment, South Africa. Journal of
+Hydrology: Regional Studies, 46, art. 101330. https://doi.org/10.1016/j.ejrh.2023.101330
+Doherty, J.E. & Hunt, R.J. 2010. Approaches to highly parameterized inversion: a guide to using PEST for
+groundwater-model calibration. Reston, VA: US Geological Survey. (Scientific Investigations Report
+2010-5169). https://pubs.usgs.gov/sir/2010/5169/ Date of access: 11 Oct. 2026.
+DWA (Department of Water Affairs). 2012. Reservoir records of stations A3R002 (Klein Maricopoort Dam)
+and A3R003 (Kromellenboog Dam) [Dataset]. Supplied with the Water Resources of South Africa,
+2012 study. https://waterresourceswr2012.co.za/resource-centre/ Date of access: 5 Oct. 2026.
+DWAF (Department of Water Affairs and Forestry). 1996a. South African water quality guidelines. Vol. 4:
+Agricultural water use: irrigation. 2nd ed. Pretoria.
+https://www.dws.gov.za/iwqs/wq_guide/Pol_saWQguideFRESHIrrigationvol4.pdf Date of access: 20
+Oct. 2026.
+DWAF (Department of Water Affairs and Forestry). 1996b. South African water quality guidelines. Vol. 7:
+Aquatic ecosystems. Pretoria.
+https://www.dws.gov.za/iwqs/wq_guide/Pol_saWQguideFRESHAquaticecosystemsvol7.pdf Date of
+access: 20 Oct. 2026.
+DWAF (Department of Water Affairs and Forestry). 2004. Internal strategic perspective for Marico, Upper
+Molopo and Upper Ngotwane catchments. Pretoria. (Report no. P WMA 03/000/00/0404).
+https://www.dws.gov.za/Documents/Other/WMA/MaricoISPfeb04.pdf Date of access: 7 Oct. 2026.
+DWS (Department of Water and Sanitation). 2021. National Water Act, 1998 (Act no. 36 of 1998): Reserve
+determination for water resources of the Crocodile (West) and Marico catchments. (Notice 1559).
+Government Gazette, 45568:126-163, 3 Dec.
+https://www.gov.za/sites/default/files/gcis_document/202112/45568gon1559.pdf Date of access: 4 Oct.
+2026.
+DWS (Department of Water and Sanitation). 2023. National Water Act, 1998 (Act no. 36 of 1998):
+establishment of the Limpopo-Olifants Catchment Management Agency. (Notice 3898). Government
+Gazette, 49325, 22 Sep.
+https://www.gov.za/sites/default/files/gcis_document/202309/49325gon3898.pdf Date of access: 4 Oct.
+2026.
+DWS (Department of Water and Sanitation). 2024. Approved irrigation raw water tariffs 2024/25 FY.
+https://www.dws.gov.za/Projects/WARMS/Revenue/APPROVED%2020242025%20FY%20IBOM%20IRRIGATION%20TARIFFS.pdf Date of access: 4 Oct. 2026.
+DWS (Department of Water and Sanitation). s.a.a. Groundwater Resource Assessment II.
+https://www.dws.gov.za/groundwater/GRAII.aspx Date of access: 10 Oct. 2026.
+
+59
+
+DWS (Department of Water and Sanitation). s.a.b. Hydrological services: verified monthly and daily data
+for stations A3E003, A3H016, A3H030, A3H031, A3H032, A3H033, A3H042, A3R002 and A3R003
+[Dataset]. Pretoria. https://www.dws.gov.za/Hydrology/Verified/hymain.aspx Date of access: 5 Oct.
+2026.
+DWS (Department of Water and Sanitation). s.a.c. National Groundwater Archive [Dataset]. Pretoria.
+https://www.dws.gov.za/Groundwater/NGA.aspx Date of access: 10 Oct. 2026.
+DWS (Department of Water and Sanitation). s.a.d. Quaternary catchment. In: Groundwater dictionary.
+https://www.dws.gov.za/Groundwater/Groundwater_Dictionary/introduction_quaternary_catchment.htm
+Date of access: 10 Oct. 2026.
+DWS (Department of Water and Sanitation). s.a.e. Water Management System (WMS): surface water
+quality data [Dataset]. Pretoria: Resource Quality Information Services.
+https://www.dws.gov.za/iwqs/wms/default.aspx Date of access: 10 Oct. 2026.
+DWS (Department of Water and Sanitation). s.a.f. Water Use Authorisation and Registration Management
+System (WARMS) [Dataset]. Pretoria. https://www.dws.gov.za/Projects/WARMS/default.aspx Date of
+access: 10 Oct. 2026.
+Ebrahim, G.Y., Villholth, K.G. & Boulos, M. 2019. Integrated hydrogeological modelling of hard-rock semiarid terrain: supporting sustainable agricultural groundwater use in Hout catchment, Limpopo Province,
+South Africa. Hydrogeology Journal, 27(3):965-981. https://doi.org/10.1007/s10040-019-01957-6
+Engelbrecht, F. 2019. Green Book – Detailed projections of future climate change over South Africa.
+Pretoria: CSIR. (Technical report). https://pta-gis-2web1.csir.co.za/portal/sharing/rest/content/items/718369b1f453455e8febdf4f25f68249/data Date of
+access: 6 Oct. 2026.
+Esterhuyse, S. 2017. Developing a groundwater vulnerability map for unconventional oil and gas
+extraction: a case study from South Africa. Environmental Earth Sciences, 76, art. 626.
+https://doi.org/10.1007/s12665-017-6961-6
+Farr, T.G., Rosen, P.A., Caro, E., Crippen, R., Duren, R., Hensley, S., ... Alsdorf, D. 2007. The Shuttle
+Radar Topography Mission. Reviews of Geophysics, 45(2), art. RG2004.
+https://doi.org/10.1029/2005RG000183
+Gutiérrez, J.M., Jones, R.G., Narisma, G.T., Alves, L.M., Amjad, M., Gorodetskaya, I.V., ... Yoon, J.-H.
+2021. Atlas. In: IPCC. Climate change 2021: the physical science basis. Contribution of Working Group
+I to the Sixth Assessment Report. Cambridge: Cambridge University Press. pp. 1927-2058.
+https://doi.org/10.1017/9781009157896.021
+Harbaugh, A.W. 2005. MODFLOW-2005, the U.S. Geological Survey modular ground-water model: the
+ground-water flow process. Reston, VA: US Geological Survey. (Techniques and Methods 6-A16).
+https://pubs.usgs.gov/publication/tm6A16 Date of access: 11 Oct. 2026.
+Hashimoto, T., Stedinger, J.R. & Loucks, D.P. 1982. Reliability, resiliency, and vulnerability criteria for water
+resource system performance evaluation. Water Resources Research, 18(1):14-20.
+https://doi.org/10.1029/WR018i001p00014
+Iturbide, M., Fernández, J., Gutiérrez, J.M., Pirani, A., Huard, D., Al Khourdajie, A., ... Yelekçi, Ö. 2022.
+Implementation of FAIR principles in the IPCC: the WGI AR6 Atlas repository. Scientific Data, 9, art.
+629. https://doi.org/10.1038/s41597-022-01739-y
+Iturbide, M., Gutiérrez, J.M., Alves, L.M., Bedia, J., Cerezo-Mota, R., Cimadevilla, E., ... Vera, C.S. 2020.
+An update of IPCC climate reference regions for subcontinental analysis of climate model data:
+definition and aggregated datasets. Earth System Science Data, 12(4):2959-2970.
+
+60
+
+https://doi.org/10.5194/essd-12-2959-2020
+Jury, M.R. 2016. Climate influences on upper Limpopo River flow. Water SA, 42(1):63-71.
+https://doi.org/10.4314/wsa.v42i1.08
+Kjeldsen, T.R. & Rosbjerg, D. 2004. Choice of reliability, resilience and vulnerability estimators for risk
+assessments of water resources systems. Hydrological Sciences Journal, 49(5):755-767.
+https://doi.org/10.1623/hysj.49.5.755.55136
+Klemeš, V. 1986. Operational testing of hydrological simulation models. Hydrological Sciences Journal,
+31(1):13-24. https://doi.org/10.1080/02626668609491024
+Kleynhans, C.J. & Louw, M.D. 2007. Module A: EcoClassification and EcoStatus determination. In: River
+EcoClassification: manual for EcoStatus determination (version 2). Pretoria: Water Research
+Commission and Department of Water Affairs and Forestry. (WRC report no. TT 329/08).
+https://www.dws.gov.za/wem/Manuals/EcostatusModuleAMar07.pdf Date of access: 20 Oct. 2026.
+Knowling, M.J. & Werner, A.D. 2016. Estimability of recharge through groundwater model calibration:
+insights from a field-scale steady-state example. Journal of Hydrology, 540:973-987.
+https://researchnow.flinders.edu.au/en/publications/estimability-of-recharge-through-groundwatermodel-calibration-in/ Date of access: 2 Oct. 2026.
+Knüppe, K. 2011. The challenges facing sustainable and adaptive groundwater management in South
+Africa. Water SA, 37(1):67-79. https://doi.org/10.4314/wsa.v37i1.64110
+Konikow, L.F. & Leake, S.A. 2014. Depletion and capture: revisiting “The source of water derived from
+wells”. Groundwater, 52(S1):100-111. https://pubs.usgs.gov/publication/70127476 Date of access: 4
+Oct. 2026.
+Lankford, B., Pringle, C., McCosh, J., Shabalala, M., Hess, T. & Knox, J.W. 2023. Irrigation area, efficiency
+and water storage mediate the drought resilience of irrigated agriculture in a semi-arid catchment.
+Science of the Total Environment, 859, art. 160263. https://doi.org/10.1016/j.scitotenv.2022.160263
+Leake, S.A. & Barlow, P.M. 2013. Understanding and managing the effects of groundwater pumping on
+streamflow. Reston, VA: US Geological Survey. (Fact Sheet 2013-3001).
+https://pubs.usgs.gov/publication/fs20133001 Date of access: 11 Oct. 2026.
+MacDonald, A.M., Bonsor, H.C., Ó Dochartaigh, B.É. & Taylor, R.G. 2012. Quantitative maps of
+groundwater resources in Africa. Environmental Research Letters, 7(2), art. 024009.
+https://doi.org/10.1088/1748-9326/7/2/024009
+MacDonald, A.M., Lark, R.M., Taylor, R.G., Abiye, T., Fallas, H.C., Favreau, G., ... West, C. 2021. Mapping
+groundwater recharge in Africa from ground observations and implications for water security.
+Environmental Research Letters, 16(3), art. 034012. https://doi.org/10.1088/1748-9326/abd661
+Mbae, M., Hansen, P., Way, C., Mills, F., Willetts, J., Foster, T. & Evans, B. 2024. Onsite sanitation
+systems and contamination of groundwater: a systematic review of the evidence for risk using the
+source-pathway-receptor model. PLOS Water, 3(7), art. e0000167.
+https://doi.org/10.1371/journal.pwat.0000167
+Michaluk, E. & Keyser, N. 1991. Mafikeng: 1:250 000 geological series, sheet 2524 [Map]. Pretoria:
+Council for Geoscience.
+Moriasi, D.N., Arnold, J.G., Van Liew, M.W., Bingner, R.L., Harmel, R.D. & Veith, T.L. 2007. Model
+evaluation guidelines for systematic quantification of accuracy in watershed simulations. Transactions
+of the ASABE, 50(3):885-900. https://swat.tamu.edu/media/1312/moriasimodeleval.pdf Date of access:
+10 Oct. 2026.
+
+61
+
+Niswonger, R.G., Panday, S. & Ibaraki, M. 2011. MODFLOW-NWT, a Newton formulation for MODFLOW2005. Reston, VA: US Geological Survey. (Techniques and Methods 6-A37).
+https://pubs.usgs.gov/publication/tm6A37 Date of access: 11 Oct. 2026.
+Pianosi, F., Beven, K., Freer, J., Hall, J.W., Rougier, J., Stephenson, D.B. & Wagener, T. 2016. Sensitivity
+analysis of environmental models: a systematic review with practical workflow. Environmental
+Modelling & Software, 79:214-232. https://doi.org/10.1016/j.envsoft.2016.02.008
+Pollock, D.W. 2016. User guide for MODPATH Version 7: a particle-tracking model for MODFLOW.
+Reston, VA: US Geological Survey. (Open-File Report 2016-1086).
+https://doi.org/10.3133/ofr20161086
+Ranasinghe, R., Ruane, A.C., Vautard, R., Arnell, N., Coppola, E., Cruz, F.A., ... Zaaboul, R. 2021. Climate
+change information for regional impact and for risk assessment. In: IPCC. Climate change 2021: the
+physical science basis. Contribution of Working Group I to the Sixth Assessment Report. Cambridge:
+Cambridge University Press. pp. 1767-1926. https://doi.org/10.1017/9781009157896.014
+Rouault, M. & Richard, Y. 2005. Intensity and spatial extent of droughts in southern Africa. Geophysical
+Research Letters, 32(15), art. L15702. https://doi.org/10.1029/2005GL022436
+Saft, M., Western, A.W., Zhang, L., Peel, M.C. & Potter, N.J. 2015. The influence of multiyear drought on
+the annual rainfall-runoff relationship: an Australian perspective. Water Resources Research,
+51(4):2444-2463. https://doi.org/10.1002/2014WR015348
+Sankarasubramanian, A., Vogel, R.M. & Limbrunner, J.F. 2001. Climate elasticity of streamflow in the
+United States. Water Resources Research, 37(6):1771-1781. https://doi.org/10.1029/2000WR900330
+SANRAL (South African National Roads Agency SOC Ltd). 2013. Drainage manual. 6th ed. Pretoria.
+https://www.dws.gov.za/projects/nfsp/docs/sanral/Drainage%20Manual%20(Sixth%20Edition%20%5B
+2013%5D).pdf Date of access: 20 Oct. 2026.
+Scheff, J. & Frierson, D.M.W. 2014. Scaling potential evapotranspiration with greenhouse warming.
+Journal of Climate, 27(4):1539-1558. https://doi.org/10.1175/JCLI-D-13-00233.1
+Schulze, R.E. & Schütte, S. 2023. Mapping SCS hydrological soil groups over South Africa at terrain unit
+spatial resolution. Journal of the South African Institution of Civil Engineering, 65(4):2-9.
+https://doi.org/10.17159/2309-8775/2023/v65n4a1
+Seward, P., Xu, Y. & Brendonck, L. 2006. Sustainable groundwater use, the capture principle, and
+adaptive management. Water SA, 32(4):473-482. https://ajol.info/index.php/wsa/article/view/5287 Date
+of access: 5 Oct. 2026.
+SKM (Sinclair Knight Merz). 2013. Australian groundwater modelling guidelines: companion to the
+guidelines. Canberra: National Water Commission.
+https://cdn.environment.sa.gov.au/environment/docs/Companion-to-modelling-guidelines.pdf Date of
+access: 11 Oct. 2026.
+Smithers, J.C. 2012. Methods for design flood estimation in South Africa. Water SA, 38(4):633-646.
+https://scielo.org.za/scielo.php?script=sci_arttext&pid=S1816-79502012000400019 Date of access: 20
+Oct. 2026.
+Trisos, C.H., Adelekan, I.O., Totin, E., Ayanlade, A., Efitre, J., Gemeda, A., ... Zakieldeen, S. 2022. Africa.
+In: IPCC. Climate change 2022: impacts, adaptation and vulnerability. Contribution of Working Group II
+to the Sixth Assessment Report. Cambridge: Cambridge University Press. pp. 1285-1455.
+https://doi.org/10.1017/9781009325844.011
+
+62
+
+Troldborg, L., Refsgaard, J.C., Jensen, K.H. & Engesgaard, P. 2007. The importance of alternative
+conceptual models for simulation of concentrations in a multi-aquifer system. Hydrogeology Journal,
+15(5):843-860. https://doi.org/10.1007/s10040-007-0192-y
+USACE HEC (US Army Corps of Engineers, Hydrologic Engineering Center). s.a.a. HEC-RAS 2D user’s
+manual, version 7.0. Davis, CA. https://www.hec.usace.army.mil/confluence/rasdocs/r2dum/latest Date
+of access: 20 Oct. 2026.
+USACE HEC (US Army Corps of Engineers, Hydrologic Engineering Center). s.a.b. HEC-RAS hydraulic
+reference manual, version 7.0. Davis, CA.
+https://www.hec.usace.army.mil/confluence/rasdocs/ras1dtechref/latest Date of access: 20 Oct. 2026.
+USDA-NRCS (United States Department of Agriculture, Natural Resources Conservation Service). 2009.
+Hydrologic soil groups. In: National engineering handbook, part 630: hydrology. Washington, DC.
+Chapter 7. https://directives.nrcs.usda.gov/sites/default/files2/1712930634/Part%20630%20%20Hydrology.pdf Date of access: 10 Oct. 2026.
+Walraven, F. 1981. Rustenburg: 1:250 000 geological series, sheet 2526 [Map]. Pretoria: Council for
+Geoscience.
+Woessner, W.W. & Poeter, E.P. 2020. Hydrogeologic properties of earth materials and principles of
+groundwater flow. Guelph, ON: The Groundwater Project. https://books.gw-project.org/hydrogeologicproperties-of-earth-materials-and-principles-of-groundwater-flow/ Date of access: 20 Oct. 2026.
+Xie, J., Liu, X., Jasechko, S., Berghuijs, W.R., Wang, K., Liu, C., ... Koirala, S. 2024. Majority of global river
+flow sustained by groundwater. Nature Geoscience, 17(8):770-777. https://doi.org/10.1038/s41561024-01483-5
+
+63
+
+AI Declaration Page
+Title of the work: Storage, drought and climate change: the reliability of the canal supply from
+Klein Maricopoort Dam and the role of groundwater in A31E, North West Province.
+Author: LH Stroebel (student number 42766613). Supervisor: Sascha Roopa.
+1. Was AI used? Yes.
+2. Purpose. AI was used to process data and build the dam water-balance spreadsheet from the
+author’s records, to draw the graphs, to draft and edit text, to structure the document and to
+check facts and references.
+3. Tool used. Claude (Anthropic).
+4. How AI was applied in the research process. The author supplied the records, defined the
+study and made the decisions on method. Claude processed the records and built the dam
+water-balance spreadsheet from them, drew the graphs, drafted and edited text and structured
+the document. The Introduction and the first version of the Study Area were written by the author,
+and Claude then edited the text and extended it to cover the whole project. The author ran the
+GMS/MODFLOW, MODPATH and HEC-RAS models, made the maps in ArcGIS Pro and
+checked the outputs against the records.
+5. How the accuracy and reliability of the AI outputs were verified. The author checked the model
+outputs against the records. Claude was also used to check facts and references against the
+sources. The full log of the work with Claude is available on request.
+Signature: ______________________________
+Date: ______________________________
+
+64
+
+
