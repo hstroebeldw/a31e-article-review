@@ -29,7 +29,7 @@ All earlier decisions are in the text: thirteen shortfall years (1984–1996), t
 **For you to decide or supply**
 
 1. **AI declaration page.** The text is the old text. It needs your facts and your signature. I did not change it.
-2. **Figures 9, 11 and 12** are the old pictures. Figure 9 shows the forward test only (the reverse test is in Table 9). Redraw them if you want them to match the tables exactly.
+2. **Figures 12 and 15** are still the old pictures. The folder holds only their summary statistics, not the 262 levels or the water-quality samples, so they could not be redrawn in Excel style. Send the GMS export and the DWS downloads and they will be redrawn. (Update, draft v2: Figures 2–11, 13 and 14 are redrawn from the workbook and `49b_Groundwater_results.txt`. Figure 9 now shows both tests: forward storage in the upper panel, yearly canal of the reverse and forward tests in the lower panel; new caption. Checks in `drafts/figures_excel_style/scripts/checks*.txt`: reverse test 14 years, NSE 0.49, PBIAS +19.4%; forward 20 years, NSE 0.60.)
 3. **Study Area, climate (2.2).** The paragraph is short and has no source for temperature.
 4. **Section 1.1 and the Abstract** use "thirteen successive years from 1984"; the drought of Section 1.1 is October 1983 to September 1995. They are different periods, as the Abstract note says.
 5. The firm yield (0.36 Mm³/a) is not in the Abstract. Say if you want it.
@@ -46,3 +46,11 @@ All earlier decisions are in the text: thirteen shortfall years (1984–1996), t
 
 11. The panel (`/review-block`) has not been run on the assembled document. Run it on the final draft before it goes to Sascha; group A should then be empty or contain only the unverified items above.
 12. These earlier deliverables predate your decisions and should not be used: the Docs artifact "A31E verification report", `out/A31E_Update_1_Final.zip`, `out/A31E_Review_Agents.zip`.
+
+## C. Draft v2 (10 November, after the Word document)
+
+- Text in Arial (embedded as Liberation Sans, which has the same metrics and shapes as Arial; Arial itself is not installed in the build workspace). Charts use the same font.
+- Every main heading (Abstract, 1–9, References, AI declaration) starts on a new page. Elsewhere no page ends with more than about 3 cm open, apart from one before a heading that must stay with its text. To get this, some figures and tables sit a few paragraphs after their first mention, and at most one subsection later (two for the two-panel Maps 7, 8 and 10).
+- All maps are 14 cm wide, at the same size, from the higher-resolution images in the Word document (Map 5 from the corrected map).
+- Discussion v10 (`drafts/Discussion_integrated_v10.md`): same content, numbers and citations as v9, with paragraph openings and links that follow the Introduction. No new results.
+- Figure 15 is printed slightly smaller (11.6 cm high) so that it shares a page with Table 15.
