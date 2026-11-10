@@ -54,3 +54,11 @@ All earlier decisions are in the text: thirteen shortfall years (1984–1996), t
 - All maps are 14 cm wide, at the same size, from the higher-resolution images in the Word document (Map 5 from the corrected map).
 - Discussion v10 (`drafts/Discussion_integrated_v10.md`): same content, numbers and citations as v9, with paragraph openings and links that follow the Introduction. No new results.
 - Figure 15 is printed slightly smaller (11.6 cm high) so that it shares a page with Table 15.
+
+## D. Draft v4 (10 November, final layout)
+
+- Cover from the Word document; headings revised ("Pathways", "The two waters").
+- Flood-line determination removed from the text (Discussion v11, Recommendations v5). The reason the 1:50 and 1:100 lines look alike is in `reviews/Why_1in50_and_1in100_floodlines_look_alike_2026-11-10.md`, not in the article.
+- Each figure, map and table sits in the subsection where it is first cited (section check: 0 mismatches). Table, figure and map lists and the contents page numbers were checked against the PDF.
+- Long captions shortened; the explanation of Tables 2, 3, 6–9, 11–13 and 15 and Figures 2, 4, 6, 12, 13, 15 now stands in a paragraph before the float. Map 10 no longer says that contaminant transport is not modelled.
+- Panel review of v3: `reviews/A31E_final_draft_v3_review_2026-11-10.md` (groups A to F). Its group A and B items are not yet applied to the text.
